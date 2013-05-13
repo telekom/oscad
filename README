@@ -1,0 +1,20 @@
+OSCAd (filename or packagename is oscad) be metonymic with
+[Telekom] (O)pen (S)ource (C)compliance (Ad)visor. OSCAd 
+is the interactive version of OSLiC, the open source 
+license Compendium and shall interactively specify how to to
+use open source Software compliantly. Particularly
+it shall ...
+
+(a) support open source users to act according to the open
+source license requirements without having to become license
+experts themselves
+
+(b) offer strongly reliable and quickly accessible instructions 
+(to-do lists) how to fulfill a touched open source license
+
+The OSCAd is a Rweb based html frontend combined with a php
+backend which delivers the fitting to-do lists.
+
+(c) K. Reincke, Deutsche Telekom AG, Darmstadt 2013
+
+
