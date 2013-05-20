@@ -1,0 +1,410 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	(t)OSCAd - (Telekom) Open Source Compliance Advisor
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2009 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+
+
+<title>OSCAd: fs based to fodina</title>
+<meta name="generator" content="TYPO3 4.3 CMS" />
+<meta name="date" content="2013-05-20T18:06:26" />
+<meta name="language" content="en" />
+
+<link rel="stylesheet" type="text/css" href="../../typo3temp/stylesheet_6e75bbb9ee.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../fileadmin/css/2lfc.css" media="all" />
+
+
+
+<script src="../../typo3temp/javascript_93077bb238.js" type="text/javascript"></script>
+
+
+<meta name="google-site-verification" content="" />
+  <!--
+    * @copyright       Copyright 2013 by Karsten Reincke, Deutsche Telekom AG Darmstadt
+    * @license         AGPL 3.0 (http://www.gnu.org/licenses/agpl.html)
+    * @link            http://www.telekom.com/
+    * @release         0.96.1
+   -->
+
+<!--[if lte IE 7]>
+<link href="../../fileadmin/css/patches/patch-2lfc.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="../../fileadmin/js/jquery-1.5.2.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/hoverIntent.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/superfish.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/oscad-form-validation.js"></script>
+<script type="text/javascript">
+  // initialise plugins
+  jQuery(function(){jQuery('ul.sf-menu').superfish();});
+</script>
+
+<meta http-equiv="content-language" content="en" scheme="DCTERMS.RFC3066" />
+<meta name="DC.Language" content="en" /><meta name="description" content="Get answers of the Open Source Compliance Advisor automatically computed in the base of a filled form sheet" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="copyright" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
+<link rev="made" href="mailto:opensource@telekom.de" />
+<meta http-equiv="reply-to" content="opensource@telekom.de" />
+<meta name="author" content="Karsten Reincke" />
+<meta name="DC.Description" content="Get answers of the Open Source Compliance Advisor automatically computed in the base of a filled form sheet" />
+<meta name="DC.Subject" content="" />
+<meta name="DC.Rights" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
+<meta name="DC.Creator" content="Karsten Reincke" />
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+</head>
+<body>
+
+  <!-- skip link navigation -->
+  <ul id="skiplinks">
+    <li><a class="skip" href="#nav">Skip to navigation (Press Enter).</a></li>
+    <li><a class="skip" href="#col3">Skip to main content (Press Enter).</a></li>
+  </ul>
+
+  <div class="page_margins">
+    <div class="page">
+      <div id="header" role="banner">
+        <div id="topnav">
+          <div id="topnavline" class="langMenu"><a href="../../en/requests/fs-based-to-fodina.html" onfocus="blurLink(this);"><img class="act" src="../../fileadmin/images/flagEn.png" alt="English" /></a><a href="../../de/anfragen/formblatt-basiert.html" onfocus="blurLink(this);"><img src="../../fileadmin/images/flagDe.png" alt="German" /></a><a href="../../en/oscad/license.html" title="License">License</a><a href="../../en/site/html-sitemap.html" title="SITEMAP">Sitemap</a></div>
+        </div>
+        <div id="toplogo"><img src="../../fileadmin/images/oscad-logo-50x60.png" width="50" height="60" border="0" alt="" title="" /></div>
+        <div id="topteaser"><div id="topTeaserSlideShow"><img src="../../fileadmin/images/siteTopTeaserSlideShow-288x32-a.png" alt="Telekom Open Source License Compendium" /> </div><div id="teaserText"><a href="../../en/oscad/manifesto.html" title="Manifesto">Life</a>&nbsp;is for&nbsp;<a href="../../en/oscad/license.html" title="License">sharing.</a></div></div>
+        <div id="topslogan">Better to obtain any reliable way through the jungle than to seek the best by yourself*<br /><span class="topSloganSource">*Pece Ravel</span></div>
+      </div>
+      <!-- begin: main navigation #nav -->
+
+      <div id="nav" role="navigation">
+        <div id="ddnavline" class="hlist"><ul class="sf-menu"><li><a href="../../en/oscad/teaser.html" onfocus="blurLink(this);">OSCAd</a><ul><li><a href="../../en/oscad/teaser.html" onfocus="blurLink(this);">Teaser</a></li><li><a href="../../en/oscad/manifesto.html" onfocus="blurLink(this);">Manifesto</a></li><li><a href="../../en/oscad/license.html" onfocus="blurLink(this);">License</a></li><li><a href="../../en/oscad/initiators.html" onfocus="blurLink(this);">Initiators</a></li></ul></li><li class="active"><a href="../../en/requests/fs-based-to-fodina.html" onfocus="blurLink(this);">REQUESTs</a><ul><li class="current"><a href="../../en/requests/fs-based-to-fodina.html" onfocus="blurLink(this);">fs based to fodina</a></li><li><a href="../../en/requests/uc-based-to-fodina.html" onfocus="blurLink(this);">uc based to fodina</a></li></ul></li><li><a href="../../en/download/prepare.html" onfocus="blurLink(this);">DOWNLOAD</a><ul><li><a href="../../en/download/prepare.html" onfocus="blurLink(this);">prepare</a></li><li><a href="../../en/download/obtain.html" onfocus="blurLink(this);">obtain</a></li><li><a href="../../en/download/install.html" onfocus="blurLink(this);">install</a></li></ul></li></ul></div>
+      </div>
+
+      <!-- end: main navigation -->
+
+
+      <!-- begin: main content area #main -->
+      <div id="main">
+        <!-- begin: #col1 - first float column -->
+        <div id="col1" role="complementary">
+          <div id="col1_content" class="clearfix">
+            <div id="sidenav"><ul id="sideMenuList"><li><span id="smTitle">Requests:</span></li><li class="current"><a href="../../en/requests/fs-based-to-fodina.html" onfocus="blurLink(this);">fs based to fodina</a></li><li><a href="../../en/requests/uc-based-to-fodina.html" onfocus="blurLink(this);">uc based to fodina</a></li></ul></div>
+            <div id="sideteaser">
+	<!--  CONTENT ELEMENT, uid:203/text [begin] -->
+		<div id="c203" class="csc-default">
+		<!--  Text: [begin] -->
+			<div class="large box"><h3>Context Rules</h3>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext">* A program (proapse) is ever used / distributed as an independent unit [but not vice versa]</p>
+<p class="bodytext">* Each embedded component is a snippet, module or library (snimoli) [but not vice versa].</p>
+<p class="bodytext">* Each snippet, module or library (snimoli) being used 4yourself is an embedded component [but not vice versa].</p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:203/text [end] -->
+		</div>
+            <!--  CONTENT ELEMENT, uid:4/text [end] -->
+          </div>
+        </div>
+        <!-- end: #col1 -->
+        <!-- begin: #col3 static column -->
+        <div id="col3" role="main">
+          <div id="col3_content" class="clearfix">
+	<!--  CONTENT ELEMENT, uid:202/html [begin] -->
+		<div id="c202" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="huge box">
+<h2 id="TestId" onmouseover="replaceByMouseOver();" onmouseout="replaceByMouseOut();">Request the Open Soure Compliance Advisor by a form sheet</h2>
+
+<form name="OscadForm" action="http://oscad.fodina.de/fileadmin/php/oscad.php" method="get">
+
+<table>
+<tr>
+<td colspan="3">
+<h3>What do I have to do for using or distributing a piece of open source software 
+in accordance to specific open source license - as a modified or unmodified, 
+embedded or independent application or library, used or distributed in the form 
+of binaries or sources?
+</h3>
+<p>This request is answered by an OSCAd instance externally running on 
+<a href="http://oscad.fodina.de/">http://oscad.fodina.de/</a>.
+Unfortunately, github itself does not offer php evaluation. Therefore, in this case
+the answers must be computed on another server.
+</p>
+</td>
+</tr>
+<tr><th>Focus</th><th>Question</th><th>Answer</th></tr>
+<!-- type -->
+<tr><td style="text-align:center">Type<br />
+  <image id="TypeHelpButtonId" src="http://127.0.0.1/toscad.web/fileadmin/images/hilfe-16x16.png" onmouseover="presentTypeHelp();" onmouseout="presentHelpHelp();" />
+  </td>
+  <td>
+  Is the open source software you want to use a library in the broadest 
+  sense (an includable code <b>sni</b>ppet, a linkable <b>mo</b>dule 
+  or <b>li</b>brary, or a loadable plugin), or is it an autonomous 
+  <b>pro</b>gram, <b>ap</b>plication or <b>se</b>rver 
+  which can be executed?
+  </td>
+  <td>
+     <table class="inner">
+     <tr class="inner">
+       <td class="inner">
+         <input type="radio" name="FocusType" value="snimoli" id="snimoliId" onclick="respectSwitchToSnimoli();" />
+       </td>
+       <td class="inner">snimoli</td></tr>
+     <tr class="inner">
+       <td class="inner">
+             <input type="radio" name="FocusType" value="proapse" id="proapseId" checked="yes" onclick="respectSwitchToProapse();" />
+       </td>
+       <td class="inner">proapse</td>
+     </tr>
+     </table>
+  </td>
+</tr>
+
+<!-- context -->
+<tr><td style="text-align:center">Context<br />
+  <image id="ContextHelpButtonId" src="http://127.0.0.1/toscad.web/fileadmin/images/hilfe-16x16.png" onmouseover="presentContextHelp();" onmouseout="presentHelpHelp();" />
+</td>
+  <td>
+   Given you want to use a  are you going a library in the broadest 
+   sense, are you going to use / distribute this open source software as 
+   an <b>independent</b> unit, or do you plan to integrate it as an 
+   <b>embedded</b> component into a complexer piece of software? 
+  </td>
+  <td>
+     <table class="inner">
+     <tr class="inner">
+       <td class="inner">
+          <input type="radio" name="FocusContext" value="independent" id="independentId" checked="yes" onclick="respectSwitchToIndependent();" />
+        </td>
+       <td class="inner">independent</td></tr>
+     <tr class="inner">
+       <td class="inner">
+         <input type="radio" name="FocusContext" value="embedded" id="embeddedId" onclick="respectSwitchToEmbedded();" />
+      </td>
+       <td class="inner">embedded</td>
+     </tr>
+     </table>
+  </td>
+</tr>
+
+<!-- state -->
+<tr><td style="text-align:center">State<br />
+  <image id="StateHelpButtonId" src="http://127.0.0.1/toscad.web/fileadmin/images/hilfe-16x16.png" onmouseover="presentStateHelp();" onmouseout="presentHelpHelp();" /></td>
+  <td>
+  Do you want to leave the open source software <b>unmodified</b> as 
+  you have received it, or are you going to create a <b>modified</b> 
+  version of it? 
+  </td>
+  <td>
+     <table class="inner">
+     <tr class="inner">
+       <td class="inner"><input type="radio" name="FocusState" value="unmodified" checked="yes" /></td>
+       <td class="inner">unmodified</td></tr>
+     <tr class="inner">
+       <td class="inner"><input type="radio" name="FocusState" value="modified" /></td>
+       <td class="inner">modified</td>
+     </tr>
+     </table>
+  </td>
+</tr>
+
+<!-- recipient -->
+<tr><td style="text-align:center">Recipient<br />
+  <image id="RecipientHelpButtonId" src="http://127.0.0.1/toscad.web/fileadmin/images/hilfe-16x16.png" onmouseover="presentRecipientHelp();" onmouseout="presentHelpHelp();" /></td>
+  <td>
+    Are you going to use the open source software only <b>for 
+    yourself</b>, or do you plan to (re)distribute it (also) <b>to other</b>
+    third parties? 
+  </td>
+  <td>
+     <table class="inner">
+     <tr class="inner">
+       <td class="inner">
+          <input type="radio" name="FocusRecipient" value="4yourself" id="yourselfId" checked="yes" onclick="respectSwitchToYourself();" />
+        </td>
+       <td class="inner">4yourself</td></tr>
+     <tr>
+       <td class="inner">
+          <input type="radio" name="FocusRecipient" value="2others" id="othersId" />
+        </td>
+       <td class="inner">2others</td>
+     </tr>
+     </table>
+  </td>
+</tr>
+
+<!-- form -->
+<tr><td style="text-align:center">Form<br />
+  <image id="FormHelpButtonId" src="http://127.0.0.1/toscad.web/fileadmin/images/hilfe-16x16.png" onmouseover="presentFormHelp();" onmouseout="presentHelpHelp();" /></td>
+  <td>
+    Given you want to (re)distribute an open source based work 
+   [2others], do you focus on distributing the <b>binaries</b> or the 
+   <b>sources</b>? 
+
+  </td>
+  <td>
+     <table class="inner">
+     <tr class="inner">
+       <td class="inner"><input type="radio" name="FocusForm" value="binaries" checked="yes" /></td>
+       <td class="inner">binaries</td></tr>
+     <tr class="inner">
+       <td class="inner"><input type="radio" name="FocusForm" value="sources" /></td>
+       <td class="inner">sources</td>
+     </tr>
+     </table>
+  </td>
+</tr>
+<!-- license -->
+<tr><td>License</td>
+  <td>
+   Under which open source license is the software released you want to use?
+
+     <table class="inner">
+     <tr>
+       <td><input type="radio" name="FocusLicense" value="AGPLv3.0" /></td>
+       <td>AGPLv3.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="ApLv2.0" /></td>
+       <td>ApLv2.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="BSDv2CL" /></td>
+       <td>BSDv2CL</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="BSDv3CL" /></td>
+       <td>BSDv3CL</td>
+       <td>&nbsp;</td>
+     </tr>
+     <tr> 
+       <td><input type="radio" name="FocusLicense" value="CDDLv1.0" /></td>
+       <td>CDDLv1.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="EPLv1.0" /></td>
+       <td>EPLv1.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="EUPLv1.1" /></td>
+       <td>EUPLv1.1</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="GPLv2.0" checked="yes" /></td>
+       <td>GPLv2.0</td>
+       <td>&nbsp;</td>
+      </tr>
+     <tr> 
+       <td><input type="radio" name="FocusLicense" value="GPLv3.0" /></td>
+       <td>GPLv3.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="LGPLv2.1" /></td>
+       <td>LGPLv2.1</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="LGPLv3.0" /></td>
+       <td>LGPLv3.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="MIT" /></td>
+       <td>MIT</td>
+       <td>&nbsp;</td>
+      </tr>
+     <tr> 
+       <td><input type="radio" name="FocusLicense" value="MPLv2.0" /></td>
+       <td>MPLv2.0</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="MS-PL" /></td>
+       <td>MS-PL</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="PGL" /></td>
+       <td>PGL</td>
+       <td>&nbsp;</td>
+
+       <td><input type="radio" name="FocusLicense" value="PHPv3.0" /></td>
+       <td>PHPv3.0</td>
+       <td>&nbsp;</td>
+     </tr>
+
+     </table>
+  </td>
+  <td>
+  <input type="submit" name="submit" value="submit" />
+  </td>
+
+</tr>
+</table>
+</form>
+</div>
+
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:202/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:201/html [begin] -->
+		<div id="c201" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="huge box" id="HelpBoxId">
+<h3 id="HelpHeadlineId">Help: Help</h3>
+<p id="HelpTextId">Lead the mouse over the '?' 
+for obtaining further explanations.</p>
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:201/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:200/text [begin] -->
+		<div id="c200" class="csc-default">
+		<!--  Text: [begin] -->
+			<div class="huge box"><h2>Disclaimer of Warranty</h2>
+<p class="bodytext"> THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION</p>
+<h2>Limitation of Liability</h2>
+<p class="bodytext"> IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. </p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:200/text [end] -->
+		</div>
+        </div>
+
+        <div id="ie_clearing">&nbsp;</div>
+
+        <!-- End: IE Column Clearing -->
+      </div>
+      <!-- end: #col3 -->
+    </div>
+    <!-- end: #main -->
+    <!-- begin: #footer -->
+    <div id="footer" role="contentinfo"><p>OSCAd-0.96.1 &copy; 2013-2013&nbsp;Karsten Reincke,&nbsp;Deutsche Telekom AG  
+    . Layout based on <a href="http://www.yaml.de/" target="_blank">YAML</a> 
+     &copy; by <a href="http://www.highresolution.info" target="_blank">Dirk Jesse</a>,
+    merged with  <a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish</a> 
+    dropdown menu.  
+    OSCAd is free software: you can redistribute it and/or modify it under the terms of the 
+    GNU Affero General Public License as published by the Free Software Foundation, 
+    either version 3 of the License, or (at your option) any later version
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A 
+    PARTICULAR PURPOSE.  See the 
+    <a href="http://www.gnu.org/licenses/agpl-3.0">GNU Affero General Public License</a>
+    for more details.
+  </p></div>
+    <!-- end: #footer -->
+  </div>
+
+
+
+
+</body>
+</html>
