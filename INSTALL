@@ -1,0 +1,21 @@
+How to set up / install your own OSCAd instance:
+------------------------------------------------
+
+(1) generate a directory 'toscad' under your web server root directory.
+(2) copy the complete content of this directory into 
+    this newly generated 'toscad' directory
+(3) Change into that directory /???/toscad/fileadmin/php/ 
+(4) Open a shell and call php ./prepare-oscad.php 
+(5) Call your webserver url: http.//your-domain/toscad/index.html
+
+READY.
+
+(6) If you want to modify the frontent, generate new html files etc.
+(7) If you want to modify the representation of the answers,
+    modify /???/toscad/fileadmin/php/fileadmin/php/include-files/oscad-view-results-inc.php
+(8) If you want to improve the computed answers, modify the files under
+    /???/toscad/fileadmin/php/fileadmin/php/fileadmin/php/master-files/
+    and call again ./prepare-oscad.php - as described above.
+
+
+Happy Coding
