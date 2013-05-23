@@ -1,0 +1,10 @@
+2013-05-23:
+fixed bugs reported by 
+http://forum.golem.de/kommentare/politik-recht/oslic-und-oscad-ratgeber-fuer-freie-lizenzen/telekom-qualitaet/73281,3365471,3365471,read.html
+
+a) modified paths of the pictures in the forms as local paths
+b) German main entry point now teaser.html
+c) updated titel of the secdong form by the string 'Uscase basiert'
+d) Improved German teaser
+
+
