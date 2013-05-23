@@ -77,7 +77,7 @@ $gFbLiSpUcRequiresManArr=array(
 		"Insert a prominent hint to the download repository
 		into your distribution and/or your additional material.",
 		
-		"Execute the to-do list of use case EUPL-6 (:- the same request parameters,
+		"Execute the to-do list of use case EPL-6 (:- the same request parameters,
 		 but replace form = binaries by form = sources)."
 		
 );
