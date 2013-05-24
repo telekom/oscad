@@ -33,7 +33,7 @@ $gFbLiSpUcName="MIT-C2";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute an unmodified version of the
-received MIT software to 3rd parties -- in the form of binaries or as source
+received MIT software to 3rd parties - in the form of binaries or as source
 code files. In this case it is not discriminating to distribute a
 program, an application, a server, a snippet, a module, a library, or a plugin
 as an independent package.";

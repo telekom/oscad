@@ -82,7 +82,7 @@ $gFbLiSpUcRequiresVolArr=array(
 		your distribution package.",
 		
 		"Mark all modifications of the source code of the
-		embedded library (snimoli) thoroughly -- namely within the source code.",
+		embedded library (snimoli) thoroughly - namely within the source code.",
 
 		
   "Let the documentation of your distribution and/or

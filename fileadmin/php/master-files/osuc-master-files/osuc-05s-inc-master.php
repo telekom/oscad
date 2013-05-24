@@ -24,7 +24,7 @@ $gFbOsucName="OSUC-".$gFbOsucNumber;
  
 $gFbOsucDesc=
 "Just as you received it, you are going to distribute an unmodified open source 
-library, code snippet, module, or plugin to 3rd parties  -- in the form of 
+library, code snippet, module, or plugin to 3rd parties  - in the form of 
 sources. In this act of distribution, you do not combine this library, code 
 snippet, module, or plugin with other software components in the sense of 
 software development";

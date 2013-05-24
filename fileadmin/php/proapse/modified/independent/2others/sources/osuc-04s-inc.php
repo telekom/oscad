@@ -24,7 +24,7 @@ $gFbOsucName="OSUC-".$gFbOsucNumber;
  
 $gFbOsucDesc=
 "You are going to modify a received open source program, application, or 
-server, before you will distribute it to 3rd parties -- in the form of sources. 
+server, before you will distribute it to 3rd parties - in the form of sources. 
 But you do not combine this modified program, application, or server with 
 other software components in the sense of software development";
 

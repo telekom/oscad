@@ -33,7 +33,7 @@ $gFbLiSpUcName="EUPL-C4";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute an unmodified version of the
-received EUPL licensed snippet, module or library to 3rd parties -- as embedded
+received EUPL licensed snippet, module or library to 3rd parties - as embedded
 component of a larger unit and in the form of source code files or as a source
 code package.";
 

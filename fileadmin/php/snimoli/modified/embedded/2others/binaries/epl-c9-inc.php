@@ -33,7 +33,7 @@ $gFbLiSpUcName="EPL-C9";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-EPL licensed code snippet, module, library, or plugin to 3rd parties -- in the
+EPL licensed code snippet, module, library, or plugin to 3rd parties - in the
 form of binary files or as a binary package together with another larger
 software unit which contains this code snippet, module, library, or plugin as an
 embedded component.";
@@ -57,7 +57,7 @@ $gFbLiSpUcRequiresManArr=array(
 		your distribution package.",
 		
 		"Mark all modifications of the source code of the
-		embedded library (snimoli) thoroughly -- namely within the source code.",
+		embedded library (snimoli) thoroughly - namely within the source code.",
 		
 		"If still not existing, integrate an explicit, very
 		prominently placed 'No warranty' statement into the distributed source code

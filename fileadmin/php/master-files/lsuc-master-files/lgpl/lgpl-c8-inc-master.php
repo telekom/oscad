@@ -35,7 +35,7 @@ $gFbLiSpUcName="LGPL-C8";
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
 LGPL-v2.1 resp. LGPL-v3 licensed code snippet, module, library, or plugin
-(snimoli) to 3rd parties -- in the form of source code files or as a source code
+(snimoli) to 3rd parties - in the form of source code files or as a source code
 package together with another larger software unit which contains this code
 snippet, module, library, or plugin as an embedded component.";
 

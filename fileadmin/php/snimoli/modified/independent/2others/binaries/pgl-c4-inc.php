@@ -33,7 +33,7 @@ $gFbLiSpUcName="PgL-C4";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-PGL program, application, or server (proapse) to 3rd parties -- regardless
+PGL program, application, or server (proapse) to 3rd parties - regardless
 whether you distribute it in the form of binaries or as source code files.";
 
 $gFbLiSpUcRequiresPrefix=

@@ -33,7 +33,7 @@ $gFbLiSpUcName="MS-PL-C4";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-MS-PL licensed program, application, or server (proapse) to 3rd parties -- in
+MS-PL licensed program, application, or server (proapse) to 3rd parties - in
 the form of binary files or as bianry package.";
 
 $gFbLiSpUcRequiresPrefix=
