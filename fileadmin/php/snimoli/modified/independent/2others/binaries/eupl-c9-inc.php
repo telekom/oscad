@@ -78,7 +78,7 @@ $gFbLiSpUcRequiresManArr=array(
 $gFbLiSpUcRequiresVolArr=array(
 		
 	"Mark all modifications of source code of the
-	library (snimoli) thoroughly -- namely within the source code and including
+	library (snimoli) thoroughly - namely within the source code and including
 	the date of the modification.",
 		
   "Let the documentation of your distribution and/or

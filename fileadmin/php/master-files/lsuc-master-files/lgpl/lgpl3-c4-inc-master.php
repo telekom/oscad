@@ -35,7 +35,7 @@ $gFbLiSpUcName="LGPL3-C4";
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
 LGPL-v3 licensed program, application, or server (proapse) to
-3rd parties -- in the form of source code files or as a source code package.";
+3rd parties - in the form of source code files or as a source code package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

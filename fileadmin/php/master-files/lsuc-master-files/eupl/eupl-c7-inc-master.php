@@ -33,7 +33,7 @@ $gFbLiSpUcName="EUPL-C7";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-EUPL licensed program, application, or server (proapse) to 3rd parties -- in
+EUPL licensed program, application, or server (proapse) to 3rd parties - in
 the form of binary files or as a binary package.";
 
 $gFbLiSpUcRequiresPrefix=

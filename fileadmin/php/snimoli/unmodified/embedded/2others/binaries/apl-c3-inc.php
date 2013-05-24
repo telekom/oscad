@@ -33,7 +33,7 @@ $gFbLiSpUcName="ApL-C3";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute an unmodified version of the received 
-	Apache software to 3rd parties -- in the form of binary files or as a
+	Apache software to 3rd parties - in the form of binary files or as a
 	binary package. In this case it is not discriminating to distribute 
 	a program, an application, a server, a snippet, a module, a library,
 	or a plugin as an independent or an embedded unit.";

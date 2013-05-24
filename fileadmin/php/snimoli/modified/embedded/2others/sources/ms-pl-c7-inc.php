@@ -70,7 +70,7 @@ $gFbLiSpUcRequiresVolArr=array(
   "It is a good practice of the open source
   community, to let the copyright notice shown by your overarching program also
   state that it is based on a component originally licensed under the MS-PL
-  license -- perhaps by linking the project homepage of the original (as far as
+  license - perhaps by linking the project homepage of the original (as far as
   this does not clashes with the prohibitions stated below)."
 		
 );

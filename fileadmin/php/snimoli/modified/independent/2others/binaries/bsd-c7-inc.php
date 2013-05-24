@@ -33,7 +33,7 @@ $gFbLiSpUcName="BSD-C7";
 
 $gFbLiSpUcDesc=
 "that you are going to distribute a modified version of the received
-BSD code snippet, module, library, or plugin (snimoli) to 3rd parties -- in the
+BSD code snippet, module, library, or plugin (snimoli) to 3rd parties - in the
 form of binary files or as a binary package but without embedding it into
 another larger software unit.";
 

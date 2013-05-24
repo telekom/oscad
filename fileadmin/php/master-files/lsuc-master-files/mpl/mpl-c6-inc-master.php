@@ -34,7 +34,7 @@ $gFbLiSpUcName="MPL-C6";
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
 MPL licensed code snippet, module, library, or plugin (snimoli) to 3rd parties
--- in the form of source code files or as a source code package, but without
+- in the form of source code files or as a source code package, but without
 embedding it into another larger software unit.";
 
 $gFbLiSpUcRequiresPrefix=

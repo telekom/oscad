@@ -46,7 +46,7 @@ $gFbLiSpUcNoTasks="";
 $gFbLiSpUcRequiresManArr=array(
 
 		"Ensure that the licensing elements - esp. all
-		copyright notices and the disclaimer of warranty and liability -- are retained
+		copyright notices and the disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them. If you compile the
 		binary from the sources, ensure that all these licensing elements are also
 		incorporated into the package.",

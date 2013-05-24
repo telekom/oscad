@@ -52,7 +52,7 @@ $gFbLiSpUcRequiresManArr=array(
 		your modifications. Incorporate it into your distribution package.",
 		
 		"Mark all modifications of the source code of the program (proapse) 
-		thoroughly -- namely within the modfied source code.",
+		thoroughly - namely within the modfied source code.",
 		
 		"Give the recipient a copy of the EPL 1.0 license. If it is not already 
 		part of the software package, add it. If the licensing statement in the 
