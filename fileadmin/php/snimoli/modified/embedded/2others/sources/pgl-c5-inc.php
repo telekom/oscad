@@ -35,7 +35,7 @@ $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
 PGL code snippet, module, library, or plugin (snimoli) to 3rd parties together
 with another larger software unit which contains this code snippet, module,
-library, or plugin as an embedded component -- regardless whether you distribute
+library, or plugin as an embedded component - regardless whether you distribute
 it in the form of binaries or as source code files.";
 
 $gFbLiSpUcRequiresPrefix=

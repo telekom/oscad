@@ -33,7 +33,7 @@ $gFbLiSpUcName="MS-PL-C6";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-MS-PL code snippet, module, library, or plugin (snimoli) to 3rd parties -- in
+MS-PL code snippet, module, library, or plugin (snimoli) to 3rd parties - in
 the form of binary files but without embedding it into another larger software
 unit.";
 

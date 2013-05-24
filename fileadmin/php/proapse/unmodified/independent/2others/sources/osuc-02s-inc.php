@@ -24,7 +24,7 @@ $gFbOsucName="OSUC-".$gFbOsucNumber;
  
 $gFbOsucDesc=
 "Just as you received it, you are going to distribute an unmodified 
-open source program, application, or server to 3rd parties -- in the form of 
+open source program, application, or server to 3rd parties - in the form of 
 sources. In this act of distribution, you do not combine this program, 
 application, or server with other software components in the sense of 
 software development.";

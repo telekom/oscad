@@ -69,7 +69,7 @@ $gFbLiSpUcRequiresManArr=array(
 		software do not take over any responsibility for the quality of the software.
 		Then, add the no-warranty clause and the disclaimer of the liability of the
 		EPL itself into that file. Let the copyright screen of your own overarching
-		program show the same information -- as a specification for the embedded
+		program show the same information - as a specification for the embedded
 		component.",
 		
 		"Organize your modifications of the embedded

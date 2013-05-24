@@ -67,7 +67,7 @@ $gFbLiSpUcRequiresManArr=array(
 		"License your overarching program also under the EUPL 1.1.",
 		
 		"Mark all modifications of source code of the	embedded library (snimoli) 
-		thoroughly -- namely within the source code and
+		thoroughly - namely within the source code and
 		including the date of the modification."
 		
 );

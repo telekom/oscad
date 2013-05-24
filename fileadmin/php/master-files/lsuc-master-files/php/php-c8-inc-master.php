@@ -33,7 +33,7 @@ $gFbLiSpUcName="PHP-C8";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-PHP code snippet, module, library, or plugin (snimoli) to 3rd parties -- in the
+PHP code snippet, module, library, or plugin (snimoli) to 3rd parties - in the
 form of source code files or an integrated source code package together with
 another larger software unit which contains this code snippet, module, library,
 or plugin as an embedded component.";
