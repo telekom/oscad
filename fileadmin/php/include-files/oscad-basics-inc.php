@@ -19,6 +19,7 @@
 */
 
 $gCoveringUseCaseMatrixArray = array(
+/*
 	'AGPLv3.0' => array(
 			'OSUC-01' => 'undefined',
 			'OSUC-02S' => 'undefined',
@@ -37,6 +38,7 @@ $gCoveringUseCaseMatrixArray = array(
 			'OSUC-10S' => 'undefined',
 			'OSUC-10B' => 'undefined'
 	),
+	*/
 	'ApLv2.0' => array(
 			'OSUC-01' => 'ApL-C1',
 			'OSUC-02S' => 'ApL-C2',
@@ -90,7 +92,8 @@ $gCoveringUseCaseMatrixArray = array(
 			'OSUC-09' => 'BSD-C1',
 			'OSUC-10S' => 'BSD-C8',
 			'OSUC-10B' => 'BSD-C9'
-			),		
+			),
+/*
 	'CDDLv1.0' => array(
 			'OSUC-01' => 'undefined',
 			'OSUC-02S' => 'undefined',
@@ -109,6 +112,7 @@ $gCoveringUseCaseMatrixArray = array(
 			'OSUC-10S' => 'undefined',
 			'OSUC-10B' => 'undefined'
 			),
+*/
 	'EPLv1.0' => array(
 			'OSUC-01' => 'EPL-C1',
 			'OSUC-02S' => 'EPL-C2',
@@ -375,7 +379,7 @@ function getLsucIncludeFilename($lsucName){
 }
 
 function getLicenseBasename($lsucName){
-	
+
 	$parts = explode("-C", $lsucName);
 	if (count($parts)==0)
 		return "";
