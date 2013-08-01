@@ -33,15 +33,39 @@
 		<lastmod>2013-05-12</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/form-sheet-based.html</loc>
-		<lastmod>2013-05-24</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/via-the-oslic-form-sheet.html</loc>
+		<lastmod>2013-08-01</lastmod>
 	</url>
 	<url>
 		<loc>http://dtag-dbu.github.io/oscad/en/oscad/teaser.html</loc>
 		<lastmod>2013-05-23</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/use-case-based.html</loc>
-		<lastmod>2013-05-24</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/via-the-osuc-taxonomy.html</loc>
+		<lastmod>2013-08-01</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/site/imprint.html</loc>
+		<lastmod>2013-07-03</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-type.html</loc>
+		<lastmod>2013-08-01</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-context.html</loc>
+		<lastmod>2013-08-01</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-state.html</loc>
+		<lastmod>2013-08-01</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-recipient.html</loc>
+		<lastmod>2013-08-01</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-form.html</loc>
+		<lastmod>2013-08-01</lastmod>
 	</url>
 </urlset>
