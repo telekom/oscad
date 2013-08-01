@@ -29,12 +29,22 @@ $gDebugLevel = 0;
 $gHttpRequestMethod = $_SERVER['REQUEST_METHOD'];
 $gHttpRequestParameters = array();
 
+
 $DIALOG_GROUP_RECIPIENT="FocusRecipient";
 $DIALOG_GROUP_TYPE="FocusType";
 $DIALOG_GROUP_STATE="FocusState";
 $DIALOG_GROUP_FORM="FocusForm";
 $DIALOG_GROUP_CONTEXT="FocusContext";
 $DIALOG_GROUP_LICENSE="FocusLicense";
+
+
+$gAcceptedUcParameters = array(
+  'RECIPIENT' => array('4yourself','2others'),
+  'TYPE' => array('snimoli','proapse'),
+  'STATE' =>array('modified','unmodified'),
+  'FORM' => array('binaries','sources'),
+  'CONTEXT' => array('independent','embedded')
+);
 
 /*
  * variables concerning the form evaluation
@@ -93,100 +103,160 @@ $gFbLiSpUcForbidsArr=array();
 
 
 /*
- * Methods for specifying the predefined variables
- */
+ * Reject other methods than GET and POST
+ * Note the active parameter variable into $gHttpRequestParameters
+*/
+
+function checkHttpMethod(){
+  global $gHttpRequestMethod,
+  $gHttpRequestParameters,
+  $gFaultWrongRestMethod,
+  $gSuccessValue;
+
+  switch ($gHttpRequestMethod) {
+    case 'POST':
+      $gHttpRequestParameters=$_POST;
+      return $gSuccessValue;
+    case 'GET': $gHttpRequestParameters=$_GET;
+      return $gSuccessValue;
+    case 'PUT':
+    case 'HEAD':
+    case 'DELETE':
+    case 'OPTIONS':
+
+    default:
+
+  }
+
+  return $gFaultWrongRestMethod;
+}
+
+function checkUseCaseParameters(){
+  global $gHttpRequestParameters,
+  $gFaultWrongCaseParameters,
+  $gSuccessValue,
+
+  $DIALOG_GROUP_RECIPIENT,
+  $DIALOG_GROUP_TYPE,
+  $DIALOG_GROUP_STATE,
+  $DIALOG_GROUP_FORM,
+  $DIALOG_GROUP_CONTEXT,
+  $DIALOG_GROUP_LICENSE,
+
+  $gOsucRecipient,
+  $gOsucType,
+  $gOsucState,
+  $gOsucForm,
+  $gOsucContext,
+
+  $gAcceptedUcParameters;
+
+  $gOsucRecipient=$gHttpRequestParameters[$DIALOG_GROUP_RECIPIENT];
+  $gOsucType=$gHttpRequestParameters[$DIALOG_GROUP_TYPE];
+  $gOsucState=$gHttpRequestParameters[$DIALOG_GROUP_STATE];
+  $gOsucForm=$gHttpRequestParameters[$DIALOG_GROUP_FORM];
+  $gOsucContext=$gHttpRequestParameters[$DIALOG_GROUP_CONTEXT];
+
+
+   if (!(in_array($gOsucRecipient,$gAcceptedUcParameters['RECIPIENT'])))
+     return $gFaultWrongCaseParameters;
+   if (!(in_array($gOsucType,$gAcceptedUcParameters['TYPE'])))
+     return $gFaultWrongCaseParameters;
+   if (!(in_array($gOsucState,$gAcceptedUcParameters['STATE'])))
+     return $gFaultWrongCaseParameters;
+   if (!(in_array($gOsucForm,$gAcceptedUcParameters['FORM'])))
+     return $gFaultWrongCaseParameters;
+   if (!(in_array($gOsucContext,$gAcceptedUcParameters['CONTEXT'])))
+     return $gFaultWrongCaseParameters;
+
+  return $gSuccessValue;
+}
+
+function checkLicenseParameter(){
+  global $gHttpRequestParameters,
+  $gFaultWrongLicenseParameter,
+  $gSuccessValue,
+
+  $DIALOG_GROUP_LICENSE,
+
+  $gOsucLicense,
+  $gCoveringUseCaseMatrixArray;
+
+  $gOsucLicense=$gHttpRequestParameters[$DIALOG_GROUP_LICENSE];
+
+  if (!(array_key_exists($gOsucLicense,$gCoveringUseCaseMatrixArray)))
+    return $gFaultWrongLicenseParameter;
+
+  return $gSuccessValue;
+}
+
 
 function initializeDataModel() {
 
-	global 
+	global
 		$gFaultDebugMsgs,
 		$gAllDebugMsgs,
 		$gDebugLevel,
-	
-		$gHttpRequestMethod,
+		$gSuccessValue,
 		$gHttpRequestParameters,
-		
-		$DIALOG_GROUP_RECIPIENT,
-		$DIALOG_GROUP_TYPE,
-		$DIALOG_GROUP_STATE,
-		$DIALOG_GROUP_FORM,
-		$DIALOG_GROUP_CONTEXT,
-		$DIALOG_GROUP_LICENSE,
-	
+
 		$gOsucRecipient,
 		$gOsucAction,
-	
+
 		$gOsucType,
 		$gOsucSoftwareClass,
-	
+
 		$gOsucState,
 		$gOsucStateLabel,
 		$gOsucStateArticle,
-	
+
 		$gOsucForm,
 		$gOsucFormLabel,
-	
+
 		$gOsucContext,
 		$gOsucContextLabel,
 		$gOsucContextSuffix,
-	
+
 		$gOsucLicense,
 		$gOsucLicenseName,
 		$gOsucLicenseRelease,
 		$gOsucLicenseSubpath;
-	
-	
-	//echo "IN DATA MODEL : $gHttpRequestMethod :";
 
-	switch ($gHttpRequestMethod) {
-		case 'POST': $gHttpRequestParameters=$_POST;
-		break;
-		case 'GET': $gHttpRequestParameters=$_GET;
-		break;
-		case 'PUT':
-		case 'HEAD':
-		case 'DELETE':
-		case 'OPTIONS':
-	
-		default:
-			return false;
-	
-	}
-	
-	$gOsucRecipient=$gHttpRequestParameters[$DIALOG_GROUP_RECIPIENT];
-	
+
+	/*
+	 * a) $gHttpRequestMethod in checkHttpMethod initialized
+	 * b) $gOsucRecipient, $gOsucType, $gOsucState, $gOsucForm
+	 *    and $gOsucContext in checkUseCaseParameters initialized
+	 * c) $gOsucLicense in checkLicenseParameter initialized
+	 * */
+
 	if ("$gOsucRecipient"=="2others")
 		$gOsucAction="distribute";
-	
-	$gOsucType=$gHttpRequestParameters[$DIALOG_GROUP_TYPE];
+
 	if ("$gOsucType"=="proapse")
 		$gOsucSoftwareClass="application";
 
-	$gOsucState=$gHttpRequestParameters[$DIALOG_GROUP_STATE];
 	if ($gOsucState == "unmodified"){
 		$gOsucStateLabel="umodified";
 		$gOsucStateArticle="an";
 	}
 
-	$gOsucForm=$gHttpRequestParameters[$DIALOG_GROUP_FORM];	
 	if ($gOsucForm == "binaries")
 		$gOsucFormLabel="binary files";
 	elseif ($gOsucForm == "any")
 		$gOsucFormLabel="source or binary files";
 
-	$gOsucContext=$gHttpRequestParameters[$DIALOG_GROUP_CONTEXT];	
 	if ($gOsucContext == "embedded"){
 		$gOsucContextLabel="embedded component";
 		$gOsucContextSuffix="in my own software development";
 	}
-	
-	$gOsucLicense=$gHttpRequestParameters[$DIALOG_GROUP_LICENSE];
+
 	$gOsucLicenseName=strtok($gOsucLicense,"v");
 	if ($gOsucLicenseName !== false)
 		$gOsucLicenseRelease=strtok("v");
 	else
 		$gOsucLicenseRelease="";
-	
+
 	switch($gOsucLicenseName)
 	{
 		case 'GPL':
@@ -196,14 +266,14 @@ function initializeDataModel() {
 		default:
 			$gOsucLicenseSubpath="$gOsucLicenseName/$gOsucLicenseRelease";
 	}
-	
+
 	if ($gDebugLevel>=$gAllDebugMsgs)
 		echo htmlspecialchars("< $gOsucType : $gOsucContext: $gOsucState : ".
 													"$gOsucRecipient : $gOsucForm : $gOsucLicense : ".
 													"$gOsucLicenseName : $gOsucLicenseRelease: " .
 													" $gOsucLicenseSubpath !!>");
-	
-	return true;
+
+	return $gSuccessValue;
 }
 
 
@@ -220,7 +290,7 @@ function computeOsucName(
 	$gAllDebugMsgs,
 	$gDebugLevel,
 	$gOsucName;
-	
+
 	if ($osucType == "proapse") {
 		/* assertion: gOsucContext is independent */
 		if ($osucState == "unmodified") {
@@ -230,7 +300,7 @@ function computeOsucName(
 				if ($osucForm=="sources") {
 					$gOsucName="OSUC-02S";
 				} else { /* binaries */
-					$gOsucName="OSUC-02B";					
+					$gOsucName="OSUC-02B";
 				}
 			}
 		} else { /* modified */
@@ -246,7 +316,7 @@ function computeOsucName(
 		}
 	} else { /* snimoli */
 		if ($osucState == "unmodified") {
-			if ($osucContext == "independent") {		
+			if ($osucContext == "independent") {
 				/* assertion: gOsucRecipient is 2 others */
 				if ($osucForm=="sources") {
 					$gOsucName="OSUC-05S";
@@ -263,7 +333,7 @@ function computeOsucName(
 						$gOsucName="OSUC-07B";
 					}
 				}
-			}	
+			}
 		}	else { /* modified */
 			if ($osucContext == "independent") {
 				/* assertion: gOsucRecipient is 2 others */
@@ -282,10 +352,10 @@ function computeOsucName(
 						$gOsucName="OSUC-10B";
 					}
 				}
-			
+
 			}
 		}
-	}	
+	}
 	return $gOsucName;
 }
 
@@ -302,7 +372,7 @@ function computeUcIncludeFileName(
 		$ucCaseName) {
 	$relativePath="undefined";
 	if ("$osucRecipient" == "4yourself") {
-		$relativePath="./". 
+		$relativePath="./".
 				strtolower($osucType) . "/" .
 				strtolower($osucState) . "/" .
 				strtolower($osucContext) . "/" .
@@ -315,11 +385,11 @@ function computeUcIncludeFileName(
 				strtolower($osucContext) . "/" .
 				strtolower($osucRecipient) . "/" .
 				strtolower($osucForm) . "/" .
-				strtolower($ucCaseName) . "-inc.php";		
+				strtolower($ucCaseName) . "-inc.php";
 	}
-		
+
 	return $relativePath;
-							 
+
 }
 
 
