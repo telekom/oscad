@@ -131,6 +131,11 @@ function checkHttpMethod(){
   return $gFaultWrongRestMethod;
 }
 
+/*
+ * Reject use case if it doesn't have the required
+ * parameters.
+ */
+
 function checkUseCaseParameters(){
   global $gHttpRequestParameters,
   $gFaultWrongCaseParameters,
@@ -171,6 +176,10 @@ function checkUseCaseParameters(){
 
   return $gSuccessValue;
 }
+
+/*
+ * Check if the license is in the known licenses.
+ */
 
 function checkLicenseParameter(){
   global $gHttpRequestParameters,
@@ -276,6 +285,11 @@ function initializeDataModel() {
 	return $gSuccessValue;
 }
 
+/*
+ * Compute the name of the OS use case,
+ * from the parameters passed to the function:
+ * type, context, state, recipient and form.
+ */
 
 function computeOsucName(
 		$osucType,
@@ -359,9 +373,18 @@ function computeOsucName(
 	return $gOsucName;
 }
 
+/*
+ * Returns the code of the use case
+ */
+
 function extractOsucNumber($osucName) {
 	return str_replace("OSUC-", "", $osucName);
 }
+
+/*
+ * Compute and return the filename to include
+ * for the OS use case passed as parameters.
+ */
 
 function computeUcIncludeFileName(
 		$osucRecipient,

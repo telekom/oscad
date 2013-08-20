@@ -18,6 +18,11 @@
 *  along with this program.  If not, see <http://www.gnu.org/licenses/>
 */
 
+/*
+ * Matrix of known equivalences between use-cases
+ * and each license specific case.
+ */
+
 $gCoveringUseCaseMatrixArray = array(
 /*
 	'AGPLv3.0' => array(
@@ -312,6 +317,11 @@ $gCoveringUseCaseMatrixArray = array(
 			)
 );
 
+/*
+ * Find and return the corresponding license use case
+ * for the open source use case scenario
+ */
+
 function computeCoveringLicenseSpecificUseCase($osucName,$osucLicense){
 	global $gCoveringUseCaseMatrixArray;
 
@@ -322,6 +332,9 @@ function computeCoveringLicenseSpecificUseCase($osucName,$osucLicense){
 	return $clsuc;
 }
 
+/*
+ * Return the directory corresponding to the use case name
+ */
 
 function getOsucDirectory($osucName) {
 	switch($osucName) {
@@ -362,21 +375,41 @@ function getOsucDirectory($osucName) {
 	}
 }
 
+/*
+ * Return the master filename for an open source use case
+ */
+
 function getOsucIncludeMasterFilename($osucName){
 	return strtolower($osucName) ."-inc-master.php";
 }
+
+/*
+ * Return the filename to include for an open source use case
+ */
 
 function getOsucIncludeFilename($osucName){
 	return strtolower($osucName) ."-inc.php";
 }
 
+/*
+ * Return the master filename for a specific license use case
+ */
+
 function getLsucIncludeMasterFilename($lsucName){
 	return strtolower($lsucName) ."-inc-master.php";
 }
 
+/*
+ * Return the filename to include for a specific license use case
+ */
+
 function getLsucIncludeFilename($lsucName){
 	return strtolower($lsucName) ."-inc.php";
 }
+
+/*
+ * Compute the name of the license from the specific use case name
+ */
 
 function getLicenseBasename($lsucName){
 

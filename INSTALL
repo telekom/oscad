@@ -2,10 +2,10 @@ How to set up / install your own OSCAd instance:
 ------------------------------------------------
 
 (1) generate a directory 'toscad' under your web server root directory.
-(2) copy the complete content of this directory into 
+(2) copy the complete content of this directory into
     this newly generated 'toscad' directory
-(3) Change into that directory /???/toscad/fileadmin/php/ 
-(4) Open a shell and call php ./prepare-oscad.php 
+(3) Change into that directory /???/toscad/fileadmin/php/
+(4) Open a shell and call php ./prepare-oscad.php
 (5) Call your webserver url: http.//your-domain/toscad/index.html
 
 READY.
