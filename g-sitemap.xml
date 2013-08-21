@@ -17,8 +17,8 @@
 		<lastmod>2013-05-12</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/oscad/initiators.html</loc>
-		<lastmod>2013-05-24</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/oscad/contributions.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
 		<loc>http://dtag-dbu.github.io/oscad/en/download/prepare.html</loc>
@@ -34,31 +34,35 @@
 	</url>
 	<url>
 		<loc>http://dtag-dbu.github.io/oscad/en/oscad/teaser.html</loc>
-		<lastmod>2013-05-23</lastmod>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
 		<loc>http://dtag-dbu.github.io/oscad/en/site/imprint.html</loc>
 		<lastmod>2013-07-03</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-type.html</loc>
-		<lastmod>2013-08-01</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters/type.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-context.html</loc>
-		<lastmod>2013-08-01</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters/context.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-state.html</loc>
-		<lastmod>2013-08-01</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters/state.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-recipient.html</loc>
-		<lastmod>2013-08-01</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters/recipient.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
-		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding/parameter-form.html</loc>
-		<lastmod>2013-08-01</lastmod>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters/form.html</loc>
+		<lastmod>2013-08-21</lastmod>
+	</url>
+	<url>
+		<loc>http://dtag-dbu.github.io/oscad/en/requests/understanding-the-parameters.html</loc>
+		<lastmod>2013-08-21</lastmod>
 	</url>
 	<url>
 		<loc>http://dtag-dbu.github.io/oscad/en/requests/via-a-form-sheet-served-by-oscadfodina.html</loc>
