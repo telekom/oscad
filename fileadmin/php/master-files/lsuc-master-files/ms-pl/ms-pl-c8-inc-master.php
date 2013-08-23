@@ -1,22 +1,22 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
 
 
 $gFbLicenseName="MS-PL";
@@ -49,18 +49,18 @@ $gFbLiSpUcRequiresManArr=array();
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code even if
   do not want to distribute it.",
-  
+
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
   original software (project) and its homepage (as far as this does not clashes
   with with the prohibitions stated below).",
-  
+
   "It is a good practice of the open source
   community, to let the copyright notice shown by your own overarching program
   also state that it is based on a component originally licensed under the MS-PL
   license - perhaps by linking the project homepage of the original (as far as
   this does not clashes with the prohibitions stated below)."
-		
+
 );
 
 $gFbLiSpUcForbidsPrefix="";

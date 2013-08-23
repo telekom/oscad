@@ -1,22 +1,22 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
 
 $gFbLicenseName="GPLv[2.0|3.0]";
 $gFbLicenseSpecification="GNU General Public License";
@@ -56,10 +56,10 @@ $gFbLiSpUcRequiresManArr=array(
   resp. by the GPL-V3 itself. (Yes, repeat the disclaimer although it is also
   part of the license itself and although you are required to hand the license
   itself over to the receiver.)",
-  
-  "Give the recipient a copy of the GPL-V2 resp. GPL-V3 license. If it is not 
+
+  "Give the recipient a copy of the GPL-V2 resp. GPL-V3 license. If it is not
 	already part of the software package, add it.",
-  
+
   "Retain all existing copyright notices.",
 
   "Make the source code of the distributed software
@@ -69,10 +69,10 @@ $gFbLiSpUcRequiresManArr=array(
   explains how the code can be received from where. Ensure, that this repository
   is online for at least 3 years after having distributed the last instance
   of your software package.",
-  
+
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
-  
+
   "Execute the to-do list of use case GPL-C8 (:- the same request parameters,
 	but replace form = binaries by form = sources)",
 
@@ -82,7 +82,7 @@ $gFbLiSpUcRequiresManArr=array(
 
   "Organize your modifications in a way that they are
   covered by the existing GPL licensing statements."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
