@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -45,14 +45,14 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-		"Ensure that the licensing elements - esp. allcopyright notices and the 
+		"Ensure that the licensing elements - esp. allcopyright notices and the
 		disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them. If you compile the
 		binary from the sources, ensure that all these licensing elements are also
 		incorporated into the package.",
 		
-		"Create a modification text file, if such a	notice file still does not 
-		exist. Expand the modification text	file by a more general description 
+		"Create a modification text file, if such a	notice file still does not
+		exist. Expand the modification text	file by a more general description
 		of your modifications. Incorporate it into
 		your distribution package.",
 		
@@ -94,7 +94,7 @@ $gFbLiSpUcRequiresVolArr=array(
   work. It's a good tradition to keep the embedded components like libraries,
   modules, snippets, or plugins in specific directory which contains also all
   additional licensing elements.",
-  
+ 
   "Let the documentation of your distribution and/or
   your additional material  also reproduce the content of the existing
   copyright notice text files, a hint to the name of the used EPL

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *

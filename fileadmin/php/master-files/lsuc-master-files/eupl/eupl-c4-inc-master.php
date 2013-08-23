@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -46,7 +46,7 @@ $gFbLiSpUcRequiresManArr=array(
 		
 		"Ensure that the licensing elements - esp. the
 		copyright, patent or trademarks notices and all notices that refer to the
-		license and to the disclaimer of warranties - are retained in your package 
+		license and to the disclaimer of warranties - are retained in your package
 		in the form you have received them.",
 		
 		"Give the recipient a copy of the EUPL 1.1

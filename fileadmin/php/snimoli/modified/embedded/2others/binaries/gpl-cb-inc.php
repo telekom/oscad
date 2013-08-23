@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -57,11 +57,11 @@ $gFbLiSpUcRequiresManArr=array(
   resp. by the GPL-V3 itself. (Yes, repeat the disclaimer although it is also
   part of the license itself and although you are required to hand the license
   itself over to the receiver.)",
-  
+ 
   "Give the recipient a copy of the GPL-V2 resp.
   GPL-V3 license. If it is not already part of the software package, add
   it.",
-  
+ 
   "Retain all existing copyright notices.",
 
   "Make the source code of the embedded library and
@@ -74,7 +74,7 @@ $gFbLiSpUcRequiresManArr=array(
 
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
-    
+   
   "Execute the to-do list of use case GPL-CA (:- the same request parameters,
 	but replace form = binaries by form = sources).",
 
@@ -84,15 +84,15 @@ $gFbLiSpUcRequiresManArr=array(
   the existing copyright notices, a hint to the software name, a link to its
   homepage, the respective disclaimer of warranty, and a link to the GPL-V2
   resp. GPL-V3.",
-  
+ 
   "Mark all modifications of source code of the
   embedded library (snimoli) thoroughly - namely within the source code and
   including the date of the modification.",
-  
+ 
   "Organize your modifications of the embedded
   library in a way that they are covered by the existing GPL licensing
   statements.",
-  
+ 
   "Organize the binaries of the on-top development in
   a way that they are also covered by the GPL-V2 resp. GPL-V3 licensing
   statements."
@@ -103,7 +103,7 @@ $gFbLiSpUcRequiresVolArr=array(
   "Create a modification text file, if such a
   notice file still does not exist. Expand the modification text
   file by a description of your modifications.",
-    
+   
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing copyright
   notices, a hint to the software name, a link to its homepage, the respective

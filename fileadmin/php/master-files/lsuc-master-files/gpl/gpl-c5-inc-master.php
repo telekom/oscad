@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -56,11 +56,11 @@ $gFbLiSpUcRequiresManArr=array(
   resp. by the GPL-V3 itself. (Yes, repeat the disclaimer although it is also
   part of the license itself and although you are required to hand the license
   itself over to the receiver.)",
-  
+ 
   "Give the recipient a copy of the GPL-V2 resp.
   GPL-V3 license. If it is not already part of the software package, add
-  it.", 
-  
+  it.",
+ 
   "Make the source code of the embedded library
   and the source code of your overarching program accessible via
   a repository under your own control: Push the source code package into a
@@ -69,7 +69,7 @@ $gFbLiSpUcRequiresManArr=array(
   be received from where. Ensure, that this repository is online for at
   least 3 years after having distributed the last instance of your software
   package.",
-  
+ 
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
 
@@ -79,13 +79,13 @@ $gFbLiSpUcRequiresManArr=array(
   the existing copyright notices, a hint to the software name, a link to its
   homepage, the respective disclaimer of warranty, and a link to the GPL-V2
   resp. GPL-V3.",
-  
+ 
   "Organize the binaries of the on-top development in
   a way that they are also covered by the GPL-V2 resp. GPL-V3 licensing
   statements.",
-  
+ 
   "Retain all existing copyright notices.",
-    
+   
   "Execute the to-do list of use case GPL-C4 (:- the same request parameters,
 	but replace form = binaries by form = sources)."
 		

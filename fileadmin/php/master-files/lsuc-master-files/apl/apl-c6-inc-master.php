@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -59,12 +59,12 @@ $gFbLiSpUcRequiresManArr=array(
 
 $gFbLiSpUcRequiresVolArr=array(
 		
-		"Inside of the source code, mark all your modifications thoroughly. 
-		Generate a notice text file, if it still does	not exist. Expand the 
+		"Inside of the source code, mark all your modifications thoroughly.
+		Generate a notice text file, if it still does	not exist. Expand the
 		notice text file by a description of your modifications.",
-		 
-		"Let the documentation of your distribution and/or your additional 
-		material also reproduce the content of the notice text file, a hint 
+		
+		"Let the documentation of your distribution and/or your additional
+		material also reproduce the content of the notice text file, a hint
 		to the software name, a link to its homepage, and a link to the
 		Apache 2.0 license."
 

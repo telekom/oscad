@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -49,7 +49,7 @@ $gFbLiSpUcRequiresManArr=array(
 		copyright notices, patent notices, disclaimers of warranty, or limitations of
 		liability - are retained in your package in exact the form you have received
 		them.",
-  
+ 
 	"Give the recipient a copy of the MPL 2.0 license. If it is not already
 	part of the software package, add it. If the licensing statement in the
 	licensing file of the package does still not clearly state that the package
@@ -88,14 +88,14 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the MPL 2.0 license - especially as subsection 
+  homepage, and a link to the MPL 2.0 license - especially as subsection
 	of your own copyright notice."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		
-		"to remove or to alter any license notices - including copyright notices, 
+		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
 		

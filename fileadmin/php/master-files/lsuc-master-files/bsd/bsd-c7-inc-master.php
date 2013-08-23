@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -60,8 +60,8 @@ $gFbLiSpUcRequiresManArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"nothing explicitly if you are using the BSD 2 Clause License. But the 
-		BSD 3 Clause License explicitly prohibits to use the name of the 
+		"nothing explicitly if you are using the BSD 2 Clause License. But the
+		BSD 3 Clause License explicitly prohibits to use the name of the
 		licensing organization or the names of the licensing contributors to
 		promote your own work."
 		);

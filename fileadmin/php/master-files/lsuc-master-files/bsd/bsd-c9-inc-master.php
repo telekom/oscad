@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,11 +44,11 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that your distribution contains the original copyright notice, the 
-		BSD license, and the BSD disclaimer in the form you have received them. If 
-		you compile the binary file on the base of the source code package and if 
-		this compilation does not also generate and integrate the licensing files, 
-		then create the copyright notice, the BSD conditions, and the BSD 
+		"Ensure that your distribution contains the original copyright notice, the
+		BSD license, and the BSD disclaimer in the form you have received them. If
+		you compile the binary file on the base of the source code package and if
+		this compilation does not also generate and integrate the licensing files,
+		then create the copyright notice, the BSD conditions, and the BSD
 		disclaimer according to the form of the source code
 		package and insert these files into your distribution manually.",
 		
@@ -78,8 +78,8 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"nothing explicitly if you are using the BSD 2 Clause License. But the 
-		BSD 3 Clause License explicitly prohibits to use the name of the 
+		"nothing explicitly if you are using the BSD 2 Clause License. But the
+		BSD 3 Clause License explicitly prohibits to use the name of the
 		licensing organization or the names of the licensing contributors to
 		promote your own work."
 		);

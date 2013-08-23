@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,22 +44,22 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the licensing elements - esp. the BSD license text, 
+		"Ensure that the licensing elements - esp. the BSD license text,
 		the specific copyright notice of the original author(s), and
 		the BSD disclaimer - are retained in your package in the form you have
 		received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		"Let the documentation of your distribution and/or your additional 
+		"Let the documentation of your distribution and/or your additional
 		material also contain the original copyright notice, the
 		BSD conditions, and the BSD disclaimer."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"nothing explicitly if you are using the BSD 2 Clause License. But the 
-		BSD 3 Clause License explicitly prohibits to use the name of the 
+		"nothing explicitly if you are using the BSD 2 Clause License. But the
+		BSD 3 Clause License explicitly prohibits to use the name of the
 		licensing organization or the names of the licensing contributors to
 		promote your own work."
 		);

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -49,7 +49,7 @@ $gFbLiSpUcRequiresManArr=array(
   your additional material also contain a line of acknowledgment in the form
   'This product includes PHP, freely available from
   http://www.php.net/$\rangle'.",
-    
+   
   "Let the documentation of your distribution and/or
   your additional material also contain the original copyright notice, the PHP
   conditions, and the PHP disclaimer."
@@ -60,10 +60,10 @@ $gFbLiSpUcRequiresVolArr=array(
   copyright notice, the PHP conditions, and the PHP disclaimer - are
   reproduced by your package, esp. by the copyright screen of your
   overaching program which uses the library.",
-    
+   
   "Mark your modifications in the source code,
   even if you do not you want to distribute the code.",
-  
+ 
   "Arrange your binary distribution so that the
   licensing elements - esp. the PHP license text, the specific copyright
   notice of the original author(s), and the PHP disclaimer - clearly refer

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -32,9 +32,9 @@ $gOsLicTlExplanationChapter="6.3.10";
 $gFbLiSpUcName="ApL-C3";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the received 
+	"that you are going to distribute an unmodified version of the received
 	Apache software to 3rd parties - in the form of binary files or as a
-	binary package. In this case it is not discriminating to distribute 
+	binary package. In this case it is not discriminating to distribute
 	a program, an application, a server, a snippet, a module, a library,
 	or a plugin as an independent or an embedded unit.";
 
@@ -49,27 +49,27 @@ $gFbLiSpUcRequiresManArr=array(
 		license. If it is not already part of the binary package, add it",
 		
 		"Ensure that the licensing elements - esp. the specific copyright notice
-		of the original author(s) - are retained in your package in the form you 
-		have received them. If you compile the binary from the sources, ensure 
+		of the original author(s) - are retained in your package in the form you
+		have received them. If you compile the binary from the sources, ensure
 		that all the licensing elements are also incorporated into the
 		package.",
 		
-		"Ensure that the notice text file is retained or integrated into your 
+		"Ensure that the notice text file is retained or integrated into your
 		binary package in the form you have initially received it.",
 		
-		"Ensure that the notice text file is also reproduced if and 
-		whereever such third-party notices normally appear - especially, if 
+		"Ensure that the notice text file is also reproduced if and
+		whereever such third-party notices normally appear - especially, if
 		you are distributing an unmodified Apache licensed library as
-		embedded component of your own work which displays its own copyright 
+		embedded component of your own work which displays its own copyright
 		notice."
 		
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-  "Let the documentation of your distribution and/or your additional 
-	 material also reproduce the content of the notice text file, a hint to 
+  "Let the documentation of your distribution and/or your additional
+	 material also reproduce the content of the notice text file, a hint to
 	 the software name, a link to its homepage, and a link to the
-   Apache 2.0 license - especially as subsection of your own copyright 
+   Apache 2.0 license - especially as subsection of your own copyright
 		notice."
 );
 

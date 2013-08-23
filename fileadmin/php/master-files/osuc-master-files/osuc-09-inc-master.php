@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -21,10 +21,10 @@
 $gFbOsucNumber="09";
 $gFbOsucName="OSUC-".$gFbOsucNumber;
 
- 
+
 $gFbOsucDesc=
-"Only for yourself, you are going to modify an open source library, code 
-snippet, module, or plugin, and you will combine it - in the sense of software 
+"Only for yourself, you are going to modify an open source library, code
+snippet, module, or plugin, and you will combine it - in the sense of software
 development - into a larger software unit as one of its parts.";
 
 ?>

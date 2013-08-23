@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -23,7 +23,7 @@ $gFbOsucName="OSUC-".$gFbOsucNumber;
 
 
 $gFbOsucDesc="Only for yourself, you are going to use an unmodified open source
-program, application, or server – just as you received it. In this case, you do 
+program, application, or server – just as you received it. In this case, you do
 not combine it with other components in the sense of software development.";
 
 ?>

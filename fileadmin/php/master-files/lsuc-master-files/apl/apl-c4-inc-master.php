@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -33,7 +33,7 @@ $gFbLiSpUcName="ApL-C4";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-	 Apache licensed program, application, or server (proapse) to 3rd parties - 
+	 Apache licensed program, application, or server (proapse) to 3rd parties -
 	 in the form of source code files or as a source code package.";
 
 $gFbLiSpUcRequiresPrefix=
@@ -47,26 +47,26 @@ $gFbLiSpUcRequiresManArr=array(
 		license. If it is not already part of the binary package, add it",
 		
 		"Ensure that the licensing elements - esp. the specific copyright notice
-		of the original author(s) - are retained in your package in the form you 
+		of the original author(s) - are retained in your package in the form you
 		have received them.",
 		
-		"Ensure that the notice text file contains at least all the information 
+		"Ensure that the notice text file contains at least all the information
 		of that notice text file you have received",
 		
-		"Ensure that the notice text file is also reproduced if and whereever 
-		such third-party notices normally appear. If the program already displays 
+		"Ensure that the notice text file is also reproduced if and whereever
+		such third-party notices normally appear. If the program already displays
 		a copyright dialog, update it in an appropriate manner.",
 
-  	"Inside of the source code, mark all your modifications thoroughly. 
-		Generate a notice text file, if it still does not exist. Add a 
+  	"Inside of the source code, mark all your modifications thoroughly.
+		Generate a notice text file, if it still does not exist. Add a
 		description of your modifications into the notice text file."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-  "Let the documentation of your distribution and/or your additional 
-	 material also reproduce the content of the notice text file, a hint to 
+  "Let the documentation of your distribution and/or your additional
+	 material also reproduce the content of the notice text file, a hint to
 	 the software name, a link to its homepage, and a link to the
-   Apache 2.0 license - especially as subsection of your own copyright 
+   Apache 2.0 license - especially as subsection of your own copyright
 		notice."
 );
 

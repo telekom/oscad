@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -32,10 +32,10 @@ $gOsLicTlExplanationChapter="6.4.10";
 $gFbLiSpUcName="BSD-C3";
 
 $gFbLiSpUcDesc=
-"hat you are going to distribute an unmodified version of the BSD received 
-software to 3rd parties - in the form of binary files or as a binary package. 
-In this case it is not discriminating to distribute a program, an application, 
-a server, a snippet, a module, a library, or a plugin as an independent or an 
+"hat you are going to distribute an unmodified version of the BSD received
+software to 3rd parties - in the form of binary files or as a binary package.
+In this case it is not discriminating to distribute a program, an application,
+a server, a snippet, a module, a library, or a plugin as an independent or an
 embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
@@ -45,16 +45,16 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 		
-		"Ensure that your distribution contains the original copyright notice, 
-		the BSD license, and the BSD disclaimer in the form  you have received them. 
-		If you compile the binary file on the base of the source code package and 
-		if this compilation does not also generate and integrate the licensing 
-		files then create the copyright notice, the BSD conditions, and the BSD 
-		disclaimer according to the form of the source code package and insert 
+		"Ensure that your distribution contains the original copyright notice,
+		the BSD license, and the BSD disclaimer in the form  you have received them.
+		If you compile the binary file on the base of the source code package and
+		if this compilation does not also generate and integrate the licensing
+		files then create the copyright notice, the BSD conditions, and the BSD
+		disclaimer according to the form of the source code package and insert
 		these files into your distribution manually.",
 		
-		"Ensure that the documentation of your distribution and/or your additional 
-		material also contain the author specific copyright notice, the BSD 
+		"Ensure that the documentation of your distribution and/or your additional
+		material also contain the author specific copyright notice, the BSD
 		conditions, and the BSD disclaimer."
 );
 
@@ -63,8 +63,8 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"nothing explicitly if you are using the BSD 2 Clause License. But the 
-		BSD 3 Clause License explicitly prohibits to use the name of the 
+		"nothing explicitly if you are using the BSD 2 Clause License. But the
+		BSD 3 Clause License explicitly prohibits to use the name of the
 		licensing organization or the names of the licensing contributors to
 		promote your own work."
 		);

@@ -1,9 +1,9 @@
 <?php
 
-/*  This file is part of OSCAd, the Open Source Compliance Advisor 
- * 
+/*  This file is part of OSCAd, the Open Source Compliance Advisor
+ *
  *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
- *   
+ *  
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as
  *  published by the Free Software Foundation, either version 3 of the
@@ -15,7 +15,7 @@
  *  GNU Affero General Public License for more details.
 
  *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>  
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/> 
  */
 
 $hlColor="e20074";
@@ -25,7 +25,7 @@ $hlColor="e20074";
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- 
+<!--
 	(t)OSCAd - (Telekom) Open Source Compliance Advisor
 -->
 
@@ -33,7 +33,7 @@ $hlColor="e20074";
 <meta name="date" content="2013-04-22T15:17:42" />
 <meta name="language" content="en" />
 
- 
+
 <link rel="stylesheet" type="text/css" href="../css/2lfc.css" media="all" />
 
 <meta name="google-site-verification" content="" />
@@ -46,21 +46,21 @@ $hlColor="e20074";
 
 <meta http-equiv="content-language" content="en" scheme="DCTERMS.RFC3066" />
 <meta name="DC.Language" content="en" />
-<meta name="description" 
-	content="Results of the Open Source Compliance Advisor 
+<meta name="description"
+	content="Results of the Open Source Compliance Advisor
 	 automatically computed on the base of a filled form sheet" />
 <meta name="copyright" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
 <link rev="made" href="mailto:opensource@telekom.de" />
 <meta http-equiv="reply-to" content="opensource@telekom.de" />
 <meta name="author" content="Karsten Reincke" />
-<meta name="DC.Description" 
-		content="Results of the Open Source Compliance Advisor 
+<meta name="DC.Description"
+		content="Results of the Open Source Compliance Advisor
 	 		automatically computed on the base of a filled form sheet" />
 <meta name="DC.Rights" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
 <meta name="DC.Creator" content="Karsten Reincke" />
 <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
- 
- 
+
+
 <script type="text/javascript" >
 
 function showImageHideText(imageId,textId) {
@@ -91,8 +91,8 @@ function showTextHideImage(imageId,textId) {
 <th>Request:</th>
 <th>
 
-<?php 
-  
+<?php
+ 
   $request=
   	htmlspecialchars("Provided I want to ") .
   	"<span style=\"color:$hlColor\">" . htmlspecialchars("$gOsucAction") . "</span>" .
@@ -107,7 +107,7 @@ function showTextHideImage(imageId,textId) {
   	htmlspecialchars(" $gOsucContextSuffix, ") .
   	htmlspecialchars("what do I have to do for acting in accordance to the ") .
   	"<span style=\"color:$hlColor\">" . htmlspecialchars("$gOsucLicense") . "</span>"
-  	. "?"; 
+  	. "?";
   echo $request;
 
   if ($gDebugLevel>=$gFaultDebugMsgs)
@@ -116,20 +116,20 @@ function showTextHideImage(imageId,textId) {
   					"$gOsucRecipient : $gOsucForm : $gOsucLicense: ".
   					"$gOsucLicenseName : $gOsucLicenseRelease:" .
 													" $gOsucLicenseSubpath : $gOsucName >");
-  
  
+
 
 ?>
 </th>
 <th onmouseover="showTextHideImage('helpImageId','helpTextId');"
-   onmouseout="showImageHideText('helpImageId','helpTextId');"> 
-  <image id="helpImageId" 
-  src="../images/hilfe-16x16.png" 
+   onmouseout="showImageHideText('helpImageId','helpTextId');">
+  <image id="helpImageId"
+  src="../images/hilfe-16x16.png"
     />
 <span id="helpTextId">
 [= Open Source Use Case No. <?php echo htmlspecialchars($gOsucNumber); ?>
  {
-<?php 
+<?php
 	$seperator="";
  	foreach($gHttpRequestParameters as $label => $value) {
 		if ($label !== "submit")  {
@@ -141,8 +141,8 @@ function showTextHideImage(imageId,textId) {
 		}
 	}
 ?>
-} and license 
-<?php echo htmlspecialchars($gOsucLicense); 
+} and license
+<?php echo htmlspecialchars($gOsucLicense);
 if ($gDebugLevel >= $gFaultDebugMsgs)
 	echo "<br />: $gLsucName : $gLsucIncludeFileName : $gOsucIncludeFileName";
 ?>
@@ -155,14 +155,14 @@ if ($gDebugLevel >= $gFaultDebugMsgs)
 </tr>
 
 <tr>
-<td 
+<td
 >
  <?php echo htmlspecialchars($gOsucName);?>:
  </td>
 <td colspan="2">
-<?php echo htmlspecialchars($gFbOsucDesc); 
-	if ($gDebugLevel >= $gAllDebugMsgs) 
-		echo (" [= ". $gFbOsucName. "]\n"); 
+<?php echo htmlspecialchars($gFbOsucDesc);
+	if ($gDebugLevel >= $gAllDebugMsgs)
+		echo (" [= ". $gFbOsucName. "]\n");
 ?>
 
 
@@ -170,7 +170,7 @@ if ($gDebugLevel >= $gFaultDebugMsgs)
 </tr>
 
 <tr>
-<td style="background-color:#ddd">connotes w.r.t. 
+<td style="background-color:#ddd">connotes w.r.t.
 <?php echo htmlspecialchars($gFbLicenseName);?>:
 </td>
 <td style="background-color:#ddd" colspan="2"><span style="font-size:120%">
@@ -235,24 +235,24 @@ if ($gDebugLevel >= $gFaultDebugMsgs)
 <div class="huge box" style="text-align: left; font-size:x-small";>
 <p><span style="color:<?php echo "$hlColor"?>">Background information:</span>
 For a deeper understanding of the reasons why these tasks are fulfilling the
-license <?php echo htmlspecialchars($gFbLicenseName) ?> with respect to 
-<?php echo htmlspecialchars($gOsucName); ?>, see 
-<a href="http://www.oslic.org/">OSLiC</a> chapter 
-<?php echo htmlspecialchars($gOsLicTodoListChapter);?>, 
+license <?php echo htmlspecialchars($gFbLicenseName) ?> with respect to
+<?php echo htmlspecialchars($gOsucName); ?>, see
+<a href="http://www.oslic.org/">OSLiC</a> chapter
+<?php echo htmlspecialchars($gOsLicTodoListChapter);?>,
 especially chapter <?php echo htmlspecialchars($gOsLicLsucChapter);?>,
 and chapter <?php echo htmlspecialchars($gOsLicTlExplanationChapter);?>.
 For further information on the protecting power of the license
-<?php echo htmlspecialchars($gFbLicenseName) ?>, see 
+<?php echo htmlspecialchars($gFbLicenseName) ?>, see
 <a href="http://www.oslic.org/">OSLiC</a> chapter
 <?php echo htmlspecialchars($gOsLicProtectionChapter) ?>. Concerning the
-open source use cases in general, see 
-<a href="http://www.oslic.org/">OSLiC</a> chapter 4 and 5. 
-<?php 
+open source use cases in general, see
+<a href="http://www.oslic.org/">OSLiC</a> chapter 4 and 5.
+<?php
 
 
 if ($gOsLicPatentChapter!="") {	
-	echo "Finally," . htmlspecialchars($gFbLicenseName) . 
-	' contains a patent clause; for details see 
+	echo "Finally," . htmlspecialchars($gFbLicenseName) .
+	' contains a patent clause; for details see
 	<a href="http://www.oslic.org/">OSLiC</a> chapter ' .
 	htmlspecialchars($gOsLicPatentChapter) . ".";
 };
@@ -264,9 +264,9 @@ if ($gOsLicPatentChapter!="") {
 
 </p><p>
 <div class="huge box" style="text-align: left; font-size:xx-small";>
-<p> <span style="color:<?php echo "$hlColor"?>">OSCAd</span> - 
-Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG. 
-The 
+<p> <span style="color:<?php echo "$hlColor"?>">OSCAd</span> -
+Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG.
+The
 	<span style="color:<?php echo "$hlColor"?>">O</span>pen
 	<span style="color:<?php echo "$hlColor"?>">S</span>ource
 	<span style="color:<?php echo "$hlColor"?>">C</span>ompliance

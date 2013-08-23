@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -48,7 +48,7 @@ $gFbLiSpUcRequiresManArr=array(
   copyright notices, patent notices, disclaimers of warranty, or limitations of
   liability - are retained in your package in exact the form you have received
   them.",
-  
+ 
 	"Give the recipient a copy of the MPL 2.0 license. If it is not already
 	part of the software package, add it. If the licensing statement in the
 	licensing file of the package does still not clearly state that the package
@@ -57,7 +57,7 @@ $gFbLiSpUcRequiresManArr=array(
 	of the Mozilla Public License, v. 2.0. If a copy of the MPL was not
 	distributed with this file, You can obtain one at
 	http://mozilla.org/MPL/2.0/'.",
-  
+ 
   "Organize your modifications in a way that they are
   covered by the existing MPL licensing statements. If you add new source code
   files, insert a header containing your copyright line and an MPL adequate
@@ -85,7 +85,7 @@ $gFbLiSpUcRequiresVolArr=array(
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		
-		"to remove or to alter any license notices - including copyright notices, 
+		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
 		

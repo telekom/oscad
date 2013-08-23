@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -55,14 +55,14 @@ $gFbLiSpUcRequiresManArr=array(
 		"Ensure that the notice text file contains at least all the
 		information of that notice text file you have received.",
 		
-		"Ensure that the notice text file is also reproduced if and whereever 
-		such third-party notices normally appear. If your overarching program 
+		"Ensure that the notice text file is also reproduced if and whereever
+		such third-party notices normally appear. If your overarching program
 		displays its own copyright dialog, insert this information
 		there.",
 		
-		"Inside of the library, snippet, module, or plugin source code, mark all 
-		your modifications thoroughly. Generate a notice text file, if it still 
-		does not exist. Expand the notice text file by a description of 
+		"Inside of the library, snippet, module, or plugin source code, mark all
+		your modifications thoroughly. Generate a notice text file, if it still
+		does not exist. Expand the notice text file by a description of
 		your modifications."
 		
 );

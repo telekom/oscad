@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -55,14 +55,14 @@ $gFbLiSpUcRequiresManArr=array(
   form which is textually defined by the license LGPL-3.0 itself. (Yes, repeat
   the disclaimer although it is also part of the license itself and although you
   are required to hand the license itself over to the receiver.)",
-  
+ 
   "Give the recipient a copy of the LGPL-3.0 license.
   If it is not already part of the software package, add it.".
 
   "Mark all modifications of source code of the
   program (proapse) thoroughly - namely within the source code and including
   the date of the modification.",
-  
+ 
   "Organize your modifications in a way that they are
   covered by the existing LGPL licensing statements. If you add new source code
   files, insert a header containing your copyright line and a licensing the
@@ -74,12 +74,12 @@ $gFbLiSpUcRequiresVolArr=array(
   "Create a modification text file, if such a
   notice file still does not exist. Expand the modification text
   file by a description of your modifications on a more functional level.",
-    
+   
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notices, a hint to the software name, a link to its homepage,
   the respective disclaimer of warranty, and a link to the LGPL-3.0.",
-  
+ 
   "Retain all existing copyright notices."
 );
 

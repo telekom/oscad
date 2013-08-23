@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,29 +44,29 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the licensing elements - esp. the BSD license text, the 
-		specific copyright notice of the original author(s), and the BSD disclaimer 
+		"Ensure that the licensing elements - esp. the BSD license text, the
+		specific copyright notice of the original author(s), and the BSD disclaimer
 		- are retained in your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
 		
-		"Let the documentation of your distribution and/or your additional 
+		"Let the documentation of your distribution and/or your additional
 		material also contain the original copyright notice, the
 		BSD conditions, and the BSD disclaimer.",
 		
-		"It is a good practice of the open source community, to let the copyright 
-		notice which is shown by the running program also state that it contains 
-		components licensed under the BSD license. Because you are embedding this 
-		snimoli into a larger software unit, you are developing this larger unit. 
-		Hence, you can also expand the copyright notice of this larger unit by 
+		"It is a good practice of the open source community, to let the copyright
+		notice which is shown by the running program also state that it contains
+		components licensed under the BSD license. Because you are embedding this
+		snimoli into a larger software unit, you are developing this larger unit.
+		Hence, you can also expand the copyright notice of this larger unit by
 		such a hint to its BSD components.",
 		
-		"Arrange your source code distribution so that the licensing elements - 
-		esp. the BSD license text, the specific copyright notice of the original 
-		author(s), and the BSD disclaimer - clearly refer	only to the embedded 
-		library and do not disturb the licensing of your own overarching work. 
-		It's a good tradition to keep the embedded components like libraries, 
+		"Arrange your source code distribution so that the licensing elements -
+		esp. the BSD license text, the specific copyright notice of the original
+		author(s), and the BSD disclaimer - clearly refer	only to the embedded
+		library and do not disturb the licensing of your own overarching work.
+		It's a good tradition to keep the embedded components like libraries,
 		modules, snippets, or plugins in specific directory which contains
 		also all additional licensing elements."
 		
@@ -75,8 +75,8 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"nothing explicitly if you are using the BSD 2 Clause License. But the 
-		BSD 3 Clause License explicitly prohibits to use the name of the 
+		"nothing explicitly if you are using the BSD 2 Clause License. But the
+		BSD 3 Clause License explicitly prohibits to use the name of the
 		licensing organization or the names of the licensing contributors to
 		promote your own work."
 		);

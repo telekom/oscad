@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -45,8 +45,8 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the original licensing elements - esp. the MIT license text 
-	containing the specific copyright notices of the original author(s), the 
+  "Ensure that the original licensing elements - esp. the MIT license text
+	containing the specific copyright notices of the original author(s), the
 	permission notices and the MIT disclaimer - are retained in
   your package in the form you have received them."
 );
@@ -55,7 +55,7 @@ $gFbLiSpUcRequiresVolArr=array(
 		
   "Mark your modifications in the source code, regardless whether you want to
 	 distribute the code or not.",
-  
+ 
   "It is a good practice of the open source
   community, to let the copyright notice which is shown by the running program
   also state that the program uses a component being licensed under the MIT
@@ -66,7 +66,7 @@ $gFbLiSpUcRequiresVolArr=array(
   documentation of your program and/or your additional material also mention
   that you have used this component added by a link to the original software
   component and its homepage.",
-  
+ 
   "Arrange your distribution so that the original
   licensing elements - esp. the MIT license text containing the specific
   copyright notices of the original author(s), the permission notices and the

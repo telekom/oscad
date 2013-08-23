@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -51,9 +51,9 @@ $gFbLiSpUcRequiresManArr=array(
 		binary from the sources, ensure that all these licensing elements are also
 		incorporated into the package.",
 		
-		"If still not existing, integrate an explicit, very	prominently placed 
-		'No warranty' statement into the distributed source code package. Let this 
-		statement clearly say that all (other) contributors to the software do not 
+		"If still not existing, integrate an explicit, very	prominently placed
+		'No warranty' statement into the distributed source code package. Let this
+		statement clearly say that all (other) contributors to the software do not
 		take over any responsibility for the quality of the software.
 		Then, add the no-warranty clause and the disclaimer of the liability of the
 		EPL itself into that file.",

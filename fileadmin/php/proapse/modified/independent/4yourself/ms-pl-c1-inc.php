@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -36,7 +36,7 @@ $gFbLiSpUcDesc=
   yourself and that you do not hand it over to any 3rd party in any sense.";
 
 $gFbLiSpUcRequiresPrefix=
-	"no tasks in order to fulfill the conditions of the MS-PL 
+	"no tasks in order to fulfill the conditions of the MS-PL
 license with respect to this use case:";
 
 $gFbLiSpUcNoTasks=

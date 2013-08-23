@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -58,11 +58,11 @@ $gFbLiSpUcRequiresManArr=array(
   LGPL-3.0 itself. (Yes, repeat the disclaimer although it is also part of the
   license itself and although you are required to hand the license itself over
   to the receiver.)",
-  
+ 
   "Give the recipient a copy of the LGPL-2.1 resp.
   LGPL-3.0 license. If it is not already part of the software package, add
   it."
-  
+ 
 		
 );
 
@@ -73,7 +73,7 @@ $gFbLiSpUcRequiresVolArr=array(
   copyright notices, a hint to the software name, a link to its homepage,
   the respective disclaimer of warranty, and a link to the LGPL-2.1 resp.
   LGPL-3.0.",
-  
+ 
   "Retain all existing copyright notices."
 );
 

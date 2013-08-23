@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -39,7 +39,7 @@ discriminating to distribute a program, an application, a server, a snippet, a
 module, a library, or a plugin as an independent package.";
 
 $gFbLiSpUcRequiresPrefix=
-	"the following tasks in order to fulfill the conditions of the 
+	"the following tasks in order to fulfill the conditions of the
 	 $gFbLicenseSpecification";
 
 $gFbLiSpUcNoTasks="";

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -35,7 +35,7 @@ $gFbLiSpUcDesc=
 "that you are going to distribute a modified version of the received
 Apache licensed code snippet, module, library, or plugin to 3rd parties - in
 the form of binary files or as a binary package together with another larger
-software unit which contains this code snippet, module, library, or plugin as 
+software unit which contains this code snippet, module, library, or plugin as
 an embedded component.";
 
 $gFbLiSpUcRequiresPrefix=
@@ -51,7 +51,7 @@ $gFbLiSpUcRequiresManArr=array(
 		
 		"Ensure that the licensing elements - esp. the specific copyright notice of
 		the original author(s) - are retained in your	package in the form you have
-		received them. If you compile the binary from the sources, ensure that 
+		received them. If you compile the binary from the sources, ensure that
 		all the licensing elements are also incorporated into the package.",
 		
 		"Ensure that the notice text file contains
@@ -59,8 +59,8 @@ $gFbLiSpUcRequiresManArr=array(
 		received.  If it still does not exist, create it. Expand the
 		\emph{notice text file} by a description of your modifications.",
 		
-		"Ensure that the notice text file is also reproduced if and whereever 
-		such third-party notices normally appear. If your overarching program 
+		"Ensure that the notice text file is also reproduced if and whereever
+		such third-party notices normally appear. If your overarching program
 		displays its own copyright dialog, insert this information there."
 		
 );
@@ -73,7 +73,7 @@ $gFbLiSpUcRequiresVolArr=array(
 		"Let the documentation of your distribution and/or
 		your additional material also reproduce the content of the notice text
 		file, a hint to the software name, a link to its homepage, and a link to the
-		Apache 2.0 license - especially as subsection of your own copyright 
+		Apache 2.0 license - especially as subsection of your own copyright
 		notice.",
 		
 		"Arrange your binary distribution so that the

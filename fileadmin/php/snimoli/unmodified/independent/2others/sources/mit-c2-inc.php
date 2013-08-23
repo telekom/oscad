@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,8 +44,8 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the licensing elements - esp. the MIT license text containing 
-		the specific copyright notices of the original author(s), the permission 
+		"Ensure that the licensing elements - esp. the MIT license text containing
+		the specific copyright notices of the original author(s), the permission
 		notices and the MIT disclaimer - are retained in
 		your package in the form you have received them."
 );

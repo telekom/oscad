@@ -28,7 +28,7 @@ $gOsLicPatentChapter="3.1.2";
 $gOsLicTodoListChapter="6.3";
 $gOsLicLsucChapter="6.3.1";
 $gOsLicTlExplanationChapter="6.3.10";
- 
+
 $gFbLiSpUcName="ApL-C1";
 
 $gFbLiSpUcDesc=
@@ -36,12 +36,12 @@ $gFbLiSpUcDesc=
 	yourself and that you do not hand it over to any 3rd party in any sense";
 
 $gFbLiSpUcRequiresPrefix=
-	"no tasks in order to fulfill the conditions 
+	"no tasks in order to fulfill the conditions
 	of the Apache 2.0 license with respect to this use case:";
 
 $gFbLiSpUcNoTasks=
-	"You are allowed to use any kind of Apache software in any sense 
-	and in any context without being obliged to do anything as long 
+	"You are allowed to use any kind of Apache software in any sense
+	and in any context without being obliged to do anything as long
 	as you do not give the software to 3rd parties.";
 
 $gFbLiSpUcReqManArr=array();

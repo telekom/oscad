@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,10 +44,10 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-		"Ensure that the licensing elements - esp. the copyright, patent or 
-		trademarks notices and all notices that refer to the license and to the 
-		disclaimer of warranties - are retained in your package in the form you 
-		have received them. If you compile the binary from the sources,	ensure 
+		"Ensure that the licensing elements - esp. the copyright, patent or
+		trademarks notices and all notices that refer to the license and to the
+		disclaimer of warranties - are retained in your package in the form you
+		have received them. If you compile the binary from the sources,	ensure
 		that all the licensing elements are also incorporated into the package.",
 		
 		"Give the recipient a copy of the EUPL 1.1
@@ -61,10 +61,10 @@ $gFbLiSpUcRequiresManArr=array(
 		"Organize your modifications in a way that they are
 		covered by the existing EUPL licensing statements.",
 		
-		"Make the source code of the distributed software	accessible via a 
-		repository under your own control: Push the source code	package into a 
-		repository, make it downloadable via the internet, and integrate an easily 
-		to find description into the distribution package which	explains how the 
+		"Make the source code of the distributed software	accessible via a
+		repository under your own control: Push the source code	package into a
+		repository, make it downloadable via the internet, and integrate an easily
+		to find description into the distribution package which	explains how the
 		code can be received from where. Ensure, that this repository
 		is online for as long as you continue to distribute the software.",
 		

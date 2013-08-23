@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -21,11 +21,11 @@
 $gFbOsucNumber="07S";
 $gFbOsucName="OSUC-".$gFbOsucNumber;
 
- 
+
 $gFbOsucDesc=
-"Just as you received it and before you will distribute it to 3rd parties - in 
-the form of sources and together with the larger software unit, you are going 
-to combine and embed an unmodified open source library, code snippet, module, 
+"Just as you received it and before you will distribute it to 3rd parties - in
+the form of sources and together with the larger software unit, you are going
+to combine and embed an unmodified open source library, code snippet, module,
 or plugin into a larger software unit in the sense of software development";
 
 ?>

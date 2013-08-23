@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -42,7 +42,7 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the complete Postgres License including the copyright notice, 
+		"Ensure that the complete Postgres License including the copyright notice,
 		the permission notices, and the PGL disclaimer
 		- are retained in your package in the form you have received them."
 );

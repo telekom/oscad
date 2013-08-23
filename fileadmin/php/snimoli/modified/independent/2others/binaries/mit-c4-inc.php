@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
@@ -44,14 +44,14 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the original licensing elements - esp. the MIT license text 
+  "Ensure that the original licensing elements - esp. the MIT license text
 		containing the specific copyright notices of the original
   author(s), the permission notices and the MIT disclaimer - are retained in
   your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-  "Mark your modifications in the source code, regardless whether you want to 
+  "Mark your modifications in the source code, regardless whether you want to
 	distribute the code or not.",
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
