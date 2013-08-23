@@ -56,7 +56,7 @@ $gFbLiSpUcRequiresManArr=array(
 
   "Mark all modifications of the source code of the
   program (proapse) thoroughly - namely within the  modfied source code.",
- 
+
   "Organize your modifications in a way that they are
   covered by the (existing) EPL licensing statements.",
 
@@ -74,13 +74,13 @@ $gFbLiSpUcRequiresManArr=array(
   Integrate an easily to find description into your distribution package which
   explains how the code can be received from where. Ensure, that this repository
   is usable reasonably long enough.",
- 
+
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
 
   "Execute the to-do list of use case EPL-C4 (:- the same request parameters,
 		 but replace form = binaries by form = sources)."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

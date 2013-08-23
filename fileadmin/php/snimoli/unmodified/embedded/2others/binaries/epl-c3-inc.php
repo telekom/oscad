@@ -50,27 +50,27 @@ $gFbLiSpUcRequiresManArr=array(
 		in your package in exact the form you have received them. If you compile the
 		binary from the sources, ensure that all these licensing elements are also
 		incorporated into the package.",
-		
+
 		"If still not existing, integrate an explicit, very	prominently placed
 		'No warranty' statement into the distributed source code package. Let this
 		statement clearly say that all (other) contributors to the software do not
 		take over any responsibility for the quality of the software.
 		Then, add the no-warranty clause and the disclaimer of the liability of the
 		EPL itself into that file.",
-		
+
 		"Make the source code of the software accessible
 		via a repository under your own control - even if you did not modified it:
 		Push the source code package into an internet repository and enable its
 		download function. Integrate an easily to find description into your
 		distribution package which explains how the code can be received from where.
 		Ensure, that this repository is usable reasonably long enough.",
-		
+
 		"Insert a prominent hint to the download repository
 		into your distribution and/or your additional material.",
-		
+
 		"Execute the to-do list of use case EPL-C2 (:- the same request parameters,
 		 but replace form = binaries by form = sources)."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

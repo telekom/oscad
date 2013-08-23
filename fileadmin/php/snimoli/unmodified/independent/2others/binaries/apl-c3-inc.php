@@ -44,25 +44,25 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
-		
+
 		"Ensure that the licensing elements - esp. the specific copyright notice
 		of the original author(s) - are retained in your package in the form you
 		have received them. If you compile the binary from the sources, ensure
 		that all the licensing elements are also incorporated into the
 		package.",
-		
+
 		"Ensure that the notice text file is retained or integrated into your
 		binary package in the form you have initially received it.",
-		
+
 		"Ensure that the notice text file is also reproduced if and
 		whereever such third-party notices normally appear - especially, if
 		you are distributing an unmodified Apache licensed library as
 		embedded component of your own work which displays its own copyright
 		notice."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

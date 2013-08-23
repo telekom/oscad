@@ -43,26 +43,26 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Ensure that the licensing elements - esp. the
 		copyright, patent or trademarks notices and all notices that refer to the
 		license and to the disclaimer of warranties - are retained in your package
 		in the form you have received them.",
-		
+
 		"Give the recipient a copy of the EUPL 1.1
 		license. If it is not already part of the software package, add	it.",
-		
+
 		"License your overarching program also under the
 		EUPL 1.1; Organize the sources of the on-top development in a way that they
 		are also covered by the EUPL-1.1 licensing statements."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 	"Let the copyright dialog of the on-top development
 	clearly say, that it uses the EUPL-1.1 licensed library and that it is itself
 	licensed under the EUPL-1.1 too.",
-		
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its

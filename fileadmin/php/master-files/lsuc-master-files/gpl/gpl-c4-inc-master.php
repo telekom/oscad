@@ -56,24 +56,24 @@ $gFbLiSpUcRequiresManArr=array(
   GPL-V3 itself. (Yes, repeat the disclaimer although it is also part of the
   license itself and although you are required to hand the license itself over
   to the receiver.)",
- 
+
   "Give the recipient a copy of the GPL-V2 resp.
   GPL-V3 license. If it is not already part of the software package, add
   it.",
 
   "Retain all existing copyright notices.",
-   
+  
   "Let the copyright dialog of the on-top development
   clearly say, that it uses the GPL licensed library and that it is itself
   licensed under the GPL-V2 resp. GPL-V3 too. Let it reproduce the content of
   the existing copyright notices, a hint to the software name, a link to its
   homepage, the respective disclaimer of warranty, and a link to the GPL-V2
-  resp. GPL-V3.", 
-   
+  resp. GPL-V3.",
+  
  "Organize the sources of the on-top development in
   a way that they are also covered by the GPL-V2 resp. GPL-V3 licensing
   statements."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

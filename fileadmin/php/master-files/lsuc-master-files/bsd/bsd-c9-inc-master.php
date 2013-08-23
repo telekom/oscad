@@ -51,7 +51,7 @@ $gFbLiSpUcRequiresManArr=array(
 		then create the copyright notice, the BSD conditions, and the BSD
 		disclaimer according to the form of the source code
 		package and insert these files into your distribution manually.",
-		
+
 		"Ensure that the documentation of your
 		distribution and/or your additional material also contain the author specific
 		copyright notice, the BSD conditions, and the BSD disclaimer."
@@ -66,7 +66,7 @@ $gFbLiSpUcRequiresVolArr=array(
   you are embedding this snimoli into a larger software unit, you are
   developing this larger unit. Hence, you can also expand the copyright notice
   of this larger unit by such a hint to its BSD components.",
-		
+
   "Arrange your binary distribution so that the
   licensing elements - esp. the BSD license text, the specific copyright
   notice of the original author(s), and the BSD disclaimer - clearly refer

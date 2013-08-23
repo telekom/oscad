@@ -44,36 +44,36 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Ensure that the licensing elements - esp. the copyright, patent or
 		trademarks notices and all notices that refer to the license and to the
 		disclaimer of warranties - are retained in your package in
 		the form you have received them.",
-		
+
 		"Give the recipient a copy of the EUPL 1.1
 		license. If it is not already part of the software package, add
 		it.",
-		
+
 		"Create a modification text file, if such a
 		notice file still does not exist. Expand the modification text
 		file by a description of your modifications.",
-		
+
 		"Organize your modifications of the embedded library in a way that they are
 		covered by the existing EUPL licensing statements. If you add new source
 		code files into the scope of the library, insert a header containing
 		your copyright line and an EUPL adequate licensing
 		the statement.",
-		
+
 		"License your overarching program also under the EUPL 1.1.",
-		
+
 		"Mark all modifications of source code of the	embedded library (snimoli)
 		thoroughly - namely within the source code and
 		including the date of the modification."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 	"Let the copyright dialog of the on-top development	clearly say, that it
 	uses the EUPL-1.1 licensed library and that it is itself
 	licensed under the EUPL-1.1 too.",

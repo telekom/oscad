@@ -50,15 +50,15 @@ $gFbLiSpUcRequiresManArr=array(
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code,
   whether or not you want to distribute the code.",
-		
+
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
   original software (project) and its homepage.",
-		
+
   "You can expand an existing copyright notice
   presented by the program with information about your own work or
   modifications.",
-		
+
   "It is a good practice of the open source
   community, to let the copyright notice which is shown by the program also
   state that it is based on a version originally licensed under the PGL license.

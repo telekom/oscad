@@ -42,11 +42,11 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Let the documentation of your distribution and/or your additional
 		material also contain a line of acknowledgment in the form 'This product
 		includes PHP, freely available from http://www.php.net/'.",
-		
+
 		"Let the documentation of your distribution and/or
 		your additional material also contain the original copyright notice, the PHP
 		conditions, and the PHP disclaimer.",
@@ -54,17 +54,17 @@ $gFbLiSpUcRequiresManArr=array(
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
   "Ensure that the complete PHP license - esp. the
   copyright notice, the PHP conditions, and the PHP disclaimer - are
   reproduced by your package. If such a notice is missed in the
   copyright screen, modify the screen so  that it reproduces the complete
   PHP license including the copyright notice, the PHP conditions, and the PHP
   disclaimer.",
-		
+
 		"Mark your modifications in the source code,
 		even if you do not want to distribute the code."
-		
+
 );
 
 $gFbLiSpUcForbidsPrefix="";

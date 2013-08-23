@@ -46,7 +46,7 @@ $gFbLiSpUcRequiresManArr=array(
 		the specific copyright notice of the original author(s), and the BSD
 		disclaimer - are retained in your package in the form you have
 		received them.",
-		
+
 		"Let the documentation of your distribution and/or your additional
 		material also contain the original copyright notice, the BSD
 		conditions, and the BSD disclaimer."

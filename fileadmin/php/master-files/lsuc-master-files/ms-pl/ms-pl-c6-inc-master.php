@@ -47,7 +47,7 @@ $gFbLiSpUcRequiresManArr=array();
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code even if
   do not want to distribute it.",
- 
+
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
   original software (project) and its homepage (as far as this does not clashes

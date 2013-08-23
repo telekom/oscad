@@ -47,13 +47,13 @@ $gFbLiSpUcRequiresManArr=array(
 		"Ensure that the licensing elements - esp.\ all copyright notices and
 		the disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them.",
-		
+
 		"Give the recipient a copy of the EPL 1.0 license. If it is not already
 		part of the software package, add it. If the licensing statement in the
 		licensing file of the package does still not clearly state that the package
 		is licensed under the EPL, additionally insert your own correct EPL
 		licensing file.",
-		
+
 		"If still not existing, integrate an explicit, very prominently placed
 		'No warranty' statement into the distributed source codepackage. Let this
 		statement clearly say that all (other) contributors to thesoftware do

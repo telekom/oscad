@@ -42,29 +42,29 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Ensure that the licensing elements - esp. all copyright notices and the
 		disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them.",
-		
+
 		"Create a modification text file, if such a	notice file still does not
 		exist. Expand the modification text	file by a more general description of
 		your modifications. Incorporate it into your distribution package.",
-		
+
 		"Mark all modifications of the source code of the program (proapse)
 		thoroughly - namely within the modfied source code.",
-		
+
 		"Give the recipient a copy of the EPL 1.0 license. If it is not already
 		part of the software package, add it. If the licensing statement in the
 		licensing file of the package does still not clearly state that the
 		package is licensed under the EPL, additionally insert your own
 		correct EPL licensing file.",
-		
+
 		"Organize your modifications in a way that they are
 		covered by the existing EPL licensing statements. If you add new source code
 		files, insert a header containing your copyright line and an EPL adequate
 		licensing the statement.",
-		
+
 		"If still not existing, integrate an explicit, very
 		prominently placed 'No warranty' statement into the distributed source code
 		package. Let this statement clearly say that all (other) contributors to the

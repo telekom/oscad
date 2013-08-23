@@ -44,7 +44,7 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Ensure that your distribution contains the original copyright notice,
 		the BSD license, and the BSD disclaimer in the form  you have received them.
 		If you compile the binary file on the base of the source code package and
@@ -52,7 +52,7 @@ $gFbLiSpUcRequiresManArr=array(
 		files then create the copyright notice, the BSD conditions, and the BSD
 		disclaimer according to the form of the source code package and insert
 		these files into your distribution manually.",
-		
+
 		"Ensure that the documentation of your distribution and/or your additional
 		material also contain the author specific copyright notice, the BSD
 		conditions, and the BSD disclaimer."

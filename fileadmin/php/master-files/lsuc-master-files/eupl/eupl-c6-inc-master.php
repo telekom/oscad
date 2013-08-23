@@ -47,7 +47,7 @@ $gFbLiSpUcRequiresManArr=array(
   copyright, patent or trademarks notices and all notices that refer to the
   license and to the disclaimer of warranties - are retained in your package in
   the form you have received them.",
- 
+
   "Give the recipient a copy of the EUPL 1.1
   license. If it is not already part of the software package, add
   it.",
@@ -55,16 +55,16 @@ $gFbLiSpUcRequiresManArr=array(
   "Create a modification text file, if such a
   notice file still does not exist. Expand the modification text
   file by a description of your modifications.",
-   
+  
   "Mark all modifications of source code of the
   program (proapse) thoroughly - namely within the source code and including
   the date of the modification.",
-  
+ 
   "Organize your modifications in a way that they are
   covered by the existing EUPL licensing statements. If you add new source code
   files, insert a header containing your copyright line and an EUPL adequate
   licensing the statement."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

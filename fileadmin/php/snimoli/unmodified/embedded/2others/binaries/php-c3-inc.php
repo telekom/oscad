@@ -53,7 +53,7 @@ $gFbLiSpUcRequiresManArr=array(
   files then create the copyright notice, the PHP conditions, and the PHP
   disclaimer according to the form of the source code package and insert these
   files into your distribution manually.",
- 
+
   "Let the documentation of your distribution and/or your additional
 	material also contain a line of acknowledgment in the form 'This product
 	includes PHP, freely available from http://www.php.net/'."

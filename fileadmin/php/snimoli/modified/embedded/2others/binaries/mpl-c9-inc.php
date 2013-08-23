@@ -57,25 +57,25 @@ $gFbLiSpUcRequiresManArr=array(
 		from the downloading user. Integrate an easily to find description into your
 		distribution package which explains how the code can be received from where.
 		Ensure, that this repository is usable reasonably long enough.",
- 
+
 		"Insert a prominent hint to the download repository
 		into your distribution and/or your additional material.",
 
 		"Execute the to-do list of use case MPL-8 (:- the same request parameters,
 		 but replace form = binaries by form = sources).",
-		
+
 		"Organize your modifications of the embedded
 		library in a way that they are covered by the existing MPL licensing
 		statements."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 		"Create a modification text file, if such a
 		notice file still does not exist. Expand the modification text
 		file by a more general description of your modifications. Incorporate it into
 		your distribution package.",
-		
+
 	"Give the recipient a copy of the MPL 2.0 license. If it is not already
 	part of the software package, add it. If the licensing statement in the
 	licensing file of the package does still not clearly state that the package
@@ -83,15 +83,15 @@ $gFbLiSpUcRequiresVolArr=array(
 	file containing the sentence: 'This Source Code Form is subject to the terms
 	of the Mozilla Public License, v. 2.0. If a copy of the MPL was not
 	distributed with this file, You can obtain one at
-	http://mozilla.org/MPL/2.0/'.",		
-		
+	http://mozilla.org/MPL/2.0/'.",
+
 		"Arrange your binary distribution so that the
 		integrated MPL and the licensing files clearly refer only to the
 		embedded library and do not disturb the licensing of your own overarching
 		work. It's a good tradition to keep the embedded components like libraries,
 		modules, snippets, or plugins in specific directory which contains also all
 		additional licensing elements.",
-		
+
 		"Let the documentation of your distribution and/or
 		your additional material  also reproduce the content of the existing
 		\emph{copyright notice text files}, a hint to the name of the used MPL
@@ -101,16 +101,16 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		
+
 		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
-		
+
 		"to promote any of your products - based on the this software - by
 		trademarks, service marks, or logos linked to this MPL software, except as
 		required for unpartially describing the used software and reproducing the
 		copyright notice."
-		
+
 		);
 
 ?>

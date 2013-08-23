@@ -49,11 +49,11 @@ $gFbLiSpUcRequiresManArr=array(
 		disclaimer of warranties - are retained in your package in the form you
 		have received them. If you compile the binary from the sources, ensure that
 		all the licensing elements are also incorporated into the package.",
-		
+
 		"Give the recipient a copy of the EUPL 1.1
 		license. If it is not already part of the binary package, add
 		it.",
-		
+
 		"Make the source code of the embedded library and the source code of
 		your overarching program accessible via a repository under your own
 		control (even if you do not modified it): Push the source code package into
@@ -61,25 +61,25 @@ $gFbLiSpUcRequiresManArr=array(
 		easily to find description into the distribution package which explains how
 		the code can be received from where. Ensure, that this repository is online
 		for as long as you continue to distribute the software.",
-		
+
 		"Insert a prominent hint to the download repository
 		into your distribution and/or your additional material.",
-		
+
 		"License your overarching program also under the
 		EUPL 1.1: Organize the binaries of the on-top development in a way that they
 		are also covered by the EUPL-1.1 licensing statements.",
-		
+
 		"Execute the to-do list of use case EUPL-C4 (:- the same request parameters,
 	  but replace form = binaries by form = sources)."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 	"Let the copyright dialog of the on-top development clearly say, that it
 	uses the EUPL-1.1 licensed library and that it is itself
 	licensed under the EUPL-1.1 too.",
-		
-		
+
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its

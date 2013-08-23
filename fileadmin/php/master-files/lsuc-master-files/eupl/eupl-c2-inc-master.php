@@ -49,10 +49,10 @@ $gFbLiSpUcRequiresManArr=array(
   copyright, patent or trademarks notices and all notices that refer to the
   license and to the disclaimer of warranties - are retained in your package in
   the form you have received them.",
- 
+
   "Give the recipient a copy of the EUPL 1.1  license. If it is not already
 	part of the software package, add it."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

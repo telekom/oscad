@@ -48,13 +48,13 @@ $gFbLiSpUcRequiresManArr=array(
   "Ensure that the complete Postgres License
   including the copyright notice, the permission notices, and the PGL disclaimer
   - are retained in your package in the form you have received them."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code,
   whether or not you want to distribute the code.",
- 
+
   "It is a good practice of the open source
   community, to let the copyright notice which is shown by the running program
   also state that the program uses a component being licensed under the PGL
@@ -65,7 +65,7 @@ $gFbLiSpUcRequiresVolArr=array(
   documentation of your program and/or your additional material also mention
   that you have used this component added by a link to the original software
   component and its homepage.",
- 
+
   "Arrange your distribution so that the original
   licensing elements - esp. the PGL license text containing the specific
   copyright notices of the original author(s), the permission notices and the

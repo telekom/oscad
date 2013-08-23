@@ -50,18 +50,18 @@ $gFbLiSpUcRequiresManArr=array(
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 		"Let the documentation of your distribution and/or your additional
 		material also contain the original copyright notice, the
 		BSD conditions, and the BSD disclaimer.",
-		
+
 		"It is a good practice of the open source community, to let the copyright
 		notice which is shown by the running program also state that it contains
 		components licensed under the BSD license. Because you are embedding this
 		snimoli into a larger software unit, you are developing this larger unit.
 		Hence, you can also expand the copyright notice of this larger unit by
 		such a hint to its BSD components.",
-		
+
 		"Arrange your source code distribution so that the licensing elements -
 		esp. the BSD license text, the specific copyright notice of the original
 		author(s), and the BSD disclaimer - clearly refer	only to the embedded
@@ -69,8 +69,8 @@ $gFbLiSpUcRequiresVolArr=array(
 		It's a good tradition to keep the embedded components like libraries,
 		modules, snippets, or plugins in specific directory which contains
 		also all additional licensing elements."
-		
-		
+
+
 );
 
 $gFbLiSpUcForbidsPrefix="";

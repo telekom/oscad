@@ -48,12 +48,12 @@ $gFbLiSpUcRequiresManArr=array(
   "Ensure that all licensing elements - esp. all
   copyright, patent, trademark, and attribution notices that are part of the
   version you received - are completely retained in your package.",
- 
+
   "Incorporate a complete copy of the MS-PL license
   into your package, regardless whether you distribute a source code or a binary
   package."
- 
-		
+
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

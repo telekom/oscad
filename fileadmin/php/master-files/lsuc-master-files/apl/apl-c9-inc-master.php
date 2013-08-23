@@ -45,37 +45,37 @@ $gFbLiSpUcNoTasks="";
 
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
-		
+
 		"Ensure that the licensing elements - esp. the specific copyright notice of
 		the original author(s) - are retained in your	package in the form you have
 		received them. If you compile the binary from the sources, ensure that
 		all the licensing elements are also incorporated into the package.",
-		
+
 		"Ensure that the notice text file contains
 		at least all the information of that notice text file you have
 		received.  If it still does not exist, create it. Expand the
 		\emph{notice text file} by a description of your modifications.",
-		
+
 		"Ensure that the notice text file is also reproduced if and whereever
 		such third-party notices normally appear. If your overarching program
 		displays its own copyright dialog, insert this information there."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
 		"Even if you do not want to distribute your
 		modified source code, mark all your modifications of the embedded
 		libary or snippet, or module, or plugin thoroughly.",
-		
+
 		"Let the documentation of your distribution and/or
 		your additional material also reproduce the content of the notice text
 		file, a hint to the software name, a link to its homepage, and a link to the
 		Apache 2.0 license - especially as subsection of your own copyright
 		notice.",
-		
+
 		"Arrange your binary distribution so that the
 		integrated Apache license and the notice text file clearly refer only
 		to the embedded library and do not disturb the licensing of your own

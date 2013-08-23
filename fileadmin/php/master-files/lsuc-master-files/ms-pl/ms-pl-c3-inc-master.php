@@ -46,35 +46,35 @@ $gFbLiSpUcRequiresManArr=array(
 		"Ensure that all licensing elements - esp. all
 		copyright, patent, trademark, and attribution notices that are part of the
 		version you received - are completely retained in your package.",
-		
+
 		"Incorporate a complete copy of the MS-PL license
 		into your package.",
-		
+
 		"If you do not want to publish your modifications
 		under the MS-PL too, then cleanly separate your own sources and licensing
 		documents from original elements of the adopted work."
-		
-		
+
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the sourcecode.",
- 
+
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
   original software (project) and its homepage (as far as this does not clashes
   with the prohibitions stated below).",
- 
+
   "You are allowed to expand an existing copyright
   notice of the program to mention your own contributions.",
- 
+
   "It is a good practice of the open source
   community, to let the copyright notice which is shown by the running program
   also state that the program is licensed under the MS-PL license (as far as
   this does not clashes with the prohibitions stated below). Because you are
   already modifying the program, you can also add such a hint, if the
   original copyright notice lacks such a statement.",
-		
+
 );
 
 $gFbLiSpUcForbidsPrefix="";

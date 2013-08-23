@@ -42,7 +42,7 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		
+
 	"Ensure that the complete PHP license - esp.
 	the copyright notice, the PHP conditions, and the PHP disclaimer - are
 	retained in your package in the form you have received them.",
@@ -56,7 +56,7 @@ $gFbLiSpUcRequiresVolArr=array(
 	"Let the documentation of your distribution and/or
   your additional material also contain the original copyright notice, the PHP
   conditions, and the PHP disclaimer.",
-		
+
 	"It is a good practice of the open source
   community, to let the copyright notice which is shown by the running program
   also state that the program is licensed under the PHP license. Because you are
@@ -66,7 +66,7 @@ $gFbLiSpUcRequiresVolArr=array(
   reproduce the complete PHP license including the copyright notice, the
   PHP conditions, and the PHP disclaimer - as it is required for binary
   distributions.",
-		
+
 	"Mark your modifications in the source code."
 );
 

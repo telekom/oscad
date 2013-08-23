@@ -69,16 +69,16 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		
+
 		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
-		
+
 		"to promote any of your products - based on the this software - by
 		trademarks, service marks, or logos linked to this MPL software, except as
 		required for unpartially describing the used software and reproducing the
 		copyright notice."
-		
+
 		);
 
 ?>

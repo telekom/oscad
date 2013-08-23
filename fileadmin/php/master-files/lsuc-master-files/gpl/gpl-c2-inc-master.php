@@ -57,12 +57,12 @@ $gFbLiSpUcRequiresManArr=array(
 	(Yes, repeat the disclaimer although it is also part of the license itself
 	and although you are required to hand the license itself over
   to the receiver.)",
- 
+
   "Give the recipient a copy of the GPL-V2 resp. GPL-V3 license. If it
 	is not already part of the software package, add it.",
 
   "Retain all existing copyright notices."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

@@ -48,7 +48,7 @@ $gFbLiSpUcRequiresManArr=array(
   copyright notices, patent notices, disclaimers of warranty, or limitations of
   liability - are retained in your package in exact the form you have received
   them.",
- 
+
 	"Give the recipient a copy of the MPL 2.0 license. If it is not already
 	part of the software package, add it. If the licensing statement in the
 	licensing file of the package does still not clearly state that the package
@@ -57,25 +57,25 @@ $gFbLiSpUcRequiresManArr=array(
 	of the Mozilla Public License, v. 2.0. If a copy of the MPL was not
 	distributed with this file, You can obtain one at
 	http://mozilla.org/MPL/2.0/'.",
- 
+
   "Organize your modifications in a way that they are
   covered by the existing MPL licensing statements. If you add new source code
   files, insert a header containing your copyright line and an MPL adequate
   licensing the statement."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
 		"Create a modification text file, if such a
 		notice file still does not exist. Expand the modification text
 		file by a more general description of your modifications. Incorporate it into
 		your distribution package.",
-		
+
 		"Mark all modifications of the source code of the
 		library (snimoli) thoroughly - namely within
 		the modfied source code.",
-		
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
@@ -84,16 +84,16 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		
+
 		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
-		
+
 		"to promote any of your products - based on the this software - by
 		trademarks, service marks, or logos linked to this MPL software, except as
 		required for unpartially describing the used software and reproducing the
 		copyright notice."
-		
+
 		);
 
 ?>

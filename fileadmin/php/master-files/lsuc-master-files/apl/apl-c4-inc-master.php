@@ -45,14 +45,14 @@ $gFbLiSpUcRequiresManArr=array(
 
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
-		
+
 		"Ensure that the licensing elements - esp. the specific copyright notice
 		of the original author(s) - are retained in your package in the form you
 		have received them.",
-		
+
 		"Ensure that the notice text file contains at least all the information
 		of that notice text file you have received",
-		
+
 		"Ensure that the notice text file is also reproduced if and whereever
 		such third-party notices normally appear. If the program already displays
 		a copyright dialog, update it in an appropriate manner.",

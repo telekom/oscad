@@ -57,11 +57,11 @@ $gFbLiSpUcRequiresManArr=array(
   resp. by the LGPL-3.0 itself. (Yes, repeat the disclaimer although it is also
   part of the license itself and although you are required to hand the license
   itself over to the receiver.)",
- 
+
   "Give the recipient a copy of the LGPL-2.1 resp.
   LGPL-3.0 license. If it is not already part of the software package, add
   it.",
- 
+
   "Make the source code of the distributed software
   accessible via a repository under your own control (even if you do not
   modified it): Push the source code package into a repository, make it
@@ -69,25 +69,25 @@ $gFbLiSpUcRequiresManArr=array(
   into the distribution package which explains how the code can be received from
   where. Ensure, that this repository is online for at least 3 years after
   having distributed the last instance of your software package.",
- 
+
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
- 
+
   "Execute the to-do list of use case LGPL-C2 (:- the same request parameters,
 	but replace form = binaries by form = sources)."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
-		
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notices, a hint to the software name, a link to its homepage,
   the respective disclaimer of warranty, and a link to the LGPL-2.1 resp.
   LGPL-3.0.",
- 
+
   "Retain all existing copyright notices."
-		
+
 );
 
 $gFbLiSpUcForbidsPrefix="nothing explicitly with respect to this use case.";

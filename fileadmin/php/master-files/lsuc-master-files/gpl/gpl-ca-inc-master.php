@@ -57,41 +57,41 @@ $gFbLiSpUcRequiresManArr=array(
   GPL-V3 itself. (Yes, repeat the disclaimer although it is also part of the
   license itself and although you are required to hand the license itself over
   to the receiver.)",
- 
+
   "Give the recipient a copy of the GPL-V2 resp.
   GPL-V3 license. If it is not already part of the software package, add
   it.",
- 
+
   "Retain all existing copyright notices.",
- 
+
   "Let the copyright dialog of the on-top development
   clearly say, that it uses the GPL licensed library and that it is itself
   licensed under the GPL-V2 resp. GPL-V3 too. Let it reproduce the content of
   the existing copyright notices, a hint to the software name, a link to its
   homepage, the respective disclaimer of warranty, and a link to the GPL-V2
   resp. GPL-V3.",
-   
+  
   "Mark all modifications of source code of the
   embedded library (snimoli) thoroughly - namely within the source code and
   including the date of the modification.",
- 
+
   "Organize your modifications of the embedded
   library in a way that they are covered by the existing GPL licensing
   statements. If you add new source code files to library itself, insert a
   header containing your copyright line and a licensing the statement in the
   form required by the GNU project.",
- 
+
   "Organize the sources of the on-top development in
   a way that they are also covered by the GPL-V2 resp. GPL-V3 licensing
   statements."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Create a modification text file, if such a
   notice file still does not exist. Expand the modification text
   file by a description of your modifications.",
- 
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notices, a hint to the software name, a link to its homepage,

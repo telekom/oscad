@@ -48,21 +48,21 @@ $gFbLiSpUcRequiresManArr=array(
 		"Ensure that the licensing elements - esp. all copyright notices and the
 		disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them.",
-		
+
 		"Create a modification text file, if such a notice file still does not
 		exist. Expand the modification text file by a more general description
 		of your modifications. Incorporate it into
 		your distribution package.",
-		
+
 		"Mark all modifications of the source code of the
 		embedded library (snimoli) thoroughly - namely within the source code.",
-		
+
 		"Give the recipient a copy of the EPL 1.0 license. If it is not already
 		part of the software package, add it. If the licensing statement in the
 		licensing	file of the package does still not clearly state that the
 		embedded library is	licensed under the EPL, additionally insert your
 		own correct EPL licensing file.",
-		
+
 		"If still not existing, integrate an explicit, very
 		prominently placed 'No warranty' statement into the distributed source code
 		package. Let this statement clearly say that all (other) contributors to the
@@ -71,13 +71,13 @@ $gFbLiSpUcRequiresManArr=array(
 		EPL itself into that file. Let the copyright screen of your own overarching
 		program show the same information - as a specification for the embedded
 		component.",
-		
+
 		"Organize your modifications of the embedded
 		library in a way that they are covered by the existing EPL licensing
 		statements. If you add new source code files into the scope of the library,
 		insert a header containing your copyright line and an EPL adequate licensing
 		the statement."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
@@ -87,7 +87,7 @@ $gFbLiSpUcRequiresVolArr=array(
   work. It's a good tradition to keep the embedded components like libraries,
   modules, snippets, or plugins in specific directory which contains also all
   additional licensing elements.",
- 
+
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the name of the used EPL

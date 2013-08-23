@@ -3,7 +3,7 @@
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
  *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
- *  
+ * 
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as
  *  published by the Free Software Foundation, either version 3 of the
@@ -15,7 +15,7 @@
  *  GNU Affero General Public License for more details.
 
  *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/> 
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
 $hlColor="e20074";
@@ -65,12 +65,12 @@ $hlColor="e20074";
 
 function showImageHideText(imageId,textId) {
 	 document.getElementById(imageId).style.display='inline';
-	 document.getElementById(textId).style.display='none'; 	
+	 document.getElementById(textId).style.display='none';
 }
 
 function showTextHideImage(imageId,textId) {
 	 document.getElementById(imageId).style.display='none';
-	 document.getElementById(textId).style.display='inline'; 	
+	 document.getElementById(textId).style.display='inline';
 }
 
 </script>
@@ -92,7 +92,7 @@ function showTextHideImage(imageId,textId) {
 <th>
 
 <?php
- 
+
   $request=
   	htmlspecialchars("Provided I want to ") .
   	"<span style=\"color:$hlColor\">" . htmlspecialchars("$gOsucAction") . "</span>" .
@@ -116,7 +116,7 @@ function showTextHideImage(imageId,textId) {
   					"$gOsucRecipient : $gOsucForm : $gOsucLicense: ".
   					"$gOsucLicenseName : $gOsucLicenseRelease:" .
 													" $gOsucLicenseSubpath : $gOsucName >");
- 
+
 
 
 ?>
@@ -200,12 +200,12 @@ if ($gDebugLevel >= $gFaultDebugMsgs)
 		foreach ($gFbLiSpUcRequiresManArr as $task) {
 			echo "<li><b>mandatory: </b>". htmlspecialchars($task). "</li>\n";
 		};
-	
+
 		foreach ($gFbLiSpUcRequiresVolArr as $task) {
 			echo "<li><b>voluntary: </b>". htmlspecialchars($task). "</li>\n";
 		};
-		echo "</ul>\n";	
-	};	
+		echo "</ul>\n";
+	};
 	?>
 
 </td></p><p>
@@ -220,11 +220,11 @@ if ($gDebugLevel >= $gFaultDebugMsgs)
 		echo htmlspecialchars($gFbLiSpUcForbidsPrefix);
 	}
 	else {
-		echo "<ul>\n";	
+		echo "<ul>\n";
 		foreach ($gFbLiSpUcForbidsArr as $task) {
 			echo "<li>". htmlspecialchars($task). "</li>";
 		};
-		echo "</ul>\n";	
+		echo "</ul>\n";
 	};
 	?>
 </td>
@@ -250,7 +250,7 @@ open source use cases in general, see
 <?php
 
 
-if ($gOsLicPatentChapter!="") {	
+if ($gOsLicPatentChapter!="") {
 	echo "Finally," . htmlspecialchars($gFbLicenseName) .
 	' contains a patent clause; for details see
 	<a href="http://www.oslic.org/">OSLiC</a> chapter ' .

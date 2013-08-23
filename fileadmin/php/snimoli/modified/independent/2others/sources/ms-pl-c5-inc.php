@@ -49,16 +49,16 @@ $gFbLiSpUcRequiresManArr=array(
   version you received - are completely retained in your package.",
 
   "Incorporate a complete copy of the MS-PL license into your package.",
- 
+
   "If you do not want to publish your modifications
   under the MS-PL too, then cleanly separate your own sources and licensing
   documents from original elements of the adopted part(s)."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the sourcecode.",
- 
+
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the
   original software (project) and its homepage (as far as this does not clashes
