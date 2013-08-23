@@ -73,7 +73,7 @@ $gFbLiSpUcRequiresVolArr=array(
   GPL-V3."
 );
 
-$gFbLiSpUcForbidsPrefix="nothing explictly with respect to this use case.";
+$gFbLiSpUcForbidsPrefix="nothing explicitly with respect to this use case.";
 $gFbLiSpUcForbidsArr=array();
 
 ?>

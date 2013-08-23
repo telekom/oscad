@@ -103,7 +103,7 @@ $gFbLiSpUcRequiresVolArr=array(
   disclaimer of warranty, and a link to the GPL-V2 resp. to the GPL-V3."
 );
 
-$gFbLiSpUcForbidsPrefix="nothing explictly with respect to this use case.";
+$gFbLiSpUcForbidsPrefix="nothing explicitly with respect to this use case.";
 $gFbLiSpUcForbidsArr=array();
 
 ?>
