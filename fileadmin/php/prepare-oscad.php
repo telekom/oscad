@@ -4,7 +4,7 @@
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
  *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
- * 
+ *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as
  *  published by the Free Software Foundation, either version 3 of the
@@ -37,7 +37,7 @@ foreach ($gCoveringUseCaseMatrixArray as $license => $coveredByArray) {
 
 		/*
 		 * (2) copy (generate) the osuc-include file into the directory
-		 * [ Lateron this step might include a conversion
+		 * [ Later on this step might include a conversion
 		 *   of the oslic latex file in to the php include file ]
 		 */
 
@@ -57,10 +57,10 @@ foreach ($gCoveringUseCaseMatrixArray as $license => $coveredByArray) {
 		/*
 		 * (3) copy (generate) the lsuc-include-file of the license
 		 * specific use case which covers the general open source use case
-		 * into the corespinding finder directory
-		* [ Lateron this step might include a conversion
-		*   of the oslic latex file in to the php include file ]
-		*/
+		 * into the coresponding finder directory
+		 * [ Later on this step might include a conversion
+		 *   of the oslic latex file in to the php include file ]
+		 */
 
 		$lsucIncludeMasterFileName=getLsucIncludeMasterFilename($lsucName);
 		$lsucIncludeFileName=getLsucIncludeFilename($lsucName);
