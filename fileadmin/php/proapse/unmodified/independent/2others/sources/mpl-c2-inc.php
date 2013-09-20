@@ -1,22 +1,22 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
 
 
 $gFbLicenseName="MPLv2.0";
@@ -46,11 +46,11 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the licensing elements - esp. all copyright notices, patent 
-	notices, disclaimers of warranty, or limitations of liability - are 
+  "Ensure that the licensing elements - esp. all copyright notices, patent
+	notices, disclaimers of warranty, or limitations of liability - are
 	retained in your package in exact the form you have received them.",
 
-  "Give the recipient a copy of the MPL 2.0 license. If it is not already part 
+  "Give the recipient a copy of the MPL 2.0 license. If it is not already part
 	of the software package, add it. If the licensing statement in the licensing
   file of the package does still not clearly state that the package is licensed
   under the MPL, additionally insert your own correct MPL licensing file
@@ -69,16 +69,16 @@ $gFbLiSpUcRequiresVolArr=array(
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		
-		"to remove or to alter any license notices - including copyright notices, 
+
+		"to remove or to alter any license notices - including copyright notices,
 		patent notices, disclaimers of warranty, or limitations of liablility
 		- contained within the software package you have received.",
-		
+
 		"to promote any of your products - based on the this software - by
 		trademarks, service marks, or logos linked to this MPL software, except as
 		required for unpartially describing the used software and reproducing the
 		copyright notice."
-		
+
 		);
 
 ?>

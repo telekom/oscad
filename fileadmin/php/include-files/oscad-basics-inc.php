@@ -2,21 +2,26 @@
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+/*
+ * Matrix of known equivalences between use-cases
+ * and each license specific case.
+ */
 
 $gCoveringUseCaseMatrixArray = array(
 /*
@@ -112,7 +117,7 @@ $gCoveringUseCaseMatrixArray = array(
 			'OSUC-10S' => 'undefined',
 			'OSUC-10B' => 'undefined'
 			),
-*/
+ */
 	'EPLv1.0' => array(
 			'OSUC-01' => 'EPL-C1',
 			'OSUC-02S' => 'EPL-C2',
@@ -312,6 +317,11 @@ $gCoveringUseCaseMatrixArray = array(
 			)
 );
 
+/*
+ * Find and return the corresponding license use case
+ * for the open source use case scenario
+ */
+
 function computeCoveringLicenseSpecificUseCase($osucName,$osucLicense){
 	global $gCoveringUseCaseMatrixArray;
 
@@ -322,6 +332,9 @@ function computeCoveringLicenseSpecificUseCase($osucName,$osucLicense){
 	return $clsuc;
 }
 
+/*
+ * Return the directory corresponding to the use case name
+ */
 
 function getOsucDirectory($osucName) {
 	switch($osucName) {
@@ -362,21 +375,41 @@ function getOsucDirectory($osucName) {
 	}
 }
 
+/*
+ * Return the master filename for an open source use case
+ */
+
 function getOsucIncludeMasterFilename($osucName){
 	return strtolower($osucName) ."-inc-master.php";
 }
+
+/*
+ * Return the filename to include for an open source use case
+ */
 
 function getOsucIncludeFilename($osucName){
 	return strtolower($osucName) ."-inc.php";
 }
 
+/*
+ * Return the master filename for a specific license use case
+ */
+
 function getLsucIncludeMasterFilename($lsucName){
 	return strtolower($lsucName) ."-inc-master.php";
 }
 
+/*
+ * Return the filename to include for a specific license use case
+ */
+
 function getLsucIncludeFilename($lsucName){
 	return strtolower($lsucName) ."-inc.php";
 }
+
+/*
+ * Compute the name of the license from the specific use case name
+ */
 
 function getLicenseBasename($lsucName){
 

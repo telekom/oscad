@@ -53,9 +53,9 @@ if ($gFaultValue==$gSuccessValue)
 if ($gFaultValue==$gSuccessValue) {
   /*
    * (1) compute the general open source use case based on the
-  * 		 received GET/POST (form) parameters, extract its pure number
-  * 		 and compute the path to the corresponding include file
-  */
+   * 		 received GET/POST (form) parameters, extract its pure number
+   * 		 and compute the path to the corresponding include file
+   */
   $gOsucName=computeOsucName($gOsucType,$gOsucContext,
       $gOsucState,$gOsucRecipient,$gOsucForm);
 
@@ -68,8 +68,8 @@ if ($gFaultValue==$gSuccessValue) {
 
   /*
    * (2) compute the corresponding license specific use case which
-  * 		 covers the general open source use case
-  */
+   * 		 covers the general open source use case
+   */
 
   $gLsucName=computeCoveringLicenseSpecificUseCase($gOsucName,$gOsucLicense);
   $gLsucIncludeFileName=computeUcIncludeFileName(

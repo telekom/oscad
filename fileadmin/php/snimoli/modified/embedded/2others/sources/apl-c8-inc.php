@@ -1,22 +1,22 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
 
 $gFbLicenseName="ApLv2.0";
 $gFbLicenseSpecification="Apache License 2.0";
@@ -47,24 +47,24 @@ $gFbLiSpUcRequiresManArr=array(
 
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
-		
+
 		"Ensure that the licensing elements - esp. the specific copyright notice of
 		the original author(s) - are retained in your	package in the form you have
 		received them.",
-		
+
 		"Ensure that the notice text file contains at least all the
 		information of that notice text file you have received.",
-		
-		"Ensure that the notice text file is also reproduced if and whereever 
-		such third-party notices normally appear. If your overarching program 
+
+		"Ensure that the notice text file is also reproduced if and whereever
+		such third-party notices normally appear. If your overarching program
 		displays its own copyright dialog, insert this information
 		there.",
-		
-		"Inside of the library, snippet, module, or plugin source code, mark all 
-		your modifications thoroughly. Generate a notice text file, if it still 
-		does not exist. Expand the notice text file by a description of 
+
+		"Inside of the library, snippet, module, or plugin source code, mark all
+		your modifications thoroughly. Generate a notice text file, if it still
+		does not exist. Expand the notice text file by a description of
 		your modifications."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(

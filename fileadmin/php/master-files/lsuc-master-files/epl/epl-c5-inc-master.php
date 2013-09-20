@@ -1,22 +1,22 @@
-<?php 
+<?php
 
 /*  This file is part of OSCAd, the Open Source Compliance Advisor
  *
-*  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
-*
-*  This program is free software: you can redistribute it and/or modify
-*  it under the terms of the GNU Affero General Public License as
-*  published by the Free Software Foundation, either version 3 of the
-*  License, or (at your option) any later version.
+ *  Copyright (C) 2013 Karsten Reincke, Deutsche Telekom AG
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
 
-*  This program is distributed in the hope that it will be useful,
-*  but WITHOUT ANY WARRANTY; without even the implied warranty of
-*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*  GNU Affero General Public License for more details.
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
 
-*  You should have received a copy of the GNU Affero General Public License
-*  along with this program.  If not, see <http://www.gnu.org/licenses/>
-*/
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
 
 $gFbLicenseName="EPLv1.0";
 $gFbLicenseSpecification="Eclipse Public License";
@@ -56,7 +56,7 @@ $gFbLiSpUcRequiresManArr=array(
 
   "Mark all modifications of the source code of the
   program (proapse) thoroughly - namely within the  modfied source code.",
-  
+
   "Organize your modifications in a way that they are
   covered by the (existing) EPL licensing statements.",
 
@@ -74,13 +74,13 @@ $gFbLiSpUcRequiresManArr=array(
   Integrate an easily to find description into your distribution package which
   explains how the code can be received from where. Ensure, that this repository
   is usable reasonably long enough.",
-  
+
   "Insert a prominent hint to the download repository
   into your distribution and/or your additional material.",
 
   "Execute the to-do list of use case EPL-C4 (:- the same request parameters,
 		 but replace form = binaries by form = sources)."
-		
+
 );
 
 $gFbLiSpUcRequiresVolArr=array(
