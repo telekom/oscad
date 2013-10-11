@@ -19,7 +19,7 @@
  */
 
 $gFbLicenseName="PHPv3.0";
-$gFbLicenseSpecification="Postgres License";
+$gFbLicenseSpecification="PHP License";
 $gFbLicenseAbbr="PHP";
 $gFbLicenseRelease="3.0";
 
