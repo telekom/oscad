@@ -44,7 +44,7 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the licensing elements - esp.\ all copyright notices and
+		"Ensure that the licensing elements - esp. all copyright notices and
 		the disclaimer of warranty and liability - are retained
 		in your package in exact the form you have received them.",
 

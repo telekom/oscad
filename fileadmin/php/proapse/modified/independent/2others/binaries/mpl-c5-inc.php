@@ -33,7 +33,7 @@ $gFbLiSpUcName="MPL-C5";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-MPL licensed pro\gram, application, or server (proapse) to 3rd parties - in
+MPL licensed program, application, or server (proapse) to 3rd parties - in
 the form of binary files or as a binary package.";
 
 $gFbLiSpUcRequiresPrefix=

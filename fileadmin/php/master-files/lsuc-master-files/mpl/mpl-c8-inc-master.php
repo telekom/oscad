@@ -70,7 +70,7 @@ $gFbLiSpUcRequiresManArr=array(
 $gFbLiSpUcRequiresVolArr=array(
 
 	" Arrange your source code distribution so that the
-		integrated MPL and the \emph{licensing files} clearly refer only to the
+		integrated MPL and the licensing files clearly refer only to the
 		embedded library and do not disturb the licensing of your own overarching
 		work. It's a good tradition to keep the embedded components like libraries,
 		modules, snippets, or plugins in specific directory which contains also all

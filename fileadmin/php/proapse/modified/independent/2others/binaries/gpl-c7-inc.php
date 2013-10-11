@@ -33,7 +33,7 @@ $gFbLiSpUcName="GPL-C7";
 
 $gFbLiSpUcDesc=
 	"that you are going to distribute a modified version of the received
-GPL-V2 or GPL-V3 licensed pro\-gram, application, or server (proapse)
+GPL-V2 or GPL-V3 licensed program, application, or server (proapse)
 to 3rd parties - in the form of binary files or as a binary package.";
 
 $gFbLiSpUcRequiresPrefix=
