@@ -94,7 +94,7 @@ $gFbLiSpUcRequiresVolArr=array(
 
 		"Let the documentation of your distribution and/or
 		your additional material  also reproduce the content of the existing
-		\emph{copyright notice text files}, a hint to the name of the used MPL
+		copyright notice text files, a hint to the name of the used MPL
 		licensed component, a link to its homepage, and a link to the MPL 2.0
 		license - especially as subsection of your own copyright notice."
 );

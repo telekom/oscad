@@ -19,7 +19,7 @@
  */
 
 $gFbLicenseName="PHPv3.0";
-$gFbLicenseSpecification="Postgres License";
+$gFbLicenseSpecification="PHP License";
 $gFbLicenseAbbr="PHP";
 $gFbLicenseRelease="3.0";
 
@@ -48,7 +48,7 @@ $gFbLiSpUcRequiresManArr=array(
   "Let the documentation of your distribution and/or
   your additional material also contain a line of acknowledgment in the form
   'This product includes PHP, freely available from
-  http://www.php.net/$\rangle'.",
+  http://www.php.net/'.",
   
   "Let the documentation of your distribution and/or
   your additional material also contain the original copyright notice, the PHP
