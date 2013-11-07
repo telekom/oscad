@@ -35,7 +35,7 @@ $gFbLiSpUcDesc=
 	"that you are going to distribute an unmodified version of the
 received GPL-V2 or GPL-V3 licensed snippet, module or library to 3rd
 parties - as embedded component of a larger unit and in the form of binary
-files or as a bi\-na\-ry package.";
+files or as a binary package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

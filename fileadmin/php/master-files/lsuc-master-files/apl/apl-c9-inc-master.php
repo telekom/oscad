@@ -57,7 +57,7 @@ $gFbLiSpUcRequiresManArr=array(
 		"Ensure that the notice text file contains
 		at least all the information of that notice text file you have
 		received.  If it still does not exist, create it. Expand the
-		\emph{notice text file} by a description of your modifications.",
+		notice text file by a description of your modifications.",
 
 		"Ensure that the notice text file is also reproduced if and whereever
 		such third-party notices normally appear. If your overarching program
