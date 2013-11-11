@@ -1,3 +1,6 @@
+2013-11-11:
+a) split system into backend and frontend component
+
 2013-08-01:
 a) fault handling integrated into the backend
 b) frontend help system improved
