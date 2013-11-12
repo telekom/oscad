@@ -1,0 +1,574 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	(t)OSCAd - (Telekom) Open Source Compliance Advisor
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+
+
+
+<title>OSCAd: OSUC taxonomy</title>
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="date" content="2013-11-12T12:07:28" />
+<meta name="language" content="de" />
+
+<link rel="stylesheet" type="text/css" href="../../typo3temp/stylesheet_5d370599a3.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../fileadmin/css/2lfc.css" media="all" />
+
+
+
+<script src="../../typo3temp/javascript_93077bb238.js" type="text/javascript"></script>
+
+
+<meta name="google-site-verification" content="" />
+  <!--
+    * @copyright       Copyright 2013 by Karsten Reincke, Deutsche Telekom AG Darmstadt
+    * @license         AGPL 3.0 (http://www.gnu.org/licenses/agpl.html)
+    * @link            http://www.telekom.com/
+    * @release         0.97.4
+   -->
+
+<!--[if lte IE 7]>
+<link href="../../fileadmin/css/patches/patch-2lfc.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="../../fileadmin/js/jquery-1.5.2.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/hoverIntent.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/superfish.js"></script>
+<script type="text/javascript" src="../../fileadmin/js/oscad-form-validation.js"></script>
+<script type="text/javascript">
+  // initialise plugins
+  jQuery(function(){jQuery('ul.sf-menu').superfish();});
+</script>
+
+<meta http-equiv="content-language" content="de" scheme="DCTERMS.RFC3066" />
+<meta name="DC.Language" content="de" /><meta name="description" content="Get answers of the Open Source Compliance Advisor automatically computed on the base of traversing the oslic finder" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="copyright" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
+<link rev="made" href="mailto:opensource@telekom.de" />
+<meta http-equiv="reply-to" content="opensource@telekom.de" />
+<meta name="author" content="Karsten Reincke" />
+<meta name="DC.Description" content="Get answers of the Open Source Compliance Advisor automatically computed on the base of traversing the oslic finder" />
+<meta name="DC.Subject" content="" />
+<meta name="DC.Rights" content="Deutsche Telekom AG / P&amp;I, Darmstadt." />
+<meta name="DC.Creator" content="Karsten Reincke" />
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+</head>
+<body>
+
+  <!-- skip link navigation -->
+  <ul id="skiplinks">
+    <li><a class="skip" href="#nav">Skip to navigation (Press Enter).</a></li>
+    <li><a class="skip" href="#col3">Skip to main content (Press Enter).</a></li>
+  </ul>
+
+  <div class="page_margins">
+    <div class="page">
+      <div id="header" role="banner">
+        <div id="topnav">
+          <div id="topnavline" class="langMenu"><a href="../../en/requests/osuc-taxonomy.html" onfocus="blurLink(this);"><img src="../../fileadmin/images/flagEn.png" alt="Englisch" /></a><a href="../../de/anfragen/via-the-osuc-taxonomy.html" onfocus="blurLink(this);"><img src="../../fileadmin/images/flagDe.png" alt="Deutsch" /></a><a href="../../de/oscad/lizenz.html" title="License">Lizenz</a><a href="../../de/site/impressum.html" title="Imprint">Impressum</a><a href="../../de/site/html-sitemap.html" title="SITEMAP">Sitemap</a></div>
+        </div>
+        <div id="toplogo"><img src="../../fileadmin/images/oscad-logo-50x60.png" width="50" height="60" border="0" alt="" /></div>
+        <div id="topteaser"><div id="topTeaserSlideShow">genericFe-4-genericPhpBe</div><div id="teaserText"><a href="../../de/oscad/manifest.html" title="Manifesto">Konsultiert</a>,&nbsp;über das&nbsp;<a href="../../de/oscad/lizenz.html" title="License">freie Defaultfrontend.</a></div></div>
+        <div id="topslogan">Besser irgendeinen Weg durch den Dschungel gezeigt zu bekommen, als den besten selbst suchen zu müssen*<br /><span class="topSloganSource">*Pece Ravel</span></div>
+      </div>
+      <!-- begin: main navigation #nav -->
+
+      <div id="nav" role="navigation">
+        <div id="ddnavline" class="hlist"><ul class="sf-menu"><li><a href="../../de/oscad/teaser.html" onfocus="blurLink(this);">OSCAd</a><ul><li><a href="../../de/oscad/teaser.html" onfocus="blurLink(this);">Teaser</a></li><li><a href="../../de/oscad/lizenz.html" onfocus="blurLink(this);">Lizenz</a></li><li><a href="../../de/oscad/contributoren.html" onfocus="blurLink(this);">Contributoren</a></li><li><a href="../../de/oscad/manifest.html" onfocus="blurLink(this);">Manifest</a></li></ul></li><li class="active"><a href="../../de/anfragen/via-the-oslic-form-sheet.html" onfocus="blurLink(this);">ANFRAGEN</a><ul><li><a href="../../de/anfragen/via-the-oslic-form-sheet.html" onfocus="blurLink(this);">OSLiC form sheet</a></li><li class="current"><a href="../../de/anfragen/via-the-osuc-taxonomy.html" onfocus="blurLink(this);">OSUC taxonomy</a></li><li><a href="../../de/anfragen/die-parameter-verstehen.html" onfocus="blurLink(this);">Die Parameter verstehen</a><ul><li><a href="../../de/anfragen/die-parameter-verstehen/typ.html" onfocus="blurLink(this);">'Typ'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/kontext.html" onfocus="blurLink(this);">'Kontext'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/status.html" onfocus="blurLink(this);">'Status'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/rezipient.html" onfocus="blurLink(this);">'Rezipient'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/form.html" onfocus="blurLink(this);">'Form'</a></li></ul></li></ul></li><li><a href="../../de/download/vorbereiten.html" onfocus="blurLink(this);">DOWNLOAD</a><ul><li><a href="../../de/download/vorbereiten.html" onfocus="blurLink(this);">vorbereiten</a></li><li><a href="../../de/download/holen.html" onfocus="blurLink(this);">holen</a></li><li><a href="../../de/download/installieren.html" onfocus="blurLink(this);">installieren</a></li></ul></li><li><a href="../../de/oscad/contributoren.html" onfocus="blurLink(this);">FEEDBACK</a></li></ul></div>
+      </div>
+
+      <!-- end: main navigation -->
+
+
+      <!-- begin: main content area #main -->
+      <div id="main">
+        <!-- begin: #col1 - first float column -->
+        <div id="col1" role="complementary">
+          <div id="col1_content" class="clearfix">
+            <div id="sidenav"><ul id="sideMenuList"><li><span id="smTitle">Requests:</span></li><li><a href="../../de/anfragen/via-the-oslic-form-sheet.html" onfocus="blurLink(this);">OSLiC form sheet</a></li><li class="current"><a href="../../de/anfragen/via-the-osuc-taxonomy.html" onfocus="blurLink(this);">OSUC taxonomy</a></li><li><a href="../../de/anfragen/die-parameter-verstehen.html" onfocus="blurLink(this);">Die Parameter verstehen</a><ul><li><a href="../../de/anfragen/die-parameter-verstehen/typ.html" onfocus="blurLink(this);">'Typ'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/kontext.html" onfocus="blurLink(this);">'Kontext'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/status.html" onfocus="blurLink(this);">'Status'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/rezipient.html" onfocus="blurLink(this);">'Rezipient'</a></li><li><a href="../../de/anfragen/die-parameter-verstehen/form.html" onfocus="blurLink(this);">'Form'</a></li></ul></li></ul></div>
+            <div id="sideteaser">
+	<!--  CONTENT ELEMENT, uid:226/html [begin] -->
+		<div id="c226" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="large box">
+<h3>Hint</h3>
+<p style="text-align:left; font-size:x-small">
+The OSLiC and the OSCAd are dealing with prototypic cases. If you feel, that
+your specific case can't be specified by the taxonomy or is irregularily covered 
+by one of the cases (false positives), please contact your legal expert. If you feel
+that your specific case is irregularly not covered by our taxonomy (false negative), 
+contact us, please!
+</p>
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:226/html [end] -->
+		</div>
+            <!--  CONTENT ELEMENT, uid:4/text [end] -->
+          </div>
+        </div>
+        <!-- end: #col1 -->
+        <!-- begin: #col3 static column -->
+        <div id="col3" role="main">
+          <div id="col3_content" class="clearfix">
+	<!--  CONTENT ELEMENT, uid:198/html [begin] -->
+		<div id="c198" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="huge box">
+<h2 id="TestId" onmouseover="replaceByMouseOver();" onmouseout="replaceByMouseOut();">Request the Open Soure Compliance Advisor by traversing the OSUC taxonomy</h2>
+
+
+<table>
+<tr>
+<td colspan="7">
+<h3>What do I have to do for using or distributing a piece of open source software 
+in accordance to specific open source license - as a modified or unmodified, 
+embedded or independent application or library, used or distributed in the form 
+of binaries or sources?
+</h3>
+</td>
+</tr>
+<tr>
+<th>Type:&nbsp;<a href="../../de/anfragen/die-parameter-verstehen/typ.html" target="_self"><image id="TypeHelpButtonId" src="../../fileadmin/images/hilfe-16x16.png" />
+ </a>
+</th>
+<th>State:&nbsp;<a href="../../de/anfragen/die-parameter-verstehen/status.html" target="_self"><image id="ContextHelpButtonId" src="../../fileadmin/images/hilfe-16x16.png" />
+ </a></th>
+<th>Context:&nbsp; <a href="../../de/anfragen/die-parameter-verstehen/kontext.html" target="_self"><image id="StateHelpButtonId" src="../../fileadmin/images/hilfe-16x16.png" />
+ </a></th>
+<th>Recipient:&nbsp;<a href="../../de/anfragen/die-parameter-verstehen/rezipient.html" target="_self"><image id="RecipientHelpButtonId" src="../../fileadmin/images/hilfe-16x16.png" />
+ </a></th>
+<th>Form:&nbsp;<a href="../../de/anfragen/die-parameter-verstehen/form.html" target="_self"><image id="FormHelpButtonId" src="../../fileadmin/images/hilfe-16x16.png" />
+ </a></th>
+<th>OSUC
+</th>
+<th>License:
+</th>
+</tr>
+<tr>
+<td rowspan="6" bgcolor="#b0b0b0">
+program, <br />application, <br />or server<br />
+(proapse)
+
+</td>
+<td rowspan="3" bgcolor="#c0c0c0">unmodified</td>
+<td rowspan="3" bgcolor="#d0d0d0">independent</td>
+<td bgcolor="#e0e0e0">4yourself</td>
+<td bgcolor="#f0f0f0">sources | binaries</td>
+<td>
+  <form name="Osuc01Form" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="4yourself" />
+   <input type="hidden" name="FocusForm" value="any" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc1license" />
+   <input type="submit" name="submit" value="OSUC-01" onclick="integrateLicenseSelection('osuc1license')" />
+  <!-- {proapse, independent, unmodified, 4yourself, [sources | binaries]} -->
+  </form>
+</td>
+<td rowspan="16">
+  <form name="License2Form">
+     <table class="inner">
+
+     <tr>
+       <td>
+       <input type="radio" name="GlobalFocusLicense" value="AGPLv3.0" id="agpl30Id" /></td>
+       <td>AGPLv3.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="ApLv2.0" id="apl20Id" /></td>
+       <td>ApLv2.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="BSDv2CL" id="bsd2Id" /></td>
+       <td>BSDv2CL</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="BSDv3CL" id="bsd3Id" /></td>
+       <td>BSDv3CL</td>
+     </tr>
+     <tr> 
+       <td><input type="radio" name="GlobalFocusLicense" value="CDDLv1.0" id="cddl10Id" /></td>
+       <td>CDDLv1.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="EPLv1.0" id="epl10Id" /></td>
+       <td>EPLv1.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="EUPLv1.1" id="eupl11Id" /></td>
+       <td>EUPLv1.1</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="GPLv2.0" id="gpl20Id" checked="yes" /></td>
+       <td>GPLv2.0</td>
+     </tr>
+     <tr> 
+       <td><input type="radio" name="GlobalFocusLicense" value="GPLv3.0" id="gpl30Id" /></td>
+       <td>GPLv3.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="LGPLv2.1" id="lgpl21Id" /></td>
+       <td>LGPLv2.1</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="LGPLv3.0" id="lgpl30Id" /></td>
+       <td>LGPLv3.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="MIT" id="mitId" /></td>
+       <td>MIT</td>
+    </tr>
+     <tr> 
+       <td><input type="radio" name="GlobalFocusLicense" value="MPLv2.0" id="mpl20Id" /></td>
+       <td>MPLv2.0</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="MS-PL" id="msplId" /></td>
+       <td>MS-PL</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="PGL" id="pglId" /></td>
+       <td>PGL</td>
+    </tr>
+     <tr>
+       <td><input type="radio" name="GlobalFocusLicense" value="PHPv3.0" id="php30Id" /></td>
+       <td>PHPv3.0</td>
+     </tr>
+   </table>
+
+
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" align="center" valign="middle" bgcolor="#e8e8e8">2others</td>
+<td bgcolor="#f8f8f8">sources</td>
+<td>
+  <form name="Osuc02SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc2Slicense" />
+   <input type="submit" name="submit" value="OSUC-02S" onclick="integrateLicenseSelection('osuc2Slicense')" />
+    <!-- {proapse, independent, unmodified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f0f0f0">binaries</td>
+<td>
+  <form name="Osuc02BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc2Blicense" />
+   <input type="submit" name="submit" value="OSUC-02B" onclick="integrateLicenseSelection('osuc2Blicense')" />
+    <!-- {proapse, independent, unmodified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="3" bgcolor="#c8c8c8">modified</td>
+<td rowspan="3" bgcolor="#d8d8d8">independent</td>
+<td bgcolor="#e0e0e0">4yourself</td>
+<td bgcolor="#f8f8f8">sources | binaries</td>
+<td>
+  <form name="Osuc03Form" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="4yourself" />
+   <input type="hidden" name="FocusForm" value="any" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc3license" />
+   <input type="submit" name="submit" value="OSUC-03" onclick="integrateLicenseSelection('osuc3license')" />
+    <!-- {proapse, independent, modified, 4yourself, [sources|binaries]} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" bgcolor="#e8e8e8">2others</td>
+<td bgcolor="#f0f0f0">sources</td>
+<td>
+  <form name="Osuc04SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc4Slicense" />
+   <input type="submit" name="submit" value="OSUC-04S" onclick="integrateLicenseSelection('osuc4Slicense')" />
+    <!-- {proapse, independent, modified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f8f8f8">binaries</td>
+<td>
+  <form name="Osuc04BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="proapse" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc4Blicense" />
+   <input type="submit" name="submit" value="OSUC-04B" onclick="integrateLicenseSelection('osuc4Blicense')" />
+    <!-- {proapse, independent, modified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="10" bgcolor="#b8b8b8">
+snippet, <br />module, <br />or library<br />
+(snimoli)
+
+</td>
+<td rowspan="5" bgcolor="#c0c0c0">unmodified</td>
+<td rowspan="2" bgcolor="#c8c8c8">independent</td>
+<td rowspan="2" bgcolor="#e0e0e0">2others</td>
+<td bgcolor="#f0f0f0">sources</td>
+<td>
+  <form name="Osuc05SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc5Slicense" />
+   <input type="submit" name="submit" value="OSUC-05S" onclick="integrateLicenseSelection('osuc5Slicense')" />
+    <!-- {snimoli, independent, unmodified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f8f8f8">binaries</td>
+<td>
+  <form name="Osuc05BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc5Blicense" />
+   <input type="submit" name="submit" value="OSUC-05B" onclick="integrateLicenseSelection('osuc5Blicense')" />
+    <!-- {snimoli, independent, unmodified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="3" bgcolor="#d8d8d8">embedded</td>
+<td bgcolor="#e8e8e8">4yourself</td>
+<td bgcolor="#f0f0f0">sources | binaries</td>
+<td>
+  <form name="Osuc06Form" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="4yourself" />
+   <input type="hidden" name="FocusForm" value="any" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc6license" />
+   <input type="submit" name="submit" value="OSUC-06" onclick="integrateLicenseSelection('osuc6license')" />
+    <!-- {snimoli, embedded, unmodified, 4yourself, [sources | binaries]} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" bgcolor="#e0e0e0">2others</td>
+<td bgcolor="#f8f8f8">sources</td>
+<td>
+  <form name="Osuc07SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc7Slicense" />
+   <input type="submit" name="submit" value="OSUC-07S" onclick="integrateLicenseSelection('osuc7Slicense')" />
+    <!-- {snimoli, embedded, unmodified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f0f0f0">binaries</td>
+<td>
+  <form name="Osuc07BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="unmodified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc7Blicense" />
+   <input type="submit" name="submit" value="OSUC-07B" onclick="integrateLicenseSelection('osuc7Blicense')" />
+    <!-- {snimoli, embedded, unmodified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="5" bgcolor="#c8c8c8">modified</td>
+<td rowspan="2" bgcolor="#d0d0d0">independent</td>
+<td rowspan="2" bgcolor="#e8e8e8">2others</td>
+<td bgcolor="#f8f8f8">sources</td>
+<td>
+  <form name="Osuc08SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc8Slicense" />
+   <input type="submit" name="submit" value="OSUC-08S" onclick="integrateLicenseSelection('osuc8Slicense')" />
+    <!-- {snimoli, independent, modified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f0f0f0">binaries</td>
+<td>
+  <form name="Osuc08BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="independent" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc8Blicense" />
+   <input type="submit" name="submit" value="OSUC-08B" onclick="integrateLicenseSelection('osuc8Blicense')" />
+    <!-- {snimoli, independent, modified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="3" bgcolor="#d8d8d8">embedded</td>
+<td bgcolor="#e0e0e0">4yourself</td>
+<td bgcolor="#f8f8f8">sources | binaries</td>
+<td>
+  <form name="Osuc09Form" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="4yourself" />
+   <input type="hidden" name="FocusForm" value="any" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc9license" />
+   <input type="submit" name="submit" value="OSUC-09" onclick="integrateLicenseSelection('osuc9license')" />
+    <!-- {snimoli, embedded, modified, 4yourself, [sources | binaries]} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td rowspan="2" bgcolor="#e8e8e8">2others</td>
+<td bgcolor="#f0f0f0">sources</td>
+<td>
+  <form name="Osuc10SForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="sources" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc10Slicense" />
+   <input type="submit" name="submit" value="OSUC-10S" onclick="integrateLicenseSelection('osuc10Slicense')" />
+    <!-- {snimoli, embedded, modified, 2others, sources} -->
+  </form>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#f8f8f8">binaries</td>
+<td>
+  <form name="Osuc10BForm" action="../../fileadmin/php/oscad.php" method="get">
+   <input type="hidden" name="FocusType" value="snimoli" />
+   <input type="hidden" name="FocusContext" value="embedded" />
+   <input type="hidden" name="FocusState" value="modified" />
+   <input type="hidden" name="FocusRecipient" value="2others" />
+   <input type="hidden" name="FocusForm" value="binaries" />
+   <input type="hidden" name="FocusLicense" value="GPLv3.0" id="osuc10Blicense" />
+   <input type="submit" name="submit" value="OSUC-10B" onclick="integrateLicenseSelection('osuc10Blicense')" />
+    <!-- {snimoli, embedded, modified, 2others, binaries} -->
+  </form>
+</td>
+</tr>
+
+
+</table>
+</div>
+
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:198/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:197/text [begin] -->
+		<div id="c197" class="csc-default">
+		<!--  Text: [begin] -->
+			<div class="huge box"><h3>Context Rules</h3><ul><li>A program (proapse) is ever used / distributed as an independent unit [but not vice versa]</li> <li>Each embedded component is a snippet, module or library (snimoli) [but not vice versa].</li> <li>Each snippet, module or library (snimoli) being used 4yourself is an embedded component [but not vice versa].</li></ul></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:197/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:196/text [begin] -->
+		<div id="c196" class="csc-default">
+		<!--  Text: [begin] -->
+			<div class="huge box"><h2>Disclaimer of Warranty</h2>
+<p class="bodytext"> THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION</p>
+<h2>Limitation of Liability</h2>
+<p class="bodytext"> IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. </p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:196/text [end] -->
+		</div>
+        </div>
+
+        <div id="ie_clearing">&nbsp;</div>
+
+        <!-- End: IE Column Clearing -->
+      </div>
+      <!-- end: #col3 -->
+    </div>
+    <!-- end: #main -->
+    <!-- begin: #footer -->
+    <div id="footer" role="contentinfo"><p>OSCAd-0.97.4 &copy; 2013-2013&nbsp;Karsten Reincke,&nbsp;Deutsche Telekom AG    . Layout basiert auf <a href="http://www.yaml.de/" target="_blank">YAML</a> 
+     &copy; von <a href="http://www.highresolution.info" target="_blank">Dirk Jesse</a>,
+    ergänzt um ein <a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish</a> 
+    Dropdownmenu.    OSCAd ist freie Software. Sie können es unter den Bedingungen der GNU Affero General 
+    Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder 
+    modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren 
+    Version. Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von 
+    Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der 
+    MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in 
+    der <a href="http://www.gnu.org/licenses/agpl-3.0">GNU Affero General Public License</a>. 
+</p></div>
+    <!-- end: #footer -->
+  </div>
+
+
+
+
+</body>
+</html>

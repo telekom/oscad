@@ -2,19 +2,20 @@ How to set up / install your own OSCAd instance:
 ================================================
 
 (I) Combining the basic php backend and frontends:
-( {backend/basic-php.be/} 
-x { frontends/basicDemoFe-4-basicPhpBe,
-    frontends/basicTbrandedFe-4-basicPhpBe
+( {backend/generic-php.be/} 
+x { frontends/genericFe-4-genricPhpBe,
+    frontends/tbrandedFe-4-genericPhpBe
   })
 ------------------------------------------------
 
-(1) generate a directory 'toscad' under your web server root directory.
-(2) copy the complete content of the sielected frontend directory 
+(1) generate a top directory under your web server root directory
+    like oscad, foscad, toscad or anthing else.
+(2) copy the complete content of the selected frontend directory 
     into this newly generated 'toscad' directory
-(3) copy the php backend directory into the directory
+(3) copy the generic php backend directory into the directory
     /???/toscad/fileadmin/
-(4) Rename /???/toscad/fileadmin/basic-php.be as /???/toscad/fileadmin/php
-(5) Change into that directory /???/toscad/fileadmin/php/
+(4) Rename /???/toscad/fileadmin/generic-php.be as /???/toscad/fileadmin/php
+(5) Change into the directory /???/toscad/fileadmin/php/
 (6) Open a shell and call php ./prepare-oscad.php
 (7) Call your webserver url: http.//your-domain/toscad/index.html
 
