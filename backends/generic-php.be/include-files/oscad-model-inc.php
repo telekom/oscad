@@ -42,7 +42,7 @@ $gAcceptedUcParameters = array(
   'RECIPIENT' => array('4yourself','2others'),
   'TYPE' => array('snimoli','proapse'),
   'STATE' =>array('modified','unmodified'),
-  'FORM' => array('binaries','sources'),
+  'FORM' => array('binaries','sources','any'),
   'CONTEXT' => array('independent','embedded')
 );
 

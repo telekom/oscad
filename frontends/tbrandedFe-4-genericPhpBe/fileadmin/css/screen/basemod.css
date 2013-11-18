@@ -103,9 +103,9 @@
   #topteaser {
     position: absolute;
     background: #ffffff;
-    margin: 6px 0px 0px 56%;
+    margin: 6px 0px 0px 30%;
     height: 60px;
-    width: 128px;
+    width: 256px;
     padding: 0px 2px 0px 2px;
     color: #fff;
   }
