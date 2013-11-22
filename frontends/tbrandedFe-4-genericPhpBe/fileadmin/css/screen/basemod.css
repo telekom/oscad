@@ -71,7 +71,7 @@
 	#header {
     color: #888;
     background: #ffffff repeat-x top left;
-    padding: 6px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     height: 54px;
 		position: relative;
 	}	
@@ -94,16 +94,18 @@
     font-style: italic;
 	}
 
-	 #toplogo {
+  #toplogo {
     position: absolute;
-    background-color: transparent;
-    margin: 0px 0px 0px 16px;
+    background-color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    height: 60px;
+    width: 128px;
   }
 
   #topteaser {
     position: absolute;
     background: #ffffff;
-    margin: 6px 0px 0px 30%;
+    margin: 0px 0px 0px 30%;
     height: 60px;
     width: 256px;
     padding: 0px 2px 0px 2px;
