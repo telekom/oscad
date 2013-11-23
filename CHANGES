@@ -1,3 +1,6 @@
+2013-11-23:
+a) seperated tbranded interface from geggenric interface
+b) made backend customizable
 2013-11-18:
 a) improved t-branded frontend
 b) fixed handling of any parameter for serving the taxonomy interface correctly
