@@ -17,8 +17,9 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
+include("oscad-be-config-inc.php");
 
-$hlColor="e20074";
+
 ?>
 
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
