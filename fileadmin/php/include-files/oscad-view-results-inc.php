@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$hlColor="e20074";
+$hlColor="000088";
 ?>
 
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">

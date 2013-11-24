@@ -123,15 +123,15 @@
 
   /*--- Links ----------------------------------------------------------------------------------------- */
 
-  a { color:#e20074; background:transparent; text-decoration:none; }
-  a:visited  { color:#e20074; }
+  a { color:#000088; background:transparent; text-decoration:none; }
+  a:visited  { color:#000088; }
 
   /* (en) maximum constrast for tab focus - change with great care */
   /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
-  a:focus { text-decoration:underline; color:#e20074; 
+  a:focus { text-decoration:underline; color:#000088; 
   background: #fff; outline: 3px #f93 solid; }
   a:hover,
-  a:active { color:#e20074; text-decoration:underline; outline: 0 none; }
+  a:active { color:#000088; text-decoration:underline; outline: 0 none; }
 
   /* --- images (with optional captions) | Bilder (mit optionaler Bildunterschrift) ------------------ */
 

@@ -44,7 +44,7 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-		"Ensure that the licensing elements - esp.\ the copyright, patent or
+		"Ensure that the licensing elements - esp. the copyright, patent or
 		trademarks notices and all notices that refer to the license and to the
 		disclaimer of warranties - are retained in your package in the form you
 		have received them. If you compile the binary from the sources, ensure that
