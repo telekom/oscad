@@ -1,18 +1,12 @@
-OSCAd, the (Telekom) Open Source Compliance Advisor
+OSCAd, the Open Source Compliance Advisor
 (c) 2013 Karsten Reincke, Deutsche Telekom AG, Darmstadt, Germany
+(c) 2014 ..., Amadeus GmbH, Bad Homburg, Germany
 
     OSCAd is free software: 
-    (1) you can (re)distribute and/or modify its backend components 
+    You can (re)distribute and/or modify its components 
     under the terms of the GNU Affero General Public License as
     published by the Free Software Foundation, either version 3 of the
     License, or (at your option) any later version.
-
-    (2) generally, you can (re)distribute and/or modify its frontends
-    under the terms of the GNU General Public License as
-    published by the Free Software Foundation, either version 3 of the
-    License, or (at your option) any later version (Specific frontends
-    may be published under other open source licenses [see the file
-    COPYING in the frontend directories] )
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
