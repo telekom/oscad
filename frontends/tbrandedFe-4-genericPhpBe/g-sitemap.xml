@@ -46,7 +46,7 @@
 	</url>
 	<url>
 		<loc>http://opensource.telekom.net/en/site/imprint.html</loc>
-		<lastmod>2013-11-22</lastmod>
+		<lastmod>2014-01-02</lastmod>
 	</url>
 	<url>
 		<loc>http://opensource.telekom.net/en/requests/understanding-the-parameters/type.html</loc>
@@ -71,5 +71,9 @@
 	<url>
 		<loc>http://opensource.telekom.net/en/requests/understanding-the-parameters.html</loc>
 		<lastmod>2013-08-21</lastmod>
+	</url>
+	<url>
+		<loc>http://opensource.telekom.net/en/site/floss-auxiliaries.html</loc>
+		<lastmod>2014-02-03</lastmod>
 	</url>
 </urlset>
