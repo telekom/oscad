@@ -188,6 +188,7 @@ $gCoveringUseCaseMatrixArray = array(
 			'OSUC-08B' => 'GPL-C9',
 			'OSUC-09' => 'GPL-C1',
 			'OSUC-10S' => 'GPL-CA',
+			'OSUC-10B' => 'GPL-CB'
 	),
 	'LGPLv2.1' => array(
 			'OSUC-01' => 'LGPL-C1',

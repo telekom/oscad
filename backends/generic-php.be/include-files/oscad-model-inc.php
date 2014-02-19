@@ -24,7 +24,7 @@ $gNoDebugMsgs=0;
 $gFaultDebugMsgs=5;
 $gAllDebugMsgs=10;
 
-$gDebugLevel = 0;
+$gDebugLevel = 10;
 
 $gHttpRequestMethod = $_SERVER['REQUEST_METHOD'];
 $gHttpRequestParameters = array();
@@ -411,6 +411,9 @@ function computeUcIncludeFileName(
 				strtolower($ucCaseName) . "-inc.php";
 	}
 
+	
+	if ($gDebugLevel>=$gFaultDebugMsgs)
+		echo "<br />" . htmlspecialchars("< relativePath:  $relativePath>");
 	return $relativePath;
 
 }

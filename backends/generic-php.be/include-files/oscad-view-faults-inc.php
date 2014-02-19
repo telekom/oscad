@@ -76,7 +76,7 @@ include("oscad-be-config-inc.php");
 <p style="text-align:left;">
 Your OSCAd System seems to be set up incorrectly. Did your forget to call
 php prepare-oscad.php?
-</p>p>
+</p>
 </div>
 </body>
 </html>
