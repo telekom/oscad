@@ -24,7 +24,7 @@ $gNoDebugMsgs=0;
 $gFaultDebugMsgs=5;
 $gAllDebugMsgs=10;
 
-$gDebugLevel = 10;
+$gDebugLevel = 0;
 
 $gHttpRequestMethod = $_SERVER['REQUEST_METHOD'];
 $gHttpRequestParameters = array();
@@ -393,6 +393,13 @@ function computeUcIncludeFileName(
 		$osucForm,
 		$osucContext,
 		$ucCaseName) {
+	global
+	$gFaultDebugMsgs,
+	$gAllDebugMsgs,
+	$gDebugLevel;
+
+
+
 	$relativePath="undefined";
 	if ("$osucRecipient" == "4yourself") {
 		$relativePath="./".
@@ -413,7 +420,7 @@ function computeUcIncludeFileName(
 
 	
 	if ($gDebugLevel>=$gFaultDebugMsgs)
-		echo "<br />" . htmlspecialchars("< relativePath:  $relativePath>");
+		echo "<br />" . htmlspecialchars("< $relativePath:  $relativePath>");
 	return $relativePath;
 
 }
