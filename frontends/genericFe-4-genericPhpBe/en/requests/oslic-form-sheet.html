@@ -19,7 +19,7 @@
 
 <title>OSCAd: OSLiC form sheet</title>
 <meta name="generator" content="TYPO3 4.5 CMS" />
-<meta name="date" content="2014-02-03T15:04:11" />
+<meta name="date" content="2014-02-28T16:50:24" />
 <meta name="language" content="en" />
 
 <link rel="stylesheet" type="text/css" href="../../typo3temp/stylesheet_5d370599a3.css" media="all" />
@@ -35,7 +35,7 @@
     * @copyright       Copyright 2013 by Karsten Reincke, Deutsche Telekom AG Darmstadt
     * @license         AGPL 3.0 (http://www.gnu.org/licenses/agpl.html)
     * @link            http://www.telekom.com/
-    * @release         0.97.4
+    * @release         0.98.6
    -->
 
 <!--[if lte IE 7]>
@@ -98,6 +98,14 @@
           <div id="col1_content" class="clearfix">
             <div id="sidenav"><ul id="sideMenuList"><li><span id="smTitle">Requests:</span></li><li class="current"><a href="../../en/requests/oslic-form-sheet.html" onfocus="blurLink(this);">OSLiC form sheet</a></li><li><a href="../../en/requests/osuc-taxonomy.html" onfocus="blurLink(this);">OSUC taxonomy</a></li><li><a href="../../en/requests/understanding-the-parameters.html" onfocus="blurLink(this);">Understanding the parameters</a><ul><li><a href="../../en/requests/understanding-the-parameters/type.html" onfocus="blurLink(this);">'Type'</a></li><li><a href="../../en/requests/understanding-the-parameters/context.html" onfocus="blurLink(this);">'Context'</a></li><li><a href="../../en/requests/understanding-the-parameters/state.html" onfocus="blurLink(this);">'State'</a></li><li><a href="../../en/requests/understanding-the-parameters/recipient.html" onfocus="blurLink(this);">'Recipient'</a></li><li><a href="../../en/requests/understanding-the-parameters/form.html" onfocus="blurLink(this);">'Form'</a></li></ul></li></ul></div>
             <div id="sideteaser">
+	<!--  CONTENT ELEMENT, uid:253/image [begin] -->
+		<div id="c253" class="csc-default">
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-left csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image"><a href="../../en/requests/via-simplification.html" target="_self"><img src="../../uploads/pics/pc4oscad-start-button-150x65_01.png" width="150" height="65" border="0" alt="" /></a></div></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:253/image [end] -->
+		
 	<!--  CONTENT ELEMENT, uid:224/html [begin] -->
 		<div id="c224" class="csc-default">
 		<!--  Raw HTML content: [begin] -->
@@ -285,49 +293,53 @@ of binaries or sources?
   <td>&nbsp;</td>
 </tr>
 <tr>
-   <td>known</td>
-   <td>
+   <td>known*</td>
+   <td colspan="2">
 
      <table class="inner">
      <tr>
 
        <td><input type="radio" name="FocusLicense" value="ApLv2.0" /></td>
-       <td>ApLv2.0</td>
+       <td>Apache-2.0</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="BSDv2CL" /></td>
-       <td>BSDv2CL</td>
+       <td>BSD-2-Clause</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="BSDv3CL" /></td>
-       <td>BSDv3CL</td>
+       <td>BSD-3-Clause</td>
        <td>&nbsp;</td>
+
+       <td colspan="3" style="text-align:right">
+  <input type="submit" name="submit" value="submit" />
+     </td>
      </tr>
      <tr> 
 
        <td><input type="radio" name="FocusLicense" value="EPLv1.0" /></td>
-       <td>EPLv1.0</td>
+       <td>EPL-1.0</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="EUPLv1.1" /></td>
-       <td>EUPLv1.1</td>
+       <td>EUPL-1.1</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="GPLv2.0" checked="yes" /></td>
-       <td>GPLv2.0</td>
+       <td>GPL-2.0</td>
        <td>&nbsp;</td>
       </tr>
      <tr> 
        <td><input type="radio" name="FocusLicense" value="GPLv3.0" /></td>
-       <td>GPLv3.0</td>
+       <td>GPL-3.0</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="LGPLv2.1" /></td>
-       <td>LGPLv2.1</td>
+       <td>LGPL-2.1</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="LGPLv3.0" /></td>
-       <td>LGPLv3.0</td>
+       <td>LGPL-3.0</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="MIT" /></td>
@@ -336,7 +348,7 @@ of binaries or sources?
       </tr>
      <tr> 
        <td><input type="radio" name="FocusLicense" value="MPLv2.0" /></td>
-       <td>MPLv2.0</td>
+       <td>MPL-2.0</td>
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="MS-PL" /></td>
@@ -348,18 +360,16 @@ of binaries or sources?
        <td>&nbsp;</td>
 
        <td><input type="radio" name="FocusLicense" value="PHPv3.0" /></td>
-       <td>PHPv3.0</td>
+       <td>PHP-3.0</td>
        <td>&nbsp;</td>
      </tr>
 
      </table>
   </td>
-  <td>
-  <input type="submit" name="submit" value="submit" />
-  </td>
+
 </tr>
-<tr><td>planned</td>
-<td>
+<tr><td>planned*</td>
+<td colspan="2">
      <table class="inner">
      <tr>
        <td><input type="radio" name="FocusLicense" value="AGPLv3.0" /></td>
@@ -378,10 +388,16 @@ of binaries or sources?
      </tr>
    </table>
 </td>
-<td>&nbsp;</td>
 </tr>
 </table>
 </form>
+<p>* The license handles are used in accordance to  the 
+  <a href="http://spdx.org/licenses/">SPDX definition</a> - as far
+  as possible. For the licenses texts
+  themselves cf.
+  <a href="http://opensource.org/licenses/alphabetical">opensource.org</a>
+  </td>
+</p>
 </div>
 
 		<!--  Raw HTML content: [end] -->
@@ -417,7 +433,7 @@ of binaries or sources?
     </div>
     <!-- end: #main -->
     <!-- begin: #footer -->
-    <div id="footer" role="contentinfo"><p>OSCAd-0.97.4 &copy; 2013-2014&nbsp;Karsten Reincke, powered by&nbsp;<a href="../../en/site/imprint.html" title="Deutsche Telekom AG">Deutsche Telekom AG</a>&nbsp;|&nbsp;<a href="../../en/site/floss-auxiliaries.html" title="FLOSS components">FLOSS components</a>&nbsp;used by this site/page.  
+    <div id="footer" role="contentinfo"><p>OSCAd-0.98.6 &copy; 2013-2014&nbsp;Karsten Reincke, powered by&nbsp;<a href="../../en/site/imprint.html" title="Deutsche Telekom AG">Deutsche Telekom AG</a>&nbsp;|&nbsp;<a href="../../en/site/floss-auxiliaries.html" title="FLOSS components">FLOSS components</a>&nbsp;used by this site/page.  
     OSCAd itself is free software too: you can redistribute it and/or modify it under the terms of the 
     GNU Affero General Public License as published by the Free Software Foundation, 
     either version 3 of the License, or (at your option) any later version
