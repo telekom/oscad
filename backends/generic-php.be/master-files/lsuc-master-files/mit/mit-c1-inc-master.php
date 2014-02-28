@@ -32,8 +32,9 @@ $gOsLicTlExplanationChapter="6.10.6";
 $gFbLiSpUcName="MIT-C1";
 
 $gFbLiSpUcDesc=
-"that you are going to use a received MIT software only for yourself
-and that you do not hand it over to any 3rd party in any sense.";
+"that you received MIT licensed software, that you will use it
+  only for yourself and that you do not hand it over to any 3rd party in any
+  sense.";
 
 $gFbLiSpUcRequiresPrefix=
 	"no tasks in order to fulfill the conditions of the MIT license

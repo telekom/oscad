@@ -18,8 +18,8 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="PHPv3.0";
-$gFbLicenseSpecification="PHP License";
+$gFbLicenseName="PHP-3.0";
+$gFbLicenseSpecification="PHP-3.0 License";
 $gFbLicenseAbbr="PHP";
 $gFbLicenseRelease="3.0";
 
@@ -29,14 +29,14 @@ $gOsLicTodoListChapter="6.14";
 $gOsLicLsucChapter="6.14.3";
 $gOsLicTlExplanationChapter="6.14.10";
 
-$gFbLiSpUcName="PHP-C3";
+$gFbLiSpUcName="PHP-3.0-C3";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the PHP
-received software to 3rd parties - in the form of binary files or as a
-binary package. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent or an embedded unit.";
+	"that you received PHP-3.0 licensed software which you are now
+  going to distribute to third parties in the form of unmodified binary files or
+  as unmodified binary package. In this case it does not matter if you distribute
+  a program, an application, a server, a snippet, a module, a library, or a
+  plugin as an independent or an embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -45,12 +45,12 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the complete PHP license - esp. the
-  copyright notice, the PHP conditions, and the PHP disclaimer - are
+  "Ensure that the complete PHP-3.0 license - esp. the
+  copyright notice, the PHP-3.0 conditions, and the PHP-3.0 disclaimer - are
   reproduced by your package in the form you have received
   them. If you compile the binary file on the base of the source code package
   and if this compilation does not also generate and integrate the licensing
-  files then create the copyright notice, the PHP conditions, and the PHP
+  files then create the copyright notice, the PHP-3.0 conditions, and the PHP-3.0
   disclaimer according to the form of the source code package and insert these
   files into your distribution manually.",
 
@@ -61,14 +61,14 @@ $gFbLiSpUcRequiresManArr=array(
 
 $gFbLiSpUcRequiresVolArr=array(
 	"Let the documentation of your distribution and/or
-  your additional material also contain the original copyright notice, the PHP
-  conditions, and the PHP disclaimer."
+  your additional material also contain the original copyright notice, the PHP-3.0
+  conditions, and the PHP-3.0 disclaimer."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"to endorse or promote any service you establish on the base of
-		this privately used software by the name 'PHP'."
+		"to endorse or promote your product by mentioning PHP, esp. not
+by making the string 'PHP' part of its name."
 		);
 
 

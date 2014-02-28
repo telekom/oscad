@@ -32,11 +32,11 @@ $gOsLicTlExplanationChapter="6.4.10";
 $gFbLiSpUcName="BSD-C2";
 
 $gFbLiSpUcDesc=
-"that you are going to distribute an unmodified version of the
-received BSD software to 3rd parties - in the form of source code files or as a
-source code package. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent or an embedded unit";
+"that you received BSD licensed software which you are now
+  going to distribute to third parties in the form of unmodified source code
+  files or as unmodified source code package. In this case it makes no
+  difference if you distribute a program, an application, a server, a snippet, a
+  module, a library, or a plugin as an independent or as an embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

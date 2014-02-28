@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="PgL";
+$gFbLicenseName="PostgreSQL";
 $gFbLicenseSpecification="Postgres License";
 $gFbLicenseAbbr="PgL";
 $gFbLicenseRelease="";
@@ -29,14 +29,14 @@ $gOsLicTodoListChapter="6.13";
 $gOsLicLsucChapter="6.13.2";
 $gOsLicTlExplanationChapter="6.13.6";
 
-$gFbLiSpUcName="PgL-C2";
+$gFbLiSpUcName="PostgreSQL-C2";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received PGL software to 3rd parties - regardless whether you distribute it in
-the form of binaries or as source code files. In this case it is not
-discriminating to distribute a program, an application, a server, a snippet, a
-module, a library, or a plugin as an independent package.";
+	"that you received PostgreSQL licensed software which you are now going to
+  distribute to third parties in the form of unmodified binaries or as unmodifed
+  source code files. In this case it makes no difference if you distribute a
+  program, an application, a server, a snippet, a module, a library, or a plugin
+  as an independent package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the conditions of the
@@ -46,9 +46,9 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the complete Postgres License
-  including the copyright notice, the permission notices, and the PGL disclaimer
-  - are retained in your package in the form you have received them."
+  "Ensure that the complete PostgreSQL license including
+  the copyright notice, the permission notices, and the PostgreSQL disclaimer
+  are retained in your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(

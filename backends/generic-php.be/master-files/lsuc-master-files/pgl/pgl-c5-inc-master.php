@@ -18,7 +18,7 @@
  */
 
 
-$gFbLicenseName="PgL";
+$gFbLicenseName="PostgreSQL";
 $gFbLicenseSpecification="Postgres License";
 $gFbLicenseAbbr="PgL";
 $gFbLicenseRelease="";
@@ -29,14 +29,16 @@ $gOsLicTodoListChapter="6.13";
 $gOsLicLsucChapter="6.13.5";
 $gOsLicTlExplanationChapter="6.13.6";
 
-$gFbLiSpUcName="PgL-C5";
+$gFbLiSpUcName="PostgreSQL-C5";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-PGL code snippet, module, library, or plugin (snimoli) to 3rd parties together
-with another larger software unit which contains this code snippet, module,
-library, or plugin as an embedded component - regardless whether you distribute
-it in the form of binaries or as source code files.";
+	"that you received a PostgreSQL licensed code snippet, module, library, or
+  plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binaries or
+  as source code files together with another larger software unit which contains
+  this code snippet, module, library, or plugin as an embedded component,
+  regardless whether you distribute it in the form of binaries or as source code
+  files.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -45,34 +47,33 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the complete Postgres License
-  including the copyright notice, the permission notices, and the PGL disclaimer
-  - are retained in your package in the form you have received them."
+  "Ensure that the complete PostgreSQL license including
+  the copyright notice, the permission notices, and the PostgreSQL disclaimer
+  are retained in your package in the form you have received them."
 
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code,
-  whether or not you want to distribute the code.",
+  regardless whether you want to distribute the code or not.",
 
   "It is a good practice of the open source
-  community, to let the copyright notice which is shown by the running program
-  also state that the program uses a component being licensed under the PGL
-  license. And it is a good tradition to insert links to the homepage / download
-  page of this used component.",
+  community to let the copyright notice, which is shown by the running program,
+  also state that the program uses a component being licensed under the
+  PostgreSQL license.  And it is a good tradition to insert links to the
+  homepage or download page of this embedded component",
 
-  "It's also a good tradition to let the
-  documentation of your program and/or your additional material also mention
-  that you have used this component added by a link to the original software
-  component and its homepage.",
+  "It's a good tradition to let the documentation of
+  your distribution or your additional material also contain a link to the
+  original software (project) and its homepage.",
 
   "Arrange your distribution so that the original
-  licensing elements - esp. the PGL license text containing the specific
+  licensing elements (in particular the PostgreSQL license text containing the
   copyright notices of the original author(s), the permission notices and the
-  PGL disclaimer - clearly refer only to the embedded library and do not
-  disturb the licensing of your own overarching work. It's a good tradition to
-  keep the libraries, modules, snippet, or plugins in specific directories which
-  contain also all licensing elements."
+  PostgrSGL disclaimer) clearly refer only to the embedded library and do not
+  affect the licensing of your own overarching work. Consider keeping embedded
+  libraries, modules, snippets, or plugins in separate directories which also
+  contain all their licensing elements."
 );
 
 $gFbLiSpUcForbidsPrefix="nothing explicitly.";

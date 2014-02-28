@@ -32,9 +32,10 @@ $gOsLicTlExplanationChapter="6.4.10";
 $gFbLiSpUcName="BSD-C5";
 
 $gFbLiSpUcDesc=
-"that you are going to distribute a modified version of the received
-BSD program, application, or server (proapse) to 3rd parties - in the form of
-binary files or as a binary package.";
+"that you received a BSD licensed program, application, or
+  server (proapse), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binary files or as a
+  binary package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

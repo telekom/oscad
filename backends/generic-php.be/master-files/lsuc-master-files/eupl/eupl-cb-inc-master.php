@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="EUPLv1.1";
+$gFbLicenseName="EUPL-1.1";
 $gFbLicenseSpecification="European Union Public License";
 $gFbLicenseAbbr="EUPL";
 $gFbLicenseRelease="1.1";
@@ -29,14 +29,14 @@ $gOsLicTodoListChapter="6.7";
 $gOsLicLsucChapter="6.7.11";
 $gOsLicTlExplanationChapter="6.7.12";
 
-$gFbLiSpUcName="EUPL-CB";
+$gFbLiSpUcName="EUPL-1.1-CB";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-EUPL licensed code snippet, module, library, or plugin to 3rd parties - in the
-form of binary files or as a binary package together with another larger
-software unit which contains this code snippet, module, library, or plugin as an
-embedded component.";
+	"that you received a EUPL-1.1 licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binary files
+  or as a binary package together with another larger software unit which
+  contains this code snippet, module, library, or plugin as an embedded component.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,14 +44,13 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
+		"Ensure that the licensing elements
+  (particularly the copyright, patent, and trademark notices and all notices
+  that refer to the license or to the disclaimer of warranties) are retained in
+  your package in the form you have received them. If you compile the binary from the sources, 
+		ensure that all the licensing elements are also incorporated into the package.",
 
-		"Ensure that the licensing elements - esp. the copyright, patent or
-		trademarks notices and all notices that refer to the license and to the
-		disclaimer of warranties - are retained in your package in the form you
-		have received them. If you compile the binary from the sources, ensure
-		that all the licensing elements are also incorporated into the package.",
-
-		"Give the recipient a copy of the EUPL 1.1 license. If it is not already
+		"Give the recipient a copy of the EUPL-1.1 license. If it is not already
 		part of the binary package, add it.",
 
 		"Create a modification text file, if such a
@@ -69,33 +68,34 @@ $gFbLiSpUcRequiresManArr=array(
 		"Insert a prominent hint to the download repository
 			into your distribution and/or your additional material.",
 
-		"Organize your modifications of the embedded library in a way that they
-		are covered by the existing EUPL licensing statements.",
+		"Arrange your modifications of the embedded library in a way that they
+		are covered by the existing EUPL-1.1 licensing statements.",
 
-		"License your overarching program also under the EUPL 1.1.",
+		"License your overarching program also under the EUPL-1.1.",
 
-		"Execute the to-do list of use case EUPL-CA (:- the same request parameters,
+		"Execute the to-do list of use case EUPL-1.1-CA (:- the same request parameters,
 	  but replace form = binaries by form = sources)."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
 
 	"Mark all modifications of source code of the
-		embedded library (snimoli) thoroughly - namely within the source code and
-		including the date of the modification.",
+		embedded library (snimoli) thoroughly within the source code and include the date of the
+  modification.",
 
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the EUPL 1.1 license."
+  homepage, and a link to the EUPL 1.1 license, preferably as a subsection
+  of your own copyright notice."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		"to promote any of your services or products - based on the this software
-		- by trade names, trademarks, service marks, or names linked to this EUPL
-		software, except as required for unpartially describing the used software and
-		reproducing the copyright notice."
+		- by trade names, trademarks, service marks, or names linked to this EUPL-1.1
+		software, except as required for reasonable and customary use in describing 
+		the origin of the software and reproducing the copyright notice."
 		);
 
 ?>

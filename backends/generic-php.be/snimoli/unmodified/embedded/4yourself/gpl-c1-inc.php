@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="GPLv[2.0|3.0]";
+$gFbLicenseName="GPL-[2.0|3.0]";
 $gFbLicenseSpecification="GNU General Public License";
 $gFbLicenseAbbr="GPL";
 $gFbLicenseRelease="[2.0|3.0]";
@@ -32,13 +32,13 @@ $gOsLicTlExplanationChapter="6.8.12";
 $gFbLiSpUcName="GPL-C1";
 
 $gFbLiSpUcDesc=
-	"that you are going to use a received GPL-V2 or GPL-V3 licensed
-software only for yourself and that you do not hand it over to any 3rd party in
-any sense.";
+	"that you received GPL-2.0 or GPL-3.0 licensed software, that you
+will use it only for yourself and that you do not hand it over to any 3rd party in any
+  sense.";
 
 $gFbLiSpUcRequiresPrefix=
-	"no tasks in order to fulfill the conditions of the GPL-V2 or
-the GPL-V3 with respect to this use case:";
+	"no tasks in order to fulfill the conditions of the GPL-2.0 or
+the GPL-3.0 with respect to this use case:";
 
 $gFbLiSpUcNoTasks=
 "You are allowed to use any kind of GPL software in any sense and in

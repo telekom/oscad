@@ -18,8 +18,8 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="PHPv3.0";
-$gFbLicenseSpecification="PHP License";
+$gFbLicenseName="PHP-3.0";
+$gFbLicenseSpecification="PHP-3.0 License";
 $gFbLicenseAbbr="PHP";
 $gFbLicenseRelease="3.0";
 
@@ -29,13 +29,14 @@ $gOsLicTodoListChapter="6.14";
 $gOsLicLsucChapter="6.14.6";
 $gOsLicTlExplanationChapter="6.14.10";
 
-$gFbLiSpUcName="PHP-C6";
+$gFbLiSpUcName="PHP-3.0-C6";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-PHP code snippet, module, library, or plugin (snimoli) to 3rd parties - in the
-form of source code files or as a source code package, but without embedding it
-into another larger software unit.";
+	"that you received a PHP-3.0 licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of source code
+  files or as a source code package, but without embedding it into another
+  larger software unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,8 +45,8 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the complete PHP license - esp.
-  the copyright notice, the PHP conditions, and the PHP disclaimer - are
+  "Ensure that the complete PHP-3.0 license - esp.
+  the copyright notice, the PHP-3.0 conditions, and the PHP-3.0 disclaimer - are
   retained in your package in the form you have received them.",
 
   "Let the documentation of your distribution and/or
@@ -57,16 +58,16 @@ $gFbLiSpUcRequiresManArr=array(
 $gFbLiSpUcRequiresVolArr=array(
 
   "Let the documentation of your distribution and/or
-  your additional material also contain the original copyright notice, the PHP
-  conditions, and the PHP disclaimer.",
+  your additional material also contain the original copyright notice, the PHP-3.0
+  conditions, and the PHP-3.0 disclaimer.",
    
   "Mark your modifications in the source code."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"to endorse or promote any service you establish on the base of
-		this privately used software by the name 'PHP'."
+		"to endorse or promote your product by mentioning PHP, esp. not
+by making the string 'PHP' part of its name."
 		);
 
 

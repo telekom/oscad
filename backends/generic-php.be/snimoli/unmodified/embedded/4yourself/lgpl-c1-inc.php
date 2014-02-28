@@ -32,8 +32,8 @@ $gOsLicTlExplanationChapter="6.9.10";
 $gFbLiSpUcName="LGPL-C1";
 
 $gFbLiSpUcDesc=
-	"that you are going to use a received LGPL-v2.1 resp. LGPL-v3
-licensed software only for yourself and that you do not hand it over to any 3rd
+	"that you received LGPL-2.1 resp. LGPL-3.0 licensed software, that
+you will use it only for yourself, and that you do not hand it over to any 3rd
 party in any sense.";
 
 $gFbLiSpUcRequiresPrefix=
@@ -41,7 +41,7 @@ $gFbLiSpUcRequiresPrefix=
 the LGPL-3.0 with respect to this use case:";
 
 $gFbLiSpUcNoTasks=
-"You are allowed to use any kind of LGPL-v2.1 resp. LGPL-v3 licensed
+"You are allowed to use any kind of LGPL-2.1 resp. LGPL-3.0 licensed
     software in any sense and in any context without being obliged to do
     anything as long as you do not give the software to 3rd parties.";
 

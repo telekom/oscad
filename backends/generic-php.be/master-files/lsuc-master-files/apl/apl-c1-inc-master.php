@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="ApLv2.0";
+$gFbLicenseName="Apache-2.0";
 $gFbLicenseSpecification="Apache License 2.0";
 $gFbLicenseAbbr="ApL";
 $gFbLicenseRelease="2.0";
@@ -29,11 +29,12 @@ $gOsLicTodoListChapter="6.3";
 $gOsLicLsucChapter="6.3.1";
 $gOsLicTlExplanationChapter="6.3.10";
 
-$gFbLiSpUcName="ApL-C1";
+$gFbLiSpUcName="Apache-2.0-C1";
 
 $gFbLiSpUcDesc=
-	"that you are going to use a received Apache licensed software only for
-	yourself and that you do not hand it over to any 3rd party in any sense";
+	"that you received Apache-2.0 licensed software, that you will use it
+  only for yourself and that you do not hand it over to any 3rd party in any
+  sense.";
 
 $gFbLiSpUcRequiresPrefix=
 	"no tasks in order to fulfill the conditions
@@ -51,8 +52,9 @@ $gFbLiSpUcReqVolArr=array();
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		"to promote any of your services - based on the this software - by
-		trademarks, service marks, or product names linked to the software except as
-		required for unpartially describing the used software file.",
+		trademarks, service marks, or product names linked to the software 
+		except as required for reasonable and customary use in describing 
+		the origin of the work and reproducing the content of the NOTICE file.",
 		"to institute any patent litigation against anyone alleging that the
 		software constitutes patent infringement."
 		);

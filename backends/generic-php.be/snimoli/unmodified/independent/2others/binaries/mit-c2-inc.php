@@ -32,11 +32,11 @@ $gOsLicTlExplanationChapter="6.10.6";
 $gFbLiSpUcName="MIT-C2";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received MIT software to 3rd parties - in the form of binaries or as source
-code files. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent package.";
+	"that you received MIT licensed software which you are now going to
+  distribute to third parties in the form of unmodified binaries or as unmodifed
+  source code files. In this case it makes no difference if you distribute a
+  program, an application, a server, a snippet, a module, a library, or a plugin
+  as an independent package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,10 +44,10 @@ $gFbLiSpUcRequiresPrefix=
 $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
-		"Ensure that the licensing elements - esp. the MIT license text containing
-		the specific copyright notices of the original author(s), the permission
-		notices and the MIT disclaimer - are retained in
-		your package in the form you have received them."
+		"Ensure that the licensing elements
+  (especially the MIT license text containing the specific copyright notices of
+  the original author(s), the permission notices and the MIT disclaimer) are
+  retained in your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(

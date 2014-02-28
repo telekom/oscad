@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="EUPLv1.1";
+$gFbLicenseName="EUPL-1.1";
 $gFbLicenseSpecification="European Union Public License";
 $gFbLicenseAbbr="EUPL";
 $gFbLicenseRelease="1.1";
@@ -29,13 +29,14 @@ $gOsLicTodoListChapter="6.7";
 $gOsLicLsucChapter="6.7.8";
 $gOsLicTlExplanationChapter="6.7.12";
 
-$gFbLiSpUcName="EUPL-C8";
+$gFbLiSpUcName="EUPL-1.1-C8";
 
 $gFbLiSpUcDesc=
-	"hat you are going to distribute a modified version of the received
-EUPL licensed code snippet, module, library, or plugin (snimoli) to 3rd parties
-- in the form of source code files or as a source code package, but without
-embedding it into another larger software unit.";
+	"that you received a EUPL-1.1 licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of source code
+  files or as a source code package, but without embedding it into another
+  larger software unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,12 +45,12 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the licensing elements - esp. the
-  copyright, patent or trademarks notices and all notices that refer to the
-  license and to the disclaimer of warranties - are retained in your package in
-  the form you have received them.",
+  "Ensure that the licensing elements
+  (particularly the copyright, patent, and trademark notices and all notices
+  that refer to the license or to the disclaimer of warranties) are retained in
+  your package in the form you have received them.",
 
-  "Give the recipient a copy of the EUPL 1.1
+  "Give the recipient a copy of the EUPL-1.1
   license. If it is not already part of the software package, add it.",
 
   "Create a modification text file, if such a
@@ -57,12 +58,12 @@ $gFbLiSpUcRequiresManArr=array(
   file by a description of your modifications.",
 
   "Mark all modifications of source code of the
-  library (snimoli) thoroughly - namely within the source code and including
-  the date of the modification.",
+  library (snimoli) thoroughly within the source code and include the date of the
+  modification.",
  
-  "Organize your modifications in a way that they are
-  covered by the existing EUPL licensing statements. If you add new source code
-  files, insert a header containing your copyright line and an EUPL adequate
+  "Arrange your modifications in a way that they are
+  covered by the existing EUPL-1.1 licensing statements. If you add new source code
+  files, insert a header containing your copyright line and an EUPL-1.1 adequate
   licensing the statement."
 
 );
@@ -71,14 +72,14 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the EUPL 1.1 license."
+  homepage, and a link to the EUPL-1.1 license."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		"to promote any of your services or products - based on the this software
-		- by trade names, trademarks, service marks, or names linked to this EUPL
-		software, except as required for unpartially describing the used software and
-		reproducing the copyright notice."
+		- by trade names, trademarks, service marks, or names linked to this EUPL-1.1
+		software, except as required for reasonable and customary use in describing 
+		the origin of the software and reproducing the copyright notice."
 		);
 ?>

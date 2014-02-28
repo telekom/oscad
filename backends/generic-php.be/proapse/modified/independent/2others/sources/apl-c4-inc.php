@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="ApLv2.0";
+$gFbLicenseName="Apache-2.0";
 $gFbLicenseSpecification="Apache License 2.0";
 $gFbLicenseAbbr="ApL";
 $gFbLicenseRelease="2.0";
@@ -29,12 +29,13 @@ $gOsLicTodoListChapter="6.3";
 $gOsLicLsucChapter="6.3.4";
 $gOsLicTlExplanationChapter="6.3.10";
 
-$gFbLiSpUcName="ApL-C4";
+$gFbLiSpUcName="Apache-2.0-C4";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-	 Apache licensed program, application, or server (proapse) to 3rd parties -
-	 in the form of source code files or as a source code package.";
+	"that you received an Apache-2.0 licensed program, application, or
+  server (proapse), that you modified it, and that you are now going to distribute
+  this modified version to third parties in the form of source code files or as
+  a source code package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -46,9 +47,9 @@ $gFbLiSpUcRequiresManArr=array(
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
 
-		"Ensure that the licensing elements - esp. the specific copyright notice
-		of the original author(s) - are retained in your package in the form you
-		have received them.",
+		"Ensure that the licensing elements (especially the specific copyright notice
+  of the original author(s)) are retained in your package in the form you have
+  received them.",
 
 		"Ensure that the notice text file contains at least all the information
 		of that notice text file you have received",
@@ -66,15 +67,16 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or your additional
 	 material also reproduce the content of the notice text file, a hint to
 	 the software name, a link to its homepage, and a link to the
-   Apache 2.0 license - especially as subsection of your own copyright
+   Apache 2.0 license, especially as a subsection of your own copyright
 		notice."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		"to promote any of your services - based on the this software - by
-		trademarks, service marks, or product names linked to the software except as
-		required for unpartially describing the used software file.",
+		trademarks, service marks, or product names linked to the software 
+		except as required for reasonable and customary use in describing 
+		the origin of the work and reproducing the content of the NOTICE file.",
 		"to institute any patent litigation against anyone alleging that the
 		software constitutes patent infringement."
 		);
