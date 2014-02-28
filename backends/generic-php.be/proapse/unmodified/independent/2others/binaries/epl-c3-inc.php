@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="EPLv1.0";
+$gFbLicenseName="EPL-1.0";
 $gFbLicenseSpecification="Eclipse Public License";
 $gFbLicenseAbbr="EPL";
 $gFbLicenseRelease="1.0";
@@ -29,14 +29,14 @@ $gOsLicTodoListChapter="6.6";
 $gOsLicLsucChapter="6.6.3";
 $gOsLicTlExplanationChapter="6.6.10";
 
-$gFbLiSpUcName="EPL-C3";
+$gFbLiSpUcName="EPL-1.0-C3";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received EPL software to 3rd parties - in the form of binary files or as a
-binary package. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent or an embedded unit.";
+	"that you received EPL-1.0 licensed software which you are now
+  going to distribute to third parties in the form of unmodified binary files or
+  as unmodfied binary package. In this case it does not matter if you distribute
+  a program, an application, a server, a snippet, a module, a library, or a
+  plugin as an independent or an embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -45,9 +45,10 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-		"Ensure that the licensing elements - esp. all
-		copyright notices and the disclaimer of warranty and liability - are retained
-		in your package in exact the form you have received them. If you compile the
+		"Ensure that the licensing elements
+  (particularly all copyright notices and the disclaimer of warranty and
+  disclaimer of liability) are retained in your package in exactly the form you
+  have received them. If you compile the
 		binary from the sources, ensure that all these licensing elements are also
 		incorporated into the package.",
 
@@ -55,20 +56,20 @@ $gFbLiSpUcRequiresManArr=array(
 		'No warranty' statement into the distributed source code package. Let this
 		statement clearly say that all (other) contributors to the software do not
 		take over any responsibility for the quality of the software.
-		Then, add the no-warranty clause and the disclaimer of the liability of the
-		EPL itself into that file.",
+		Then, copy the no-warranty clause and the disclaimer of the liability of the
+		EPL-1.0 itself into that file.",
 
 		"Make the source code of the software accessible
 		via a repository under your own control - even if you did not modified it:
 		Push the source code package into an internet repository and enable its
 		download function. Integrate an easily to find description into your
 		distribution package which explains how the code can be received from where.
-		Ensure, that this repository is usable reasonably long enough.",
+		Ensure that this respository is available for a reasonable period of time.",
 
 		"Insert a prominent hint to the download repository
 		into your distribution and/or your additional material.",
 
-		"Execute the to-do list of use case EPL-C2 (:- the same request parameters,
+		"Execute the to-do list of use case EPL-1.0-C2 (:- the same request parameters,
 		 but replace form = binaries by form = sources)."
 
 );
@@ -77,13 +78,15 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the EPL 1.0 license."
+  homepage, and a link to the EPL-1.0 license."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 		"to remove or to alter any copyright notices contained within the
-		received software package."
+		received software package.",
+		"to institute a patent litigation against anyone alleging that this
+		 software constitutes patent infringement."
 		);
 
 ?>

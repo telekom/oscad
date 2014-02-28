@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="ApLv2.0";
+$gFbLicenseName="Apache-2.0";
 $gFbLicenseSpecification="Apache License 2.0";
 $gFbLicenseAbbr="ApL";
 $gFbLicenseRelease="2.0";
@@ -29,14 +29,15 @@ $gOsLicTodoListChapter="6.3";
 $gOsLicLsucChapter="6.3.8";
 $gOsLicTlExplanationChapter="6.3.10";
 
-$gFbLiSpUcName="ApL-C8";
+$gFbLiSpUcName="Apache-2.0-C8";
 
 $gFbLiSpUcDesc=
-"that you are going to distribute a modified version of the received
-Apache licensed code snippet, module, library, or plugin (snimoli) to 3rd
-parties - in the form of source code files or as a source code package together
-with another larger software unit which contains this code snippet, module,
-library, or plugin as an embedded component.";
+"that you received an Apache-2.0 licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of source code
+  files or as a source code package together with another larger software unit
+  which contains this code snippet, module, library, or plugin as an embedded
+  component.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -48,9 +49,9 @@ $gFbLiSpUcRequiresManArr=array(
 		"Give the recipient a copy of the Apache 2.0
 		license. If it is not already part of the binary package, add it",
 
-		"Ensure that the licensing elements - esp. the specific copyright notice of
-		the original author(s) - are retained in your	package in the form you have
-		received them.",
+		"Ensure that the licensing elements (especially the specific copyright notice
+  of the original author(s)) are retained in your package in the form you have
+  received them.",
 
 		"Ensure that the notice text file contains at least all the
 		information of that notice text file you have received.",
@@ -76,16 +77,17 @@ $gFbLiSpUcRequiresVolArr=array(
  "Arrange your source code distribution so that the
   integrated Apache license and the notice text file clearly refer only
   to the embedded library and do not disturb the licensing of your own
-  overarching work. It's a good tradition to keep the embedded components like
-  libraries, modules, snippets, or plugins in specific directory which contains
+  embedding work. It's a good tradition to keep embedded components like
+  libraries, modules, snippets, or plugins in a specific directory which contains
   also all additional licensing elements."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
-		"to promote any of your services - based on the this software - by
-		trademarks, service marks, or product names linked to the software except as
-		required for unpartially describing the used software file.",
+		"to promote any of your services based on the this software by
+		trademarks, service marks, or product names linked to the software 
+		except as required for reasonable and customary use in describing 
+		the origin of the work and reproducing the content of the NOTICE file.",
 		"to institute any patent litigation against anyone alleging that the
 		software constitutes patent infringement."
 );

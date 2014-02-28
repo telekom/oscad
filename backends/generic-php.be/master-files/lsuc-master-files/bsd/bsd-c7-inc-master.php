@@ -32,10 +32,11 @@ $gOsLicTlExplanationChapter="6.4.10";
 $gFbLiSpUcName="BSD-C7";
 
 $gFbLiSpUcDesc=
-"that you are going to distribute a modified version of the received
-BSD code snippet, module, library, or plugin (snimoli) to 3rd parties - in the
-form of binary files or as a binary package but without embedding it into
-another larger software unit.";
+"that you received a BSD licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binary files
+  or as a binary package but without embedding it into another larger software
+  unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

@@ -32,11 +32,12 @@ $gOsLicTlExplanationChapter="6.12.9";
 $gFbLiSpUcName="MS-PL-C7";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-MS-PL licensed code snippet, module, library, or plugin (snimoli) to 3rd parties
-- in the form of source code files or as a source code package together with
-another larger software unit which contains this code snippet, module, library,
-or plugin as an embedded component.";
+	"that you received an MS-PL licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of source code
+  files or as a source code package together with another larger software unit
+  which contains this code snippet, module, library, or plugin as an embedded
+  component.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -45,9 +46,9 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that all licensing elements - esp. all
-  copyright, patent, trademark, and attribution notices that are part of the
-  version you received - are completely retained in your package.",
+  "Ensure that all licensing elements (particularly all
+      copyright, patent, trademark, and attribution notices that are part of the
+      version you received) are completely retained in your package.",
 
   "Incorporate a complete copy of the MS-PL license
   into your package.",

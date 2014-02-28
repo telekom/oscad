@@ -32,12 +32,13 @@ $gOsLicTlExplanationChapter="6.9.10";
 $gFbLiSpUcName="LGPL2-C5";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-LGPL licensed program, application, or server (proapse) to 3rd parties - in
-the form of binary files or as a binary package.";
+	"that you received an LGPL-2.1 licensed program,
+application, or server (proapse), that you modified it, and that you are now
+going to distribute this modified version to third parties in the form of binary
+files or as a binary package.";
 
 $gFbLiSpUcRequiresPrefix=
-	"irrelvant because of the specific LGPL-v2.1 requirement that the
+	"irrelvant because of the specific LGPL-2.1 requirement that the
   result of a modification must also be a library.";
 
 $gFbLiSpUcNoTasks="";

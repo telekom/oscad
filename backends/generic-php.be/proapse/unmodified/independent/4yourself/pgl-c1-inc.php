@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="PgL";
+$gFbLicenseName="PostgreSQL";
 $gFbLicenseSpecification="Postgres License";
 $gFbLicenseAbbr="PgL";
 $gFbLicenseRelease="";
@@ -29,11 +29,12 @@ $gOsLicTodoListChapter="6.13";
 $gOsLicLsucChapter="6.13.1";
 $gOsLicTlExplanationChapter="6.13.6";
 
-$gFbLiSpUcName="PgL-C1";
+$gFbLiSpUcName="PostgreSQL-C1";
 
 $gFbLiSpUcDesc=
-	"that you are going to use a received PGL software only for yourself
-and that you do not hand it over to any 3rd party in any sense.";
+	"that you received PostgreSQL licensed software, that you will use it
+  only for yourself, and that you do not hand it over to any 3rd party in any
+  sense.";
 
 $gFbLiSpUcRequiresPrefix=
 "no tasks in order to fulfill the conditions of the PGL with

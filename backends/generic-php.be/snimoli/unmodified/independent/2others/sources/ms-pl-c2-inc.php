@@ -32,11 +32,11 @@ $gOsLicTlExplanationChapter="6.12.9";
 $gFbLiSpUcName="MS-PL-C2";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received MS-PL software to 3rd parties - in the form of binaries or as source
-code files. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent package.";
+	"that you received MS-PL licensed software which you are now going to
+  distribute to third parties in the form of unmodified binaries or as unmodifed
+  source code files. In this case it makes no difference if you distribute a
+  program, an application, a server, a snippet, a module, a library, or a plugin
+  as an independent package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -45,9 +45,9 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that all licensing elements - esp. all
-  copyright, patent, trademark, and attribution notices that are part of the
-  version you received - are completely retained in your package.",
+  "Ensure that all licensing elements (particularly all
+      copyright, patent, trademark, and attribution notices that are part of the
+      version you received) are completely retained in your package.",
 
   "Incorporate a complete copy of the MS-PL license
   into your package, regardless whether you distribute a source code or a binary

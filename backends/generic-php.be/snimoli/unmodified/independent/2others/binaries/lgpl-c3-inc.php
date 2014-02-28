@@ -32,11 +32,11 @@ $gOsLicTlExplanationChapter="6.9.10";
 $gFbLiSpUcName="LGPL-C3";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received LGPL-v2.1 resp. LGPL-v3 licensed software to 3rd parties - in the form
-of binary files or as a binary package. In this case it is not
-discriminating to distribute a program, an application, a server, a snippet, a
-module, a library, or a plugin as an independent or an embedded unit.";
+	"that you received LGPL-2.1 resp. LGPL-3.0 licensed software which
+you are now going to distribute to third parties in the form of unmodified
+binary files or as unmodified binary package. In this case it does not matter if
+you distribute a program, an application, a server, a snippet, a module, a
+library, or a plugin as an independent or an embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

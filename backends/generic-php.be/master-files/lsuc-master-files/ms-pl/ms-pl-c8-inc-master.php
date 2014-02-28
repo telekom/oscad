@@ -33,11 +33,11 @@ $gOsLicTlExplanationChapter="6.12.9";
 $gFbLiSpUcName="MS-PL-C8";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-MS-PL licensed code snippet, module, library, or plugin (snimoli) to 3rd parties
-- in the form of a binary package together with another larger software unit
-which contains this code snippet, module, library, or plugin as an embedded
-component.";
+	"that you received an MS-PL licensed code snippet, module, library,
+  or plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binary files
+  or as a binary package together with another larger software unit which
+  contains this code snippet, module, library, or plugin as an embedded component.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";

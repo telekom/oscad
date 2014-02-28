@@ -19,7 +19,7 @@
  */
 
 
-$gFbLicenseName="MPLv2.0";
+$gFbLicenseName="MPL-2.0";
 $gFbLicenseSpecification="Mozilla Public License";
 $gFbLicenseAbbr="MPL";
 $gFbLicenseRelease="2.0";
@@ -30,14 +30,14 @@ $gOsLicTodoListChapter="6.11";
 $gOsLicLsucChapter="6.11.2";
 $gOsLicTlExplanationChapter="6.11.10";
 
-$gFbLiSpUcName="MPL-C2";
+$gFbLiSpUcName="MPL-2.0-C2";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute an unmodified version of the
-received MPL software to 3rd parties - in the form of source code files or as a
-source code package. In this case it is not discriminating to distribute a
-program, an application, a server, a snippet, a module, a library, or a plugin
-as an independent or an embedded unit";
+	"that you received MPL-2.0 licensed software which you are now
+  going to distribute to third parties in the form of unmodified source code
+  files or as unmodified source code package. In this case it makes no
+  difference if you distribute a program, an application, a server, a snippet, a
+  module, a library, or a plugin as an independent or as an embedded unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -50,12 +50,12 @@ $gFbLiSpUcRequiresManArr=array(
 	notices, disclaimers of warranty, or limitations of liability - are
 	retained in your package in exact the form you have received them.",
 
-  "Give the recipient a copy of the MPL 2.0 license. If it is not already part
+  "Give the recipient a copy of the MPL-2.0 license. If it is not already part
 	of the software package, add it. If the licensing statement in the licensing
   file of the package does still not clearly state that the package is licensed
-  under the MPL, additionally insert your own correct MPL licensing file
+  under the MPL-2.0, additionally insert your own correct MPL-2.0 licensing file
   containing the sentence: 'This Source Code Form is subject to the terms
-  of the Mozilla Public License, v. 2.0. If a copy of the MPL was not
+  of the Mozilla Public License, v. 2.0. If a copy of the MPL-2.0 was not
   distributed with this file, You can obtain one at
   http://mozilla.org/MPL/2.0/'."
 );
@@ -64,7 +64,7 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the MPL 2.0 license."
+  homepage, and a link to the MPL-2.0 license."
 );
 
 $gFbLiSpUcForbidsPrefix="";
@@ -75,9 +75,9 @@ $gFbLiSpUcForbidsArr=array(
 		- contained within the software package you have received.",
 
 		"to promote any of your products - based on the this software - by
-		trademarks, service marks, or logos linked to this MPL software, except as
-		required for unpartially describing the used software and reproducing the
-		copyright notice."
+		trademarks, service marks, or logos linked to this MPL-2.0 software, except as 
+  		required for reasonable and customary use in describing the origin
+  		of the software and reproducing the copyright notice."
 
 		);
 

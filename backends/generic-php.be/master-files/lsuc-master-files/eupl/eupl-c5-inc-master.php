@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="EUPLv1.1";
+$gFbLicenseName="EUPL-1.1";
 $gFbLicenseSpecification="European Union Public License";
 $gFbLicenseAbbr="EUPL";
 $gFbLicenseRelease="1.1";
@@ -29,13 +29,13 @@ $gOsLicTodoListChapter="6.7";
 $gOsLicLsucChapter="6.7.5";
 $gOsLicTlExplanationChapter="6.7.12";
 
-$gFbLiSpUcName="EUPL-C5";
+$gFbLiSpUcName="EUPL-1.1-C5";
 
 $gFbLiSpUcDesc=
-	"hat you are going to distribute an unmodified version of the
-received EUPL licensed snippet, module or library to 3rd parties - as embedded
-component of a larger unit and in the form of binary files or as a binary
-package.";
+	"that you received a EUPL-1.1 licensed snippet, module or
+  library which you are now going to distribute to third parties as an embedded
+  component of a larger unit and in the form of unmodified binary files or as
+  unmodified binary package.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,13 +44,13 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-		"Ensure that the licensing elements - esp. the copyright, patent or
-		trademarks notices and all notices that refer to the license and to the
-		disclaimer of warranties - are retained in your package in the form you
-		have received them. If you compile the binary from the sources, ensure that
+		"Ensure that the licensing elements
+  (particularly the copyright, patent, and trademark notices and all notices
+  that refer to the license or to the disclaimer of warranties) are retained in
+  your package in the form you have received them. If you compile the binary from the sources, ensure that
 		all the licensing elements are also incorporated into the package.",
 
-		"Give the recipient a copy of the EUPL 1.1
+		"Give the recipient a copy of the EUPL-1.1
 		license. If it is not already part of the binary package, add
 		it.",
 
@@ -66,10 +66,10 @@ $gFbLiSpUcRequiresManArr=array(
 		into your distribution and/or your additional material.",
 
 		"License your overarching program also under the
-		EUPL 1.1: Organize the binaries of the on-top development in a way that they
+		EUPL-1.1: Organize the binaries of the on-top development in a way that they
 		are also covered by the EUPL-1.1 licensing statements.",
 
-		"Execute the to-do list of use case EUPL-C4 (:- the same request parameters,
+		"Execute the to-do list of use case EUPL-1.1-C4 (:- the same request parameters,
 	  but replace form = binaries by form = sources)."
 );
 
@@ -83,15 +83,16 @@ $gFbLiSpUcRequiresVolArr=array(
   "Let the documentation of your distribution and/or
   your additional material also reproduce the content of the existing
   copyright notice text files, a hint to the software name, a link to its
-  homepage, and a link to the EUPL 1.1 license."
+  homepage, and a link to the EUPL-1.1 license, preferably as a subsection
+  of your own copyright notice."
 );
 
 $gFbLiSpUcForbidsPrefix="";
 $gFbLiSpUcForbidsArr=array(
 	"to promote any of your services or products - based on the this software
-	- by trade names, trademarks, service marks, or names linked to this EUPL
-	software, except as required for unpartially describing the used software and
-	reproducing the copyright notice."
+	- by trade names, trademarks, service marks, or names linked to this EUPL-1.1
+	software, except as required for reasonable and customary use in describing 
+	the origin of the software and reproducing the copyright notice."
 	);
 
 ?>

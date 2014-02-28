@@ -18,7 +18,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-$gFbLicenseName="PgL";
+$gFbLicenseName="PostgreSQL";
 $gFbLicenseSpecification="Postgres License";
 $gFbLicenseAbbr="PgL";
 $gFbLicenseRelease="";
@@ -29,12 +29,16 @@ $gOsLicTodoListChapter="6.13";
 $gOsLicLsucChapter="6.13.4";
 $gOsLicTlExplanationChapter="6.13.6";
 
-$gFbLiSpUcName="PgL-C4";
+$gFbLiSpUcName="PostgreSQL-C4";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-PGL program, application, or server (proapse) to 3rd parties - regardless
-whether you distribute it in the form of binaries or as source code files.";
+	"that you received a PostgreSQL licensed code snippet, module, library, or
+  plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the form of binaries or
+  as source code files together with another larger software unit which contains
+  this code snippet, module, library, or plugin as an embedded component,
+  regardless whether you distribute it in the form of binaries or as source code
+  files.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -43,14 +47,14 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the complete Postgres License
-  including the copyright notice, the permission notices, and the PGL disclaimer
-  - are retained in your package in the form you have received them."
+  "Ensure that the complete PostgreSQL license including
+  the copyright notice, the permission notices, and the PostgreSQL disclaimer
+  are retained in your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
   "Mark your modifications in the source code,
-  whether or not you want to distribute the code.",
+  regardless whether you want to distribute the code or not.",
 
   "It's a good tradition to let the documentation of
   your distribution and/or your additional material also contain a link to the

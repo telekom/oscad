@@ -32,10 +32,11 @@ $gOsLicTlExplanationChapter="6.10.6";
 $gFbLiSpUcName="MIT-C4";
 
 $gFbLiSpUcDesc=
-	"that you are going to distribute a modified version of the received
-MIT code snippet, module, library, or plugin (snimoli) to 3rd parties - in the
-form of binaries or as source code files. But you do not embed it into another
-larger software unit.";
+	"that you received an MIT licensed code snippet, module, library, or
+  plugin (snimoli), that you modified it, and that you are now going to
+  distribute this modified version to third parties in the the form of binaries
+  or as source code files, but without embedding it into another larger software
+  unit.";
 
 $gFbLiSpUcRequiresPrefix=
 	"the following tasks in order to fulfill the license conditions:";
@@ -44,10 +45,10 @@ $gFbLiSpUcNoTasks="";
 
 $gFbLiSpUcRequiresManArr=array(
 
-  "Ensure that the original licensing elements - esp. the MIT license text
-		containing the specific copyright notices of the original
-  author(s), the permission notices and the MIT disclaimer - are retained in
-  your package in the form you have received them."
+  "Ensure that the licensing elements
+  (especially the MIT license text containing the specific copyright notices of
+  the original author(s), the permission notices and the MIT disclaimer) are
+  retained in your package in the form you have received them."
 );
 
 $gFbLiSpUcRequiresVolArr=array(
