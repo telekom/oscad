@@ -78,8 +78,21 @@ include("oscad-be-config-inc.php");
       / preCheck Results
     </h2>
     <p style="text-align:left;">
-    You answered any question of the OSCAd/preCheck with a NO:
-
+    <b>You answered any question of the OSCAd/preCheck with a NO.</b>
+    <i>So, you have to check for each single
+    open source software package which license fulfilling tasks
+    you have to execute for using it compliantly.</i> You can
+    simplify that work by calling the 
+    <a href="http://opensource.telekom.net/oscad/">OSCAd</a> for 
+    each item
+    of the list containing all the open source software packages
+    you a want to use.</p>
+  </div>
+  <div class="large box" style="text-align:left;">
+    <h3><span style="color:<?php echo "$hlColor"?>">Review:
+    simply list of the parameter / answers
+    we got and evaluated:</span></h3>
+    <br />
     <ul style="text-align:left;">
       <?php
 
@@ -90,14 +103,6 @@ include("oscad-be-config-inc.php");
       ?>
     </ul>
     </p>
-    <p style="text-align:left;">Then you have to check for each single
-    open source software package which license fulfilling tasks
-    you have to execute for using it compliantly. You can
-    simplify that work by calling the 
-    <a href="http://opensource.telekom.net/oscad/">OSCAd</a> for 
-    each item
-    of the list containing all the open source software packages
-    you a want to use.</p>
     </div>
 </body>
 </html>
