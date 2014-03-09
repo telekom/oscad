@@ -62,8 +62,7 @@ $gFbLiSpUcRequiresManArr=array(
   "Give the recipient a copy of the LGPL-2.1 resp. LGPL-3.0 license. If it is
 	not already part of the software package, add it.",
 
-  "Make the source code of the embedded library and
-  the source code of your overarching program accessible via a repository under
+  "Make the source code of the embedded library accessible via a repository under
   your own control: Push the source code package into a repository and make it
   downloadable via the internet. Integrate an easily to find description into
   the distribution package which explains how the code can be received from
