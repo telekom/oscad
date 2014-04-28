@@ -1,4 +1,4 @@
-{% extends 'oscad:templates/oscad/base.jinja2' %}
+{% extends 'base.jinja2' %}
 
 {% macro oslic_chapter_link(location) -%}
   <a href="{{ request.oslic_chapter_url(location) }}">{{ location }}</a>
@@ -57,7 +57,7 @@
     {%- endtrans -%}
   </div>
   <div class="col-md-8">
-    <p>{{ lsuc.description }}</p>
+    <p>{{ lsuc.description|safe }}</p>
   </div>
 </div>
 <hr />
@@ -74,7 +74,7 @@
       {%- for req in lsuc.requirements.mandatory -%}
       <li>
         <b>{{ _('mandatory:') }}</b>
-        <p>{{ req }}</p>
+        <p>{{ req|safe }}</p>
       </li>
       {%- endfor -%}
     </ul>
@@ -85,7 +85,7 @@
       {%- for req in lsuc.requirements.voluntary -%}
       <li>
         <b>{{ _('voluntary:') }}</b>
-        <p>{{ req }}</p>
+        <p>{{ req|safe }}</p>
       </li>
       {%- endfor -%}
     </ul>
@@ -102,7 +102,7 @@
     {%- if lsuc.requirements.forbids_array -%}
     <ul>
       {%- for elem in lsuc.requirements.forbids_array -%}
-      <li>{{ elem }}</li>
+      <li>{{ elem|safe }}</li>
       {%- endfor -%}
     </ul>
     {%- endif -%}
@@ -142,7 +142,7 @@
 </div>
 <div class="row">
   <div class="col-md-12">
-    {%- include 'oscad:templates/oscad/disclaimer.jinja2' -%}
+    {%- include 'disclaimer.jinja2' -%}
   </div>
 </div>
 {% endblock %}

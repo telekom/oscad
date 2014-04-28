@@ -23,7 +23,7 @@ class OscadSettings(object):
 def oscad_default_legal_expert(request):
     return request.translate('your legal expert')
 
-oslic_url = 'http://127.0.0.1:8000/oslic-0.98.3.pdf'
+oslic_url = 'http://opensource.telekom.net/oslic/releases/oslic-0.99.1.pdf'
 
 oscad_default_settings = OscadSettings(legal_expert=oscad_default_legal_expert,
                                        lsuc_extra_info=None,
@@ -131,11 +131,13 @@ def main(global_config, **settings):
         config.add_view('export', 'views:export')
         config.add_route('export', 'export')
 
+    load_themes(config, settings)
+
+    config.scan()
+    config.commit()
+
     jenv = config.get_jinja2_environment()
     jenv.filters['htmlize'] = htmlize
     jenv.undefined = jinja2.StrictUndefined
 
-    load_themes(config, settings)
-
-    config.scan()
     return config.make_wsgi_app()

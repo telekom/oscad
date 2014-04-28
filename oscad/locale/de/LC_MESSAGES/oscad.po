@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oscad 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-07 11:48+0000\n"
-"PO-Revision-Date: 2013-12-09 12:51+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-04-23 13:05+0000\n"
+"PO-Revision-Date: 2014-03-13 15:42+0100\n"
+"Last-Translator: Kristian Schuhmacher - Amadeus IT Group "
+"<kristian.schuhmacher@de.amadeus.com>\n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
@@ -85,65 +86,78 @@ msgstr "Quellcode"
 msgid "binary files"
 msgstr "Binärdateien"
 
-#: oscad/views.py:45
+#: oscad/views.py:44
+msgid "sources or binary files"
+msgstr "Quellcode oder Binärdateien"
+
+#: oscad/views.py:47
 msgid "independent"
 msgstr "unabhängige"
 
-#: oscad/views.py:46
+#: oscad/views.py:48
 msgid "piece of software"
 msgstr "Software"
 
-#: oscad/views.py:48
+#: oscad/views.py:50
 msgid "embedded"
 msgstr "eingebettet"
 
-#: oscad/views.py:49
+#: oscad/views.py:51
 msgid "in my own software development"
 msgstr "bei meiner eigenen Softwareentwicklung"
 
-#: oscad/views.py:238
+#: oscad/views.py:240
 #, python-format
 msgid "Missing parameter: %(param)s"
 msgstr "Fehlender Parameter: %(param)s"
 
-#: oscad/views.py:245
+#: oscad/views.py:247
 msgid "The combination of parameters you have entered is invalid"
 msgstr "Die Kombination der eingegebenen Parameter ist ungültig"
 
-#: oscad/views.py:253
+#: oscad/views.py:255
 #, python-format
 msgid ""
 "The license \"%(license)s\" you have entered is not covered by this "
 "application"
 msgstr ""
-"Die Lizenz, \"%(license)s\" die sie angegeben haben, wird von dieser "
+"Die Lizenz, \"%(license)s\" die Sie angegeben haben, wird von dieser "
 "Anwendung nicht abgedeckt"
 
-#: oscad/templates/oscad/about.jinja2:27
+#: oscad/templates/oscad/about.jinja2:30
 msgid "Version"
 msgstr "Version"
 
-#: oscad/templates/oscad/about.jinja2:29
+#: oscad/templates/oscad/about.jinja2:32
 #, python-format
 msgid "This site is running version %(oscad_version)s of the OSCAd software."
 msgstr "Diese Seite basiert auf Version %(oscad_version)s der OSCAd software."
 
-#: oscad/templates/oscad/about.jinja2:34
+#: oscad/templates/oscad/about.jinja2:37
 #: oscad/templates/oscad/components.jinja2:23
 #: oscad/templates/oscad/request.jinja2:66
 msgid "License"
 msgstr "Lizenz"
 
-#: oscad/templates/oscad/about.jinja2:36
+#: oscad/templates/oscad/about.jinja2:39
 #, python-format
 msgid "The OSCAd software is licensed under the %(agpl3)s."
 msgstr "Dies OSCAd software wird bereitgestellt unter der %(agpl3)s"
 
-#: oscad/templates/oscad/about.jinja2:41
+#: oscad/templates/oscad/about.jinja2:45
+msgid "Source Code"
+msgstr "Quellcode"
+
+#: oscad/templates/oscad/about.jinja2:47
+#, python-format
+msgid "The source code for the OSCAd software is available on %(github)s."
+msgstr "Der Quellcode für die OSCAd software ist auf %(github)s verfügbar."
+
+#: oscad/templates/oscad/about.jinja2:53
 msgid "Development"
 msgstr "Entwicklung"
 
-#: oscad/templates/oscad/about.jinja2:43
+#: oscad/templates/oscad/about.jinja2:55
 #, python-format
 msgid ""
 "The %(oscad)s is intended to be developed in collaboration with the Open "
@@ -154,7 +168,7 @@ msgstr ""
 "Anwendung Interesse haben. Die hier veröffentlichte Taskliste entspricht "
 "eins-zu-eins der Liste, die für  %(oslic)s gepflegt wird."
 
-#: oscad/templates/oscad/about.jinja2:49
+#: oscad/templates/oscad/about.jinja2:61
 msgid ""
 "This OSLiC was presented on the European Legal and Licensing Workshop "
 "2013 in Amsterdam.  It was very welcomed. But the very benevolent "
@@ -171,7 +185,7 @@ msgstr ""
 "als das 300seitige PDF-Kompendium. Mit der Entwicklung von OSCAd durch "
 "einige Entwickler der Deutschen Telekom wurde dieser Wunsch erfüllt. "
 
-#: oscad/templates/oscad/about.jinja2:55
+#: oscad/templates/oscad/about.jinja2:67
 #, python-format
 msgid ""
 "This version here is a complete rewrite initiated and sponsored by "
@@ -183,11 +197,11 @@ msgstr ""
 "Amadeus berücksichtigt wurden, welche die frühere Version nicht erfüllte."
 " "
 
-#: oscad/templates/oscad/about.jinja2:61 oscad/templates/oscad/about.jinja2:71
+#: oscad/templates/oscad/about.jinja2:73 oscad/templates/oscad/about.jinja2:83
 msgid "Author:"
 msgstr "Autor:"
 
-#: oscad/templates/oscad/about.jinja2:65
+#: oscad/templates/oscad/about.jinja2:77
 msgid ""
 "is currently engaged as a Systems Analyst at 'Amadeus Germany GmbH'. He "
 "is a contributor to various Open Source Projects and a member of the "
@@ -197,11 +211,11 @@ msgstr ""
 "arbeitet bei mehreren Open Source Projekten mit und ist Mitglied im Team "
 "der Amadeus Open Source Initiative."
 
-#: oscad/templates/oscad/about.jinja2:75
+#: oscad/templates/oscad/about.jinja2:87
 msgid "Initiator:"
 msgstr "Initiator:"
 
-#: oscad/templates/oscad/about.jinja2:81
+#: oscad/templates/oscad/about.jinja2:93
 msgid ""
 "is currently engaged as a Senior Expert at 'Deutsche Telekom AG / "
 "Products &amp; Innovation' and a leading member of the Telekom Open "
@@ -217,15 +231,15 @@ msgstr ""
 "Entwickler des  (Telekom) Open Source License Compendium und des "
 "(Telekom) Open Source Compliance Advisor."
 
-#: oscad/templates/oscad/about.jinja2:87
+#: oscad/templates/oscad/about.jinja2:99
 msgid "Contributors"
 msgstr "Mitarbeiter"
 
-#: oscad/templates/oscad/about.jinja2:90
+#: oscad/templates/oscad/about.jinja2:102
 msgid "Generously, we got help by"
 msgstr "Wir bedanken uns für die großzügige Unterstützung durch"
 
-#: oscad/templates/oscad/about.jinja2:102
+#: oscad/templates/oscad/about.jinja2:114
 msgid "Sponsoring Companies"
 msgstr "Unterstützende Firmen"
 
@@ -396,7 +410,7 @@ msgid ""
 msgstr ""
 "es kommt häufig vor, dass Softwarepakete weitere Bibliotheken enthalten, "
 "die nicht zur Ausführung der Software herangezogen werden. Werden diese "
-"Bibliotheken mit ausgeliefert, so sind sie diesem Fall als unabhängige "
+"Bibliotheken mit ausgeliefert, so sind Sie diesem Fall als unabhängige "
 "Softwarekomponenten zu behandeln. "
 
 #: oscad/templates/oscad/help.jinja2:58 oscad/templates/oscad/matrix.jinja2:11
@@ -421,7 +435,7 @@ msgstr ""
 " eine Datei der erhaltenen Sourcen erweitert, gekürzt oder sonst "
 "irgendwie verändert wurde. Das gleich gilt, wenn binärer Objektcode "
 "verändert wird und ein neues Binärfile entsteht [modified]. Software, die"
-" so genutzt oder weitergegeben wird, wie sie vom Hersteller/ Verteiler "
+" so genutzt oder weitergegeben wird, wie Sie vom Hersteller/ Verteiler "
 "erhalten wurde, gilt als nicht verändert [unmodified]."
 
 #: oscad/templates/oscad/help.jinja2:68
@@ -455,8 +469,8 @@ msgid ""
 "open source software to third parties (2others)."
 msgstr ""
 "Erhaltene Open Source Software gilt als selbstgenutzt (4yourself), wenn "
-"sie nicht an andere Personen, Organisationen, Firmen etc. weitergegeben "
-"wird, oder wenn sie nur innerhalb der einer Entwicklungsorganisation von "
+"Sie nicht an andere Personen, Organisationen, Firmen etc. weitergegeben "
+"wird, oder wenn Sie nur innerhalb der einer Entwicklungsorganisation von "
 "mehreren Personen verwendet wird. Wenn aber die Open Source Software auf "
 "irgendwelchen  mobilen Geräten wie Handies, USB Sticks etc. oder in "
 "E-Mails gespeichert ist und diese mobilen Formen an Personen, "
@@ -514,7 +528,7 @@ msgid ""
 " a loadable plugin), or is it an autonomous {pro}gram, {ap}plication or "
 "{se}rver which can be executed?"
 msgstr ""
-"Ist die Open Source Software, die sie nutzen möchten, eine Bibliothek im "
+"Ist die Open Source Software, die Sie nutzen möchten, eine Bibliothek im "
 "weitesten Sinne? Ein inkludierbarer Codeschnipsel ({sni}ppet), ein "
 "linkbares Modul ({mo}dule) oder Bibliothek ({li}brary), oder ein ladbares"
 " Plugin. Oder ist es ein selbstständiges {Prog}ramm, Anwendung "
@@ -527,9 +541,9 @@ msgid ""
 "do you plan to integrate it as an {embedded} component into a complexer "
 "piece of software?"
 msgstr ""
-"Angenommen, sie nutzen eine Bibliothek im weitesten Sinne. Werden sie "
+"Angenommen, Sie nutzen eine Bibliothek im weitesten Sinne. Werden Sie "
 "diese als unabhängige Einheit ({independent}) nutzen und weiterverteilen,"
-" oder planen sie diese als Komponente in eine komplexere Software "
+" oder planen Sie diese als Komponente in eine komplexere Software "
 "einzubetten ({embedded})"
 
 #: oscad/templates/oscad/request.jinja2:49
@@ -537,8 +551,8 @@ msgid ""
 "Do you want to leave the open source software {unmodified} as you have "
 "received it, or are you going to create a {modified} version of it?"
 msgstr ""
-"Wollen sie die open source software unverändert ({unmodified}), so wie "
-"sie sie erhalten haben, oder werden sie eine modifizierte ({modified}) "
+"Wollen Sie die Open Source software unverändert ({unmodified}), so wie "
+"Sie sie erhalten haben, oder werden sie eine modifizierte ({modified}) "
 "Version davon erstellen?"
 
 #: oscad/templates/oscad/request.jinja2:55
@@ -546,8 +560,8 @@ msgid ""
 "Are you going to use the open source software only {for yourself}, or do "
 "you plan to (re)distribute it (also) {to other} third parties?"
 msgstr ""
-"Werden sie die Open Source Software nur für sich selbst verwenden ({for "
-"yourself}) oder planen sie diese (auch) an Dritte (weiter) zu verbreiten "
+"Werden Sie die Open Source Software nur für sich selbst verwenden ({for "
+"yourself}) oder planen Sie diese (auch) an Dritte (weiter) zu verbreiten "
 "({to other})?"
 
 #: oscad/templates/oscad/request.jinja2:61
@@ -555,7 +569,7 @@ msgid ""
 "Given you want to (re)distribute an open source based work [2others], do "
 "you focus on distributing the {binaries} or the {sources}?"
 msgstr ""
-"Angenommen, sie wollen das Open Source Werk an andere (weiter) verteilen,"
+"Angenommen, Sie wollen das Open Source Werk an andere (weiter) verteilen,"
 " wird dies als Quellcode ({sources}) oder Binärdateien ({binaries}) "
 "geschehen?"
 
@@ -590,13 +604,13 @@ msgid ""
 " %(legal_expert)s. If you feel that your specific case is irregularly not"
 " covered by our taxonomy (false negative), contact us, please!"
 msgstr ""
-"OSLiC und OSCAd behandeln prototypische Anwendungsfälle. Wenn sie meinen,"
+"OSLiC und OSCAd behandeln prototypische Anwendungsfälle. Wenn Sie meinen,"
 " dass ihr spezifischer Fall in dieser Abfrage nicht dargestellt werden "
 "kann der fälschlicherweise durch einen dieser Anwendungsfälle abgedeckt "
-"ist (false positive), kontaktieren sie bitte %(legal_expert)s. Wenn sie "
+"ist (false positive), kontaktieren Sie bitte %(legal_expert)s. Wenn Sie "
 "denken, dass ihr spezifischer Anwendungsfall fälschlicherweise von "
 "unserer Taxonomie nicht abgedeckt ist (false negative), so kontaktieren "
-"sie bitte uns."
+"Sie bitte uns."
 
 #: oscad/templates/oscad/result.jinja2:14
 msgid "Results"
@@ -654,10 +668,10 @@ msgid ""
 msgstr ""
 "Hintergrundinformationen: Für ein besseres Verständnis der Gründe aus "
 "denen diese Maßnahmen die Lizenz %(lsuc_license_name)s in Bezug auf "
-"%(osuc_name)s erfüllen, lesen sie das OSLiC Kapitel %(lsuc_oslic_todo)s, "
+"%(osuc_name)s erfüllen, lesen Sie das OSLiC Kapitel %(lsuc_oslic_todo)s, "
 "insbesondere Kapitel %(lsuc_oslic_lsuc)s und %(lsuc_oslic_explain)s. "
 "Weitere Informationen zu der Schutzwirkung von %(lsuc_license_name)s "
-"können sie im OSLiC Kapitel %(lsuc_oslic_protection)s nachlesen."
+"können Sie im OSLiC Kapitel %(lsuc_oslic_protection)s nachlesen."
 
 #: oscad/templates/oscad/result.jinja2:131
 #, python-format
@@ -667,18 +681,9 @@ msgid ""
 "%(lsuc_license_name)s contains a patent clause; for details see OSLiC "
 "chapter %(lsuc_oslic_patent)s."
 msgstr ""
-"Die Open Sources Anwendungsfälle allgemein betreffend, vergleichen sie "
+"Die Open Sources Anwendungsfälle allgemein betreffend, vergleichen Sie "
 "OSLiC Kapitel %(oslic_chapter_general_1)s und "
 "%(oslic_chapter_general_2)s. Letztendlich beinhaltet die "
-"%(lsuc_license_name)s eine Patentklausel; Details hierzu finden sie in "
+"%(lsuc_license_name)s eine Patentklausel; Details hierzu finden Sie in "
 "OSLiC Kapitel %(lsuc_oslic_patent)s"
-
-#~ msgid "Disclaimer of Warranty"
-#~ msgstr ""
-
-#~ msgid "Limitation of Liability"
-#~ msgstr ""
-
-#~ msgid "Empty template"
-#~ msgstr ""
 

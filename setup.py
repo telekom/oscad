@@ -45,12 +45,14 @@ requires = [
 extras_require = {
     'dev': [
         'pyramid_debugtoolbar',
-        'translate-toolkit',
         'flake8',
     ],
     'serve': [
         'waitress',
     ],
+    'translate': [
+        'translate-toolkit',
+    ]
 }
 
 tests_require = [
@@ -131,7 +133,7 @@ setup(name='oscad',
       },
       message_extractors={
           'oscad': [
-              ('**.py', 'lingua_python', None),
+              ('**.py', 'python', None),
               ('**.jinja2', 'jinja2', None),
               ('static/**', 'ignore', None),
           ],
